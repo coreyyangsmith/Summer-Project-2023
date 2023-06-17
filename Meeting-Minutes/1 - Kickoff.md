@@ -14,6 +14,11 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 10. Brainstorm MVP & Conceptual Design Work
 
 # 📚 Resources
+
+### Agile Development
+* [Agile Meetings - Video](https://www.youtube.com/watch?v=VW0Sn_ZKumg)
+* [Scrum Introduction](https://www.youtube.com/watch?v=9TycLR0TqFA)
+
 ### Git Branching
 * [Git Branching Introduction](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 * [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
@@ -45,8 +50,9 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
     * creates local db
   * python manage.py runserver
     * creates lightweight local server to run app
-
-
+  * python manage.py startapp polls
+    * creates app directory
+    
 
 # ❓ Questions for Better Understanding
 ### Git Branching
@@ -64,7 +70,8 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 5. How is a View different in MVC vs MVT architecture?
 
 
-### Web Architecture
+### Web Architecture / Django
+1. What is the difference between a django app and a django project?
 
 # ➡ Next Week
 _Creating a Model & Basic Database Operations_
