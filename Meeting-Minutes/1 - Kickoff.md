@@ -16,12 +16,22 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 # Resources
 ### Git Branching
 * [Git Branching Introduction](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+* [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* [Making A Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+
+
 ### MVC/MVT Architecture
 * [What is MVC? (Must Read)](https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/)
 * [Intro to MVT Architecture](https://data-flair.training/blogs/django-architecture/amp/)
 * [Another MVT Resource](https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b9f43f)
-* 
+
+
 ### Web Architecture
+* TBD
+* TBD
+* TBD
+
+
 ### Django
 * [Django Documentation](https://docs.djangoproject.com/en/4.2/)
 
