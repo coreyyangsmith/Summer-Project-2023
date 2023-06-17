@@ -34,6 +34,9 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 
 ### Django
 * [Django Documentation](https://docs.djangoproject.com/en/4.2/)
+* [Django Setup & Virtual Env](https://www.youtube.com/watch?v=HBE4K1Xu9us)
+* Django Version = 4.2.2 LTS (pip install Django==4.2.2)
+* Python Version = 3.11.3 LTS
 
 
 # ❓ Questions for Better Understanding
