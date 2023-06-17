@@ -52,7 +52,9 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
     * creates lightweight local server to run app
   * python manage.py startapp polls
     * creates app directory
-    
+
+### Inspiration
+* [Learn to Program in 10 Years](https://norvig.com/21-days.html)
 
 # ❓ Questions for Better Understanding
 ### Git Branching
