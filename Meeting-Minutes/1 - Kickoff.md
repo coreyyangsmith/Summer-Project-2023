@@ -1,0 +1,46 @@
+# This Week
+_Git Branching, MVC Architecture & Basic Web Architecture_
+
+# Agenda
+1. Brief Introduction / Who Am I
+2. Git Project Walkthrough & Invites
+3. Agile Development Introduction 
+4. Rules & Guidelines
+5. Git Branching / Ticket Overview
+6. First Ticket Walkthrough
+7. MVC Architecture
+8. Web Architecture
+9. Group Selection
+10. Brainstorm MVP & Conceptual Design Work
+
+# Resources
+### Git Branching
+* [Git Branching Introduction](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+### MVC/MVT Architecture
+* [What is MVC? (Must Read)](https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/)
+* [Intro to MVT Architecture](https://data-flair.training/blogs/django-architecture/amp/)
+* [Another MVT Resource](https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b9f43f)
+* 
+### Web Architecture
+### Django
+* [Django Documentation](https://docs.djangoproject.com/en/4.2/)
+
+
+# Questions for Better Understanding
+### Git Branching
+1. How does Git store its data, and what does a commit object contain?
+2. What is the purpose of the HEAD pointer in Git's branching system?
+
+
+### MVC Architecture
+1. How does a Template vary from the definition of a View? What is Django's 'opinion' on this?
+2. Which layer holds the business logic?
+3. Describe the control flow for if a user accesses a form, fills a form, and then submits a form. Describe using MVC architecture.
+4. Describe the control flow for if a user accesses a form, fills a form, and then submits a form. Describe using MVT architecture.
+5. How is a View different in MVC vs MVT architecture?
+
+
+### Web Architecture
+
+# Next Week
+_Creating a Model & Basic Database Operations_
