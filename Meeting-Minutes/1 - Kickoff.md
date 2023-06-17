@@ -1,7 +1,7 @@
-# This Week
+# ⬇ This Week
 _Git Branching, MVC Architecture & Basic Web Architecture_
 
-# Agenda
+# 📖 Agenda
 1. Brief Introduction / Who Am I
 2. Git Project Walkthrough & Invites
 3. Agile Development Introduction 
@@ -13,7 +13,7 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 9. Group Selection
 10. Brainstorm MVP & Conceptual Design Work
 
-# Resources
+# 📚 Resources
 ### Git Branching
 * [Git Branching Introduction](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 * [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
@@ -36,10 +36,12 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 * [Django Documentation](https://docs.djangoproject.com/en/4.2/)
 
 
-# Questions for Better Understanding
+# ❓ Questions for Better Understanding
 ### Git Branching
 1. How does Git store its data, and what does a commit object contain?
 2. What is the purpose of the HEAD pointer in Git's branching system?
+3. What commands are needed to produce and switch to a new branch?
+4. What commands are needed to merge your current branch to the main branch?
 
 
 ### MVC Architecture
@@ -52,5 +54,19 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 
 ### Web Architecture
 
-# Next Week
+# ➡ Next Week
 _Creating a Model & Basic Database Operations_
+
+# Lecture Summary
+[Lecture Presentation](https://docs.google.com/presentation/d/1_gjG6ElZ7lMB6ZUCQbVMFIP8YyGzoeEoH1y50qJ-xY4/edit?usp=sharing)
+
+##### Brief Introduction / Who Am I
+##### Git Project Walkthrough & Invites
+##### Agile Development Introduction 
+##### Rules & Guidelines
+##### Git Branching / Ticket Overview
+##### First Ticket Walkthrough
+##### MVC Architecture
+##### Web Architecture
+##### Group Selection
+##### Brainstorm MVP & Conceptual Design Work
