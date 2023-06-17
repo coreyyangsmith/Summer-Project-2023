@@ -34,9 +34,18 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 
 ### Django
 * [Django Documentation](https://docs.djangoproject.com/en/4.2/)
-* [Django Setup & Virtual Env](https://www.youtube.com/watch?v=HBE4K1Xu9us)
+* [Django Setup - Documentation](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
+* [Django Setup - Video](https://www.youtube.com/watch?v=HBE4K1Xu9us&t=354s)
 * Django Version = 4.2.2 LTS (pip install Django==4.2.2)
 * Python Version = 3.11.3 LTS
+* Django Commands (to get started; hello world)
+  * django-admin startproject helloworld .
+    * initializes django project (. adds to current folder, without it will create new subfolder)
+  * python manage.py migrate
+    * creates local db
+  * python manage.py runserver
+    * creates lightweight local server to run app
+
 
 
 # ❓ Questions for Better Understanding
