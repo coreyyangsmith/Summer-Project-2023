@@ -2,16 +2,16 @@
 _Git Branching, MVC Architecture & Basic Web Architecture_
 
 # 📖 Agenda
-1. Brief Introduction / Who Am I
-2. Git Project Walkthrough & Invites
-3. Agile Development Introduction 
-4. Rules & Guidelines
-5. Git Branching / Ticket Overview
-6. First Ticket Walkthrough
-7. MVC Architecture
-8. Web Architecture
-9. Group Selection
-10. Brainstorm MVP & Conceptual Design Work
+1. Brief Introduction / Who Am I (5 min)
+2. Git Project Walkthrough & Invites (10 min)
+3. Agile Development Introduction (10 min)
+4. Rules & Guidelines (5 min)
+5. Git Branching / Ticket Overview (10 min)
+6. First Ticket Walkthrough (20 min)
+7. MVC Architecture (10 min)
+8. Web Architecture (10 min)
+9. Group Selection (5 min)
+10. Brainstorm MVP & Conceptual Design Work (35 min)
 
 # 📚 Resources
 
