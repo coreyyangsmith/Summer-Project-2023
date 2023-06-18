@@ -19,35 +19,21 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
   3. Lecture (20 min)
      * [MVC Architecture](#mvcmvt-architecture)
      * [Web Architecture](#web-architecture)
-  
     
   4. Working Session
      * Brainstorm MVP
      * Conceptual Design (CRC Cards)
-     * [User Stories / Ticket Generation]((#agile-development-pt2)
+     * [User Stories / Ticket Generation](#agile-development-pt2)
 
 # 📚 Resources
 ### Agile-Development-pt1
 * [Agile Meetings - Video](https://www.youtube.com/watch?v=VW0Sn_ZKumg)
 * [Scrum Introduction](https://www.youtube.com/watch?v=9TycLR0TqFA)
 
-### Agile Development pt2
-* [User Stories](https://www.atlassian.com/agile/project-management/user-stories)
-* [Ticket Generation](https://www.linkedin.com/pulse/4-steps-writing-good-epics-stories-randy-chevalier-csm)
-
 ### Git Branch/Merge/PR
 * [Git Branching Introduction](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 * [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 * [Making A Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
-
-### MVC/MVT Architecture
-* [What is MVC? (Must Read)](https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/)
-* [Intro to MVT Architecture](https://data-flair.training/blogs/django-architecture/amp/)
-* [Another MVT Resource](https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b9f43f)
-
-### Web Architecture
-* [Basic Web Design](https://www.edrawsoft.com/website-system-design.html)
-* [Web Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 ### Django
 * [Django Documentation](https://docs.djangoproject.com/en/4.2/)
@@ -64,6 +50,19 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
     * creates lightweight local server to run app
   * python manage.py startapp polls
     * creates app directory
+
+### MVC/MVT Architecture
+* [What is MVC? (Must Read)](https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/)
+* [Intro to MVT Architecture](https://data-flair.training/blogs/django-architecture/amp/)
+* [Another MVT Resource](https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b9f43f)
+
+### Web Architecture
+* [Basic Web Design](https://www.edrawsoft.com/website-system-design.html)
+* [Web Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+### Agile Development pt2
+* [User Stories](https://www.atlassian.com/agile/project-management/user-stories)
+* [Ticket Generation](https://www.linkedin.com/pulse/4-steps-writing-good-epics-stories-randy-chevalier-csm)
 
 ### Inspiration
 * [Learn to Program in 10 Years](https://norvig.com/21-days.html)
