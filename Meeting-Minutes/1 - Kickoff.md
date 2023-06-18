@@ -19,6 +19,8 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
   3. Lecture (20 min)
      * [MVC Architecture](#mvcmvt-architecture)
      * [Web Architecture](#web-architecture)
+     * [Front-End Development Process]()
+     * [Back-End Development Process]()
     
   4. Working Session
      * Brainstorm MVP
@@ -59,6 +61,14 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 ### Web Architecture
 * [Basic Web Design](https://www.edrawsoft.com/website-system-design.html)
 * [Web Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+### Front-End Development Process
+https://i-verve.com/blog/front-end-design-development (?)
+* [Figma](https://www.figma.com)
+* [Lucidchart](https://www.lucidchart.com/pages/)
+
+### Back-End Development Process
+* [Back-End Overview](https://ddi-dev.com/blog/programming/backend-development-key-languages-technologies-features-in-2020/)
 
 ### Agile Development pt2
 * [User Stories](https://www.atlassian.com/agile/project-management/user-stories)
