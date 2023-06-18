@@ -2,25 +2,39 @@
 _Git Branching, MVC Architecture & Basic Web Architecture_
 
 # 📖 Agenda
-1. Brief Introduction / Who Am I (5 min)
-2. Git Project Walkthrough & Invites (10 min)
-3. Agile Development Introduction (10 min)
-4. Rules & Guidelines (5 min)
-5. Git Branching / Ticket Overview (10 min)
-6. First Ticket Walkthrough (20 min)
-7. MVC Architecture (10 min)
-8. Web Architecture (10 min)
-9. Group Selection (5 min)
-10. Brainstorm MVP & Conceptual Design Work (35 min)
+1. Introduction (25 mins)
+   * Agend
+   * Who Am I
+   * Project Overview
+   * Git Project Setup, Virtual Envs, Repo Invites - Tech Stack Discussion?
+   * Guidelines
+   * Group Selection
+
+ 2. Project Management-y Stuff (45 min)
+    * [Agile Development Introduction](Agile-Development-pt1)
+    * Ticket Overview
+    * Git Branch/Merge/PR
+    * First Ticket Walkthrough - Django Hello World
+
+  3. Lecture (20 min)
+     * MVC Architecture
+     * Web Architecture
+    
+  4. Working Session
+     * Brainstorm MVP
+     * Conceptual Design (CRC Cards)
+     * User Stories
 
 # 📚 Resources
-### Agile Development
+### Agile-Development-pt1
 * [Agile Meetings - Video](https://www.youtube.com/watch?v=VW0Sn_ZKumg)
 * [Scrum Introduction](https://www.youtube.com/watch?v=9TycLR0TqFA)
+
+### Agile Development pt2
 * [User Stories](https://www.atlassian.com/agile/project-management/user-stories)
 * [Ticket Generation](https://www.linkedin.com/pulse/4-steps-writing-good-epics-stories-randy-chevalier-csm)
 
-### Git Branching
+### Git Branch/Merge/PR
 * [Git Branching Introduction](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 * [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 * [Making A Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
@@ -31,9 +45,8 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 * [Another MVT Resource](https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b9f43f)
 
 ### Web Architecture
-* TBD
-* TBD
-* TBD
+* [Basic Web Design](https://www.edrawsoft.com/website-system-design.html)
+* [Web Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 ### Django
 * [Django Documentation](https://docs.djangoproject.com/en/4.2/)
