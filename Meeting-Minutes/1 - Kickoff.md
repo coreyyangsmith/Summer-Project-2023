@@ -11,9 +11,9 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
    * Group Selection
 
  2. Project Management-y Stuff (45 min)
-    * [Agile Development Introduction](Agile-Development-pt1)
+    * [Agile Development Introduction](#agile-development-pt1)
     * Ticket Overview
-    * Git Branch/Merge/PR
+    * [Git Branch/Merge/PR](#git-branch/merge/pr)
     * First Ticket Walkthrough - Django Hello World
 
   3. Lecture (20 min)
