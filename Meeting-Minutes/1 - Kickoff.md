@@ -3,7 +3,7 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 
 # 📖 Agenda
 1. Introduction (25 mins)
-   * Agend
+   * Agenda
    * Who Am I
    * Project Overview
    * Git Project Setup, Virtual Envs, Repo Invites - Tech Stack Discussion?
