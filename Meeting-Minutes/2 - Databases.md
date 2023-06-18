@@ -1,10 +1,11 @@
 WIP
 # ⬇ This Week
 _Creating a Model & Basic Database Operations_
-Primary Key & Foreign Keys
+Primary Key & Foreign Keys; Database Schemas
 CRUD Operations
 ACID Test
 SQL Introduction
+What is an API? What is a RESTful API?
 
 # 📖 Agenda
 1. Last Week Review
@@ -21,10 +22,18 @@ SQL Introduction
 5. Working Session
 
 # 📚 Resources
+### Django
+* [Creating & Linking Models](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
 
+### Django Commands
+* python manage.py makemigrations polls
+  * Notifies django you've made changes to your model
+* python manage.py check
+  * checks for any problems in your project without making migrations or touching the database.
+* python manage.py migrate
+  * create models in database
 
 ### Inspiration
-* [Learn to Program in 10 Years](https://norvig.com/21-days.html)
 
 # ❓ Questions for Better Understanding
 
