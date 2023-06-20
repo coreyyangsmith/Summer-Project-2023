@@ -12,14 +12,21 @@ What is an API? What is a RESTful API?
 2. Introduction
    * Agenda
 3. Lecture
+   *Python
+     *Decorators
+     *Assert() Function
    * Back-End
-     * Databases!
-     * SQL Introduction
-     * Primary & Foreign Keys
-     * CRUD Operations
-     * ACID Test
-     * Django Walktrhough
-5. Working Session
+     * Databases
+       * Database Intro
+       * Primary Keys & Foreign Keys
+       * CRUD Operations
+       * ACID Test
+       * Intro to SQL
+     * Django Walkthrough
+     * Testing
+       * Unit Tests
+    
+4. Working Session
 
 # 📚 Resources
 ### Django
