@@ -23,8 +23,8 @@ What is an API? What is a RESTful API?
        * ACID Test
        * Intro to SQL
      * Django Walkthrough
-       * Generating Models (pt2)
-       * Generating Views (pt3)
+       * [Generating Models (pt2)](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
+       * [Generating Views (pt3)](https://docs.djangoproject.com/en/4.2/intro/tutorial03/)
      * Testing
        * Introduction to Unit Tests
 4. Working Session
@@ -46,6 +46,6 @@ What is an API? What is a RESTful API?
 # ❓ Questions for Better Understanding
 
 # ➡ Next Week
-_TBD_
+_Testing_
 
 # Lecture Summary
