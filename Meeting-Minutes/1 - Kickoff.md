@@ -39,6 +39,7 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 * [Making A Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
 
 ### Django
+* [Django for Everybody - Course](https://youtu.be/o0XbHvKxw7Y)
 * [Django Documentation](https://docs.djangoproject.com/en/4.2/)
 * [Django Setup & Hello World - Would highly recommend following this exercise!](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
 * [Django Setup - Video](https://www.youtube.com/watch?v=HBE4K1Xu9us&t=354s)
