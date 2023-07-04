@@ -82,14 +82,18 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 
 ### MVC/MVT Architecture
 * [What is MVC? - !!!](https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/)
+* [MVC Framework Introduction](https://www.geeksforgeeks.org/mvc-framework-introduction/)
 * [Intro to MVT Architecture](https://data-flair.training/blogs/django-architecture/amp/)
 * [Another MVT Resource](https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b9f43f)
 
 ### Web Architecture
 * [Basic Web Design](https://www.edrawsoft.com/website-system-design.html)
-* [Web Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+* [Web Basics - How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+* [The DOM - !!!](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+* [The DOM - Video](https://www.youtube.com/watch?v=KShnPYN-voI)
 
 ### Front-End Development Process
+* [Front-End Development - !!!](https://www.altexsoft.com/blog/front-end-development-technologies-concepts/)
 * [Front-End High-Level Overview](https://i-verve.com/blog/front-end-design-development)
 * [Front-End Development Roadmap](https://roadmap.sh/frontend)
 
