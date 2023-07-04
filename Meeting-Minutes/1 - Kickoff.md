@@ -5,17 +5,23 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 1. Introduction (25 mins)
    * Agenda
    * Who Am I
-   * Project Overview
+   * [Project Overview](#project-overview)
    * Git Project Setup, Virtual Envs, Repo Invites
    * [GitHub Education](https://education.github.com)
-   * Guidelines
+   * [Guidelines](#guidelines)
    * Group Selection
 
- 2. Project Management-y Stuff (45 min)
+ 2. Project Management (45 min)
     * [Agile Development Introduction](#agile-development-pt1)
-    * Ticket Overview
-    * [Git Branch/Merge/PR](#git-branchmergepr)
-    * [First Ticket Walkthrough - Django Hello World](#django)
+      * Why Agile?
+      * Agile Methodology
+      * Agile Meetings
+    * [Ticket Overview](#ticket-overview)
+      * User Stories
+      * Acceptance Criteria
+      * Definition of 'Done'
+    * [Git Branch/Merge/PR](#git-branch-merge-pr)
+    * [First Ticket Walkthrough - Django Hello World](#django-first-ticket-walkthrough)
 
   3. Lecture (20 min)
      * [MVC Architecture](#mvcmvt-architecture)
@@ -24,27 +30,40 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
      * [Back-End Development Process]()
     
   4. Working Session
-     * Brainstorm MVP
+     * Brainstorm/Define MVP
      * Conceptual Design (CRC Cards)
-     * [User Stories / Ticket Generation](#agile-development-pt2)
+     * User Stories/Ticket Generation
 
 # 📚 Resources
+### Project-Overview
+* Front-End: [React](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190)
+* Back-End: [Django](https://www.youtube.com/watch?v=S9JcI254DZI&t=186s)
+* Database: [MySQL](https://www.youtube.com/watch?v=fWC5tP9hDms)
+* Deployment: [Heroku](https://www.heroku.com)
+
+### Guidelines
+1. Work on tickets in new branches and submit a pull request to merge to main.
+2. Don't ruin the fun! We are all learning in public, there may be some stumbles along the way.
+
 ### Agile-Development-pt1
 * [Agile Meetings - Video](https://www.youtube.com/watch?v=VW0Sn_ZKumg)
-* [Scrum Introduction](https://www.youtube.com/watch?v=9TycLR0TqFA)
+* [Scrum Introduction & User Stories](https://www.youtube.com/watch?v=9TycLR0TqFA)
 
-### Git Branch/Merge/PR
-* [Git Branching Introduction](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+### Ticket-Overview
+* [User Stories - Video](https://www.youtube.com/watch?v=MQzS30PtsiM)
+* [User Stories - Article](https://www.atlassian.com/agile/project-management/user-stories)
+* [Acceptance Criteria/Definition of 'Done'](https://www.productplan.com/glossary/acceptance-criteria/#:~:text=In%20Agile%2C%20acceptance%20criteria%20refer,consider%20the%20user%20story%20finished.)
+
+### Git-Branch-Merge-PR
+* [Git Branching Introduction - !!!](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 * [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 * [Making A Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+* [Making A Pull Request - GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+* VCS = Version Control System
 
-### Django
-* [Django for Everybody - Course](https://youtu.be/o0XbHvKxw7Y)
-* [Django Documentation](https://docs.djangoproject.com/en/4.2/)
-* [Django Setup & Hello World - Would highly recommend following this exercise!](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
+### Django-(First-Ticket-Walkthrough)
+* [Django Setup & Hello World pt1 - !!!](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
 * [Django Setup - Video](https://www.youtube.com/watch?v=HBE4K1Xu9us&t=354s)
-* Django Version = 4.2.2 LTS (pip install Django==4.2.2)
-* Python Version = 3.11.3 LTS
 * Django Commands (to get started; hello world)
   * django-admin startproject helloworld .
     * initializes django project (. adds to current folder, without it will create new subfolder)
@@ -54,9 +73,14 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
     * creates lightweight local server to run app
   * python manage.py startapp polls
     * creates app directory
+##### Other Resources
+* [Django Documentation](https://docs.djangoproject.com/en/4.2/)
+* [Django for Everybody - Free Online Course](https://youtu.be/o0XbHvKxw7Y)
+* Django Version = 4.2.2 LTS (pip install Django==4.2.2)
+* Python Version = 3.11.3 LTS
 
 ### MVC/MVT Architecture
-* [What is MVC? (Must Read)](https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/)
+* [What is MVC? - !!!](https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc/)
 * [Intro to MVT Architecture](https://data-flair.training/blogs/django-architecture/amp/)
 * [Another MVT Resource](https://medium.com/shecodeafrica/understanding-the-mvc-pattern-in-django-edda05b9f43f)
 
@@ -65,24 +89,24 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 * [Web Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 ### Front-End Development Process
-https://i-verve.com/blog/front-end-design-development (?)
+* [High-Level Overview](https://i-verve.com/blog/front-end-design-development)
+* [Front-End Development Roadmap](https://roadmap.sh/frontend)
+
+##### Other Resources
 * [Figma](https://www.figma.com)
 * [Lucidchart](https://www.lucidchart.com/pages/)
 
 ### Back-End Development Process
 * [Back-End Overview](https://ddi-dev.com/blog/programming/backend-development-key-languages-technologies-features-in-2020/)
-
-### Agile Development pt2
-* [User Stories](https://www.atlassian.com/agile/project-management/user-stories)
-* [Ticket Generation](https://www.linkedin.com/pulse/4-steps-writing-good-epics-stories-randy-chevalier-csm)
+* [Back-End Development Roadmap](https://roadmap.sh/backend)
 
 ### Inspiration
 * [Learn to Program in 10 Years](https://norvig.com/21-days.html)
 
 # ❓ Questions for Better Understanding
 ### Agile Development
-1. Write an example of a user story for a user of a car rental company.
-2. 
+1. Write an example of a user story for the customer(renter) of a car in a car rental company.
+2. What is the purpose and reason of using acceptance criteria?
 
 ### Git Branching
 1. How does Git store its data, and what does a commit object contain?
@@ -100,19 +124,21 @@ https://i-verve.com/blog/front-end-design-development (?)
 ### Web Architecture / Django
 1. What is the difference between a django app and a django project?
 
+# Homework
+* Generate a User Story for some aspect of the MVP.
+* Using this User Story, generate a well-documented ticket with a clear "Definition of 'Done'"
+
 # ➡ Next Week
 _Creating a Model & Basic Database Operations_
 
 # Lecture Summary
 [Lecture Presentation](https://docs.google.com/presentation/d/1_gjG6ElZ7lMB6ZUCQbVMFIP8YyGzoeEoH1y50qJ-xY4/edit?usp=sharing)
 
-##### Brief Introduction / Who Am I
-##### Git Project Walkthrough & Invites
+##### Introduction & Agenda
+##### Git Project Setup
 ##### Agile Development Introduction 
-##### Rules & Guidelines
-##### Git Branching / Ticket Overview
+##### Ticket Overview
+##### Git Branching & Merging
 ##### First Ticket Walkthrough
 ##### MVC Architecture
 ##### Web Architecture
-##### Group Selection
-##### Brainstorm MVP & Conceptual Design Work
