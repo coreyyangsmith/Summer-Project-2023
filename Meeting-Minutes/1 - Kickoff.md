@@ -89,7 +89,7 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 * [Web Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
 ### Front-End Development Process
-* [High-Level Overview](https://i-verve.com/blog/front-end-design-development)
+* [Front-End High-Level Overview](https://i-verve.com/blog/front-end-design-development)
 * [Front-End Development Roadmap](https://roadmap.sh/frontend)
 
 ##### Other Resources
@@ -97,7 +97,7 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 * [Lucidchart](https://www.lucidchart.com/pages/)
 
 ### Back-End Development Process
-* [Back-End Overview](https://ddi-dev.com/blog/programming/backend-development-key-languages-technologies-features-in-2020/)
+* [Back-End High-Level Overview](https://ddi-dev.com/blog/programming/backend-development-key-languages-technologies-features-in-2020/)
 * [Back-End Development Roadmap](https://roadmap.sh/backend)
 
 ### Inspiration
