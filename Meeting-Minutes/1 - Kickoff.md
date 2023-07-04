@@ -40,6 +40,7 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
 * Back-End: [Django](https://www.youtube.com/watch?v=S9JcI254DZI&t=186s)
 * Database: [MySQL](https://www.youtube.com/watch?v=fWC5tP9hDms)
 * Deployment: [Heroku](https://www.heroku.com)
+* [Framework vs Library](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/)
 
 ### Guidelines
 1. Work on tickets in new branches and submit a pull request to merge to main.
