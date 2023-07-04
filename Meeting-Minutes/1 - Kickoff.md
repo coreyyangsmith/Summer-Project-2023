@@ -6,8 +6,8 @@ _Git Branching, MVC Architecture & Basic Web Architecture_
    * Agenda
    * Who Am I
    * [Project Overview](#project-overview)
-   * Git Project Setup, Virtual Envs, Repo Invites
    * [GitHub Education](https://education.github.com)
+   * Git Project Setup, Virtual Envs, Repo Invites
    * [Guidelines](#guidelines)
    * Group Selection
 
