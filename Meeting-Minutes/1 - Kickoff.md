@@ -141,4 +141,30 @@ _Creating a Model & Basic Database Operations_
 
 [Lecture Video Part 1 - Introduction](https://www.youtube.com/watch?v=7e58UV4g5mE)
 
+1.1 Introduction
+* 3:16 Agenda
+* 6:13 Objectives
+* 6:54 Who Am I
+* 8:45 Framework vs Library
+* 10:00 Project Overview
+* 12:23 GitHub Education
+* 13:20 GitHub Repo Walkthrough
+* 16:11 GitHub Project Walkthrough
+* 17:44 Environment Setup
+* 19:25 Guidelines
+
 [Lecture Video Part 2 - Project Management](https://www.youtube.com/watch?v=zeVsU2RMgVo&feature=youtu.be)
+
+1.2 Project Management
+* 0:00 Agile Development
+* 2:06 Ticket Overview - User Stories
+* 4:13 Ticket Overview - Acceptance Criteria
+* 5:42 Git Branching
+* 8:19 Git Merge
+* 9:10 Live Code Demo - Django Hello World + Pull Requests
+
+[Lecture Video Part 3 - Lecture]()
+
+1.3 Lecture
+* TBD
+  
