@@ -140,3 +140,4 @@ _Creating a Model & Basic Database Operations_
 [Presentation Slide Deck](https://docs.google.com/presentation/d/1_gjG6ElZ7lMB6ZUCQbVMFIP8YyGzoeEoH1y50qJ-xY4/edit?usp=sharing)
 
 [Lecture Video Part 1 - Introduction](https://www.youtube.com/watch?v=7e58UV4g5mE)
+[Lecture Video Part 2 - Project Management](https://www.youtube.com/watch?v=zeVsU2RMgVo&feature=youtu.be)
