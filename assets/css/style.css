@@ -11,11 +11,21 @@
   background-color: #f5f5fa;
 }
 
+li {
+  padding: 1rem;
+}
+
 /*----------------------------------------------------------*/
 /* header*/
 /*----------------------------------------------------------*/
-
 .white-text {
+  color: #f5f5fa;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.li-active {
+  border-bottom: solid 1px #f5f5fa;
 }
 
 /*----------------------------------------------------------*/
@@ -30,4 +40,8 @@
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   transition: 1s ease;
+}
+
+.container-resize {
+  width: 90%;
 }
