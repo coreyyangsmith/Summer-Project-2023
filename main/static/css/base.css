@@ -1,0 +1,51 @@
+/*----------------------------------------------------------*/
+/* tags*/
+/*----------------------------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 1rem;
+  }
+  
+  /*----------------------------------------------------------*/
+  /* re-usable classes*/
+  /*----------------------------------------------------------*/
+  .nav-item {
+    background-color: red;
+  }
+  
+  .white-background {
+    background-color: rgba(245, 245, 250, 0.3);
+  }
+  
+  /*----------------------------------------------------------*/
+  /* header*/
+  /*----------------------------------------------------------*/
+  .white-text {
+    color: #f5f5fa;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  .li-active {
+    border-bottom: solid 1px #f5f5fa;
+  }
+  
+  .li-active:hover {
+    border: 0px;
+  }
+  
+  .nav-item > a {
+    box-shadow: inset 0 0 0 0 #0c0c0f;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .nav-item > a:hover {
+    color: #f5f5fa;
+    box-shadow: inset 200px 0 0 0 #0c0c0f;
+  }
+  
