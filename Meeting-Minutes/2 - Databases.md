@@ -73,6 +73,4 @@ _Introduction to SQL_
 4. If database write-operation were to fail midway, what would happen to the database 'transaction' assuming it abides by ACID design?
 
 # ➡ Next Week
-_Testing_
-
-# Lecture Summary
+_Web Architecture_
