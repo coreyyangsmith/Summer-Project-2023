@@ -1,4 +1,6 @@
 from django.db import models
+import timezone
+from django.utils import timezone
 
 # Create your models here.
 class User(models.Model):
@@ -27,3 +29,6 @@ class Voting(models.Model):
 
     def __str__(self):
         return self.user_info
+
+    def timestamp(self):
+        return self.vote_time >= timezone.now() - datetime.timedelta(days=1)
