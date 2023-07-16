@@ -1,0 +1,52 @@
+<!-- BASE.HTML -->
+<!-- HTML that is served on every single page in our project. -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <!-- tab -->
+        <title>{% block title %}Summer-Project-2023{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="../../../media/images/svg/home-icon.svg" />
+    
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+        {% block loadcss %}{% endblock %}
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <ul class="navbar-nav ms-auto" style="width: 30%;">
+                    <li class="nav-item">
+                        <a class="white-text li-active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="white-text" href="/results">Leaderboard</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+
+        <!-- script js -->
+        <script src="./assets/js/script.js"></script>   
+        
+        {% block content %}
+
+        {% endblock %}
+    </body>
+</html>

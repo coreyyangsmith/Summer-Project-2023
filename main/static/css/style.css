@@ -11,7 +11,7 @@ body {
   height: 100vh;
   /* filter: blur(8px); */
   /* -webkit-filter: blur(8px); */
-  background-image: url("../../images/wallpaper/peace_bridge_blurred.jpg");
+  background-image: url("../../media/images/wallpaper/peace_bridge_blurred.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

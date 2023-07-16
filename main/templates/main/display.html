@@ -1,0 +1,17 @@
+<!-- DISPLAY.HTML -->
+{% extends 'main/base.html' %}
+
+{% block title %}Data Summary{% endblock %}
+
+{% block content %}
+    <h1>{{user.first_name}} {{user.last_name}}</h1>>
+    <h2>{{user.email}}</h2>
+    <h3>Num of Votes: {{user.num_votes}}</h3>
+    
+    <ul>
+        {% for i in '0123456789' %}
+            <li>{{forloop.counter}}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
