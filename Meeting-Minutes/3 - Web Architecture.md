@@ -55,12 +55,3 @@ _Testing_
 [Building a Simple HTTP Server in Python (44:47 - 1:00:53) (16m 6s)](https://youtu.be/o0XbHvKxw7Y?t=2691)
 
 [Understanding Browser Developer Mode (1:00:53 - 1:10:35) (9m 42s)](https://youtu.be/o0XbHvKxw7Y?t=3658)
-
-
-
-
-* HTML Introduction
-
-
-Watch from 2:08:14 to 2:36:02
-* CSS Introduction
