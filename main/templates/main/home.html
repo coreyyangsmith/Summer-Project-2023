@@ -3,7 +3,8 @@
 {% load static %}
 
 {% block title %}Home Page{% endblock %}
-{% block loadcss %}<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">{% endblock %}
+{% block loadcss %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">{% endblock %}
 
 {% block content %}
 <section id="community-pictures" class="white-background" style="margin-top: 12%;">
@@ -11,22 +12,19 @@
         <div class="row align-items-center gx-5">
             <div class="col-md-6 col-xl-6">
                 <h1 class="display-4">Bridgeland</h1>
-                <div class="grow">
-                    <a href="#">
-                        <img class="image-disc-page" src="../../../media/images/sample_pics/bridgeland-sample.jpg" " alt="">
-                    </a>
+                <div class="compare-image-container image-shadow">
+                    <img class="image-disc-page" src="../../../media/images/sample_pics/bridgeland-sample.jpg" alt="">
                 </div>
             </div>
             <div class=" col-md-6 col-xl-6">
-                        <h1 class="display-4">Inglewood</h1>
-                        <div class="grow">
-                            <a href="
-                            ">
-                                <img src="../../../media/images/sample_pics/inglewood_sample.jpg" alt="">
-                            </a>
-                        </div>
+                <h1 class="display-4">Inglewood</h1>
+                <div class="compare-image-container image-shadow">
+                    <img src="../../../media/images/sample_pics/inglewood_sample.jpg" alt="">
                 </div>
             </div>
         </div>
+    </div>
 </section>
+
+{% include "main/footer.html"%}
 {% endblock %}
