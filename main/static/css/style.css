@@ -1,17 +1,15 @@
 /*----------------------------------------------------------*/
 /* tags*/
 /*----------------------------------------------------------*/
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body {
   height: 100vh;
+  padding: 0;
+  margin: 0;
+
+  /* background image */
   background-image: url("../../media/images/wallpaper/peace_bridge_blurred.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 }
 
@@ -34,6 +32,10 @@ li > a:hover {
 
 .white-background {
   background-color: rgba(245, 245, 250, 0.3);
+}
+
+.white-background-opaque {
+  background-color: rgba(245, 245, 250);
 }
 
 .image-disc-page {
@@ -91,3 +93,7 @@ li > a:hover {
 .compare-image-container:hover {
   transform: translateY(-10px);
 }
+
+/*----------------------------------------------------------*/
+/* footer */
+/*----------------------------------------------------------*/
