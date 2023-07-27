@@ -4,7 +4,38 @@
 <h1>These are the results/summary</h1>
 
 {% block title %}Home Page{% endblock %}
-{% block loadcss %}<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">{% endblock %}
+{% block loadcss %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">{% endblock %}
 
 {% block content %}
+<div class="container text-center py-5 mt-5 white-background-opaque">
+    <div class="row align-items-center">
+        <div class="col-md-3">
+            <p class="h2">1</p>
+        </div>
+        <div class="col-md-6">
+            <img class="image-disc-page image-left" src="../../../media/images/sample_pics/bridgeland-sample.jpg"
+                alt="">
+        </div>
+        <div class="col-md-3">
+            <p class="h4">Bridgeland</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container text-center py-5 mt-5 white-background-opaque">
+    <div class="row align-items-center">
+        <div class="col-md-3">
+            <p class="h2">2</p>
+        </div>
+        <div class="col-md-6">
+            <img class="image-disc-page image-left" src="../../../media/images/sample_pics/inglewood_sample.jpg" alt="">
+        </div>
+        <div class="col-md-3">
+            <p class="h4">Inglewood</p>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
