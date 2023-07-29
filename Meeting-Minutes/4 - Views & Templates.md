@@ -8,40 +8,6 @@ _HTTP Methods & Django Views/Templates & Cookies_
 4. Working Session
 
 # Lecture
-##### HTTP Methods
-
-##### Django Views
-
-##### Django Templates
-
-# ❓ Questions for Better Understanding
-1. What is the purpose and role of a Django View?
-2. What is the purpose and role of a Django Template?
-3. What is the purpose of the render() function?
-4. What is the purpose and role of the reverse function? What is the import statement needed to use this function?
-5. What does the get_obj_or_404() method do? What is the import statement needed to use this function?
-
-
-# Extra Practice
-The Django Documentation offers a great tutorial that will help you step through each of the concepts we are touching on this week. Similar to the videos, they should a 'regular' way to handle a certain process, and then they show you Django's shortcut to ease implementation. The following pratice parts can be followed as an exercise to solidify your Django understanding. The processess are incredibly common to all web-apps, including our own.
-
-[Django Practice - Pt1 - Project Initialization](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
-
-[Django Practice - Pt2 - Database Setup](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
-
-[Django Practice - Pt3 - Views & Templates](https://docs.djangoproject.com/en/4.2/intro/tutorial03/)
-
-[Django Practice - Pt4 - Forms & Generic Views](https://docs.djangoproject.com/en/4.2/intro/tutorial04/)
-
-   
-# ➡ Next Week
-_Django Models, JavaScript_
-
-# Lecture Summary
-[Django For Everybody - Video](https://youtu.be/o0XbHvKxw7Y)
-
-[Lecture Slides - TO BE POSTED]()
-
 ### Lecture Videos (Total Time: 3h 24m 7s)
 ##### Django Models | 57m 52s
 [How Databases Work | 3:42:08 - 4:00:49 | 18m 41s](https://youtu.be/o0XbHvKxw7Y?t=13328)
@@ -82,5 +48,35 @@ _Django Models, JavaScript_
 
 ##### Cookies and Sessions | 22m 15s
 [Cookies in Browsers and Django | 7:29:09 - 7:38:51 | 9m 42s](https://youtu.be/o0XbHvKxw7Y?t=26949)
+
 [Using Sessions in Django | 7:38:51 - 7:51:24 | 12m 33s](https://youtu.be/o0XbHvKxw7Y?t=27531)
 
+# ❓ Questions for Better Understanding
+1. What is the purpose and role of a Django View?
+2. What is the purpose and role of a Django Template?
+3. What is the purpose of the render() function?
+4. What is the purpose and role of the reverse function? What is the import statement needed to use this function?
+5. What does the get_obj_or_404() method do? What is the import statement needed to use this function?
+
+# Extra Practice
+The Django Documentation offers a great tutorial that will help you step through each of the concepts we are touching on this week. Similar to the videos, they should a 'regular' way to handle a certain process, and then they show you Django's shortcut to ease implementation. The following pratice parts can be followed as an exercise to solidify your Django understanding. The processess are incredibly common to all web-apps, including our own.
+
+[Django Practice - Pt1 - Project Initialization](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
+
+[Django Practice - Pt2 - Database Setup](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
+
+[Django Practice - Pt3 - Views & Templates](https://docs.djangoproject.com/en/4.2/intro/tutorial03/)
+
+[Django Practice - Pt4 - Forms & Generic Views](https://docs.djangoproject.com/en/4.2/intro/tutorial04/)
+
+   
+
+
+# Lecture Resources
+[Django For Everybody - Video](https://youtu.be/o0XbHvKxw7Y)
+
+[Lecture Slides - TO BE POSTED]()
+
+
+# ➡ Next Week
+_Django Models, JavaScript_
