@@ -25,7 +25,7 @@ We will predominantly follow the "Django For Everybody" course. As we are active
 4. How are connections made from one web server to another?
    
 # ➡ Next Week
-_Testing_
+_HTTP Methods & Django Views/Templates & Cookies_
 
 # Lecture Summary
 [Django For Everybody - Video](https://youtu.be/o0XbHvKxw7Y)
