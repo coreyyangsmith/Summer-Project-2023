@@ -108,6 +108,7 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial02/
 * discuss constants/path variables
 
 **Step 2: Create Models**
+* [Link to Django Docs - Model Field References](https://docs.djangoproject.com/en/4.2/ref/models/fields/)
 * navigate to "polls/models.py"
 * explain __str__(self) function
 * add the following code snippet:
@@ -199,9 +200,183 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial03/
 
 
 <ins>**Walkthrough**</ins>
-**Step 1: TBD***
+**Step 1: Create Additional Views**
+* navigate to "polls/views.py"
+* add the following code block:
+```
+def detail(request, question_id):
+    return HttpResponse("You're looking at question %s." % question_id)
 
+def results(request, question_id):
+    response = "You're looking at the results of question %s."
+    return HttpResponse(response % question_id)
 
-Notes/Tips
-Views
-- expects an HttpResponse back!
+def vote(request, question_id):
+    return HttpResponse("You're voting on question %s." % question_id)
+```
+
+**Step 2: Route in URLs**
+* navigate to "polls/urls.py"
+* add the following code block:
+```
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    # ex: /polls/
+    path("", views.index, name="index"),
+    # ex: /polls/5/
+    path("<int:question_id>/", views.detail, name="detail"),
+    # ex: /polls/5/results/
+    path("<int:question_id>/results/", views.results, name="results"),
+    # ex: /polls/5/vote/
+    path("<int:question_id>/vote/", views.vote, name="vote"),
+]
+```
+* check and runserver test
+
+**Step 3: Views and Data**
+* add the following code block:
+```
+from django.http import HttpResponse
+
+from .models import Question
+
+def index(request):
+    latest_question_list = Question.objects.order_by("-pub_date")[:5]
+    output = ", ".join([q.question_text for q in latest_question_list])
+    return HttpResponse(output)
+```
+
+**Step 4: Create Templates Folder**
+* templates are gloabal
+* due to namespace and django's internal, we must specify a funky file path
+* create "polls/templates" subfolder
+* create "polls/templates/polls" subfolder
+* create html document in "polls/templates/polls"
+* add the following code block:
+```
+{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+```
+
+**Step 5: Django Templating Language**
+* [Link to Django Docs - Django Templating Language](https://docs.djangoproject.com/en/4.2/ref/templates/language/)
+* can access DTL and create functional code blocks using single curly braces {}
+* can access variables using double curly braces
+* can slot in components and extend other html "extends"
+* can write conditionals, loops, use variables, etc
+```
+{% for k, v in defaultdict.items %}
+    Do something with k and v here...
+{% endfor %}
+```
+
+**Step 6: Adjust View to Render Template**
+* views expect HTTPResponse to send back to the URL, as discussed in request/response cycle
+* we can render a view and pass in  a 'context' (variables, other relevant info used to generate page)
+```
+from django.http import HttpResponse
+from django.template import loader
+
+from .models import Question
+
+def index(request):
+    latest_question_list = Question.objects.order_by("-pub_date")[:5]
+    template = loader.get_template("polls/index.html")
+    context = {
+        "latest_question_list": latest_question_list,
+    }
+    return HttpResponse(template.render(context, request))
+```
+
+* a django shortcut to write this:
+```
+from django.shortcuts import render
+
+from .models import Question
+
+def index(request):
+    latest_question_list = Question.objects.order_by("-pub_date")[:5]
+    context = {"latest_question_list": latest_question_list}
+    return render(request, "polls/index.html", context)
+```
+
+**Step 7: Error Handling**
+* we can use the same try/except/raise code to handle errors as with normal python
+* as we are dealing with webservers, there are different standards for error codes
+* [Link to Wikipedia - HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+* refactor detail view:
+```
+from django.http import Http404
+from django.shortcuts import render
+
+from .models import Question
+
+def detail(request, question_id):
+    try:
+        question = Question.objects.get(pk=question_id)
+    except Question.DoesNotExist:
+        raise Http404("Question does not exist")
+    return render(request, "polls/detail.html", {"question": question})
+```
+* of course, django has a more consise way of handling this:
+```
+from django.shortcuts import get_object_or_404, render
+
+from .models import Question
+
+def detail(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, "polls/detail.html", {"question": question})
+```
+
+**Step 8: Create Detail Template**
+* generate detail.html in "polls/templates/polls/"
+```
+<h1>{{ question.question_text }}</h1>
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }}</li>
+{% endfor %}
+</ul>
+```
+
+**Step 9: Hardcoded vs Relative URLs**
+* nagivate back to "polls/templates/polls/index.html"
+* we can use a shortcut for the url definition - and specify a 'function call' name of sorts in our view as well (more like a url call reference)
+```
+<li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+```
+```
+<li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
+```
+
+**Step 10: Add Namespace to URLs**
+* convention to add app_name = "app-name"
+* if there are multiple urls that have the same path, this will allow you reference them independently
+```
+from django.urls import path
+
+from . import views
+
+app_name = "polls"
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("<int:question_id>/", views.detail, name="detail"),
+    path("<int:question_id>/results/", views.results, name="results"),
+    path("<int:question_id>/vote/", views.vote, name="vote"),
+]
+```
+* if we specify the namespace in the views, we must also reference in any url references:
+```
+<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+```
