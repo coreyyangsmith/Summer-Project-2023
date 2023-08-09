@@ -20,11 +20,12 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial01/
 
 
 <ins>**Important Commands**</ins>
-* python -m Django —version
-* django-admin startproject mysite .
-* python manage.py check
-* python manage.py startapp app-name
-
+```
+> python -m Django —version
+> django-admin startproject mysite .
+> python manage.py check
+> python manage.py startapp app-name
+```
 
 <ins>**Walkthrough**</ins>
 
@@ -46,7 +47,6 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial01/
 * navigate to polls/views.py and add the following code block:
 ```
 from django.http import HttpResponse
-
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
@@ -89,10 +89,11 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial02/
 * Django's ORM
 
 <ins>**Important Commands**</ins>
-* python manage.py makemigrations
-* python manage.py migrate
-* python manage.py createsuperuser
-
+```
+> python manage.py makemigrations
+> python manage.py migrate
+> python manage.py createsuperuser
+```
 
 <ins>**Walkthrough**</ins>
 
@@ -103,6 +104,7 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial02/
 * discuss installed apps
 * * add new apps in here to have django automatically configure
 * * needed to process (migrate) models from an app into the main django project
+* * also need to add extensions here
 * discuss constants/path variables
 
 **Step 2: Create Models**
@@ -130,9 +132,17 @@ class Choice(models.Model):
 ```
 
 **Step 3: "Activate" Models**
-* link in django installed apps
+* link in django installed apps in "mysite/settings.py"
 ```
-python manage.py makemigrations polls
+INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "polls.apps.PollsConfig",
+]
 ```
 * run "python manage.py makemigrations"
 * run "python manage.py migrate"
@@ -147,17 +157,19 @@ Migrations for 'polls':
 **Step 4: DB Interaction in Shell**
 * run "python manage.py shell" to activate shell
 * press CTRL+D to exit shell mode
-* > "from polls.models import Choice, Question"
-* > "Question.objects.all()"
-* > "from django.utils import timezone"
-* > "q = Question(question_text="What's new?", pub_date=timezone.now())"
-* > "q.save()"
-* > "q.is"
-* > "q.question_text"
-* > "q.pub_date"
-* > "q.question_test = 'What's up?'"
-* > "q.save()"
-* > "Question.objects.all()
+```
+> "from polls.models import Choice, Question"
+> "Question.objects.all()"
+> "from django.utils import timezone"
+> "q = Question(question_text="What's new?", pub_date=timezone.now())"
+> "q.save()"
+> "q.is"
+> "q.question_text"
+> "q.pub_date"
+> "q.question_test = 'What's up?'"
+> "q.save()"
+> "Question.objects.all()
+```
 
 **Step 5: Setting up Admin Panel
 * run "python manage.py createsuperuser"
