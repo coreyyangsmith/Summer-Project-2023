@@ -158,17 +158,17 @@ Migrations for 'polls':
 * run "python manage.py shell" to activate shell
 * press CTRL+D to exit shell mode
 ```
-> "from polls.models import Choice, Question"
-> "Question.objects.all()"
-> "from django.utils import timezone"
-> "q = Question(question_text="What's new?", pub_date=timezone.now())"
-> "q.save()"
-> "q.is"
-> "q.question_text"
-> "q.pub_date"
-> "q.question_test = 'What's up?'"
-> "q.save()"
-> "Question.objects.all()
+> from polls.models import Choice, Question
+> Question.objects.all()
+> from django.utils import timezone
+> q = Question(question_text="What's new?", pub_date=timezone.now())
+> q.save()
+> q.is
+> q.question_text
+> q.pub_date
+> q.question_test = 'What's up?'
+> q.save()
+> Question.objects.all()
 ```
 
 **Step 5: Setting up Admin Panel
@@ -183,7 +183,9 @@ admin.site.register(Question)
 ```
 
 **Step 6: DB Interaction in Admin**
-* login and explore!
+* run server
+* navigate to "domain/admin"
+* login and explore
 
 ## Part 3: Views and Templates
 Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial03/
