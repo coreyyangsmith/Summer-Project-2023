@@ -197,10 +197,6 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial03/
 * Django Views
 * Django Templates
 
-<ins>**Important Commands**</ins>
-* TBD
-
-
 <ins>**Walkthrough**</ins>
 **Step 1: Create Additional Views**
 * navigate to "polls/views.py"
@@ -387,18 +383,12 @@ urlpatterns = [
 Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial04/
 
 <ins>**Topics Covered**</ins>
-* Migrations
-* Models
-* Django's ORM
-
-<ins>**Important Commands**</ins>
-```
-> python manage.py makemigrations
-> python manage.py migrate
-> python manage.py createsuperuser
-```
+* CSRF Token
+* HTTP Methods POST and GET
+* Generic Views
 
 <ins>**Walkthrough**</ins>
+
 **Step 1: Write a Form**
 * navigate to "detail.html"
 * Form POST vs Form GET
@@ -418,7 +408,7 @@ Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial04/
 </form>
 ```
 
-**Step 2: Update 'vote' view
+**Step 2: Update 'vote' View**
 * navigate to "polls/views.py" and add the code block below:
 * reverse function
 ```
@@ -480,4 +470,42 @@ def results(request, question_id):
 * run "python manage.py runserver" and investigate changes
 
 **Step 6: Refactor for Generic View**
+* navigate to "polls/urls.py" and change the URLconf
+```
+from django.urls import path
 
+from . import views
+
+app_name = "polls"
+urlpatterns = [
+    path("", views.IndexView.as_view(), name="index"),
+    path("<int:pk>/", views.DetailView.as_view(), name="detail"),
+    path("<int:pk>/results/", views.ResultsView.as_view(), name="results"),
+    path("<int:question_id>/vote/", views.vote, name="vote"),
+]
+```
+* navigate to "polls/views.py" and amend views:
+```
+from django.http import HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
+from django.urls import reverse
+from django.views import generic
+
+from .models import Choice, Question
+
+class IndexView(generic.ListView):
+    template_name = "polls/index.html"
+    context_object_name = "latest_question_list"
+
+    def get_queryset(self):
+        """Return the last five published questions."""
+        return Question.objects.order_by("-pub_date")[:5]
+
+class DetailView(generic.DetailView):
+    model = Question
+    template_name = "polls/detail.html"
+
+class ResultsView(generic.DetailView):
+    model = Question
+    template_name = "polls/results.html"
+```
