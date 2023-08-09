@@ -164,7 +164,7 @@ Migrations for 'polls':
 > from django.utils import timezone
 > q = Question(question_text="What's new?", pub_date=timezone.now())
 > q.save()
-> q.is
+> q.id
 > q.question_text
 > q.pub_date
 > q.question_test = 'What's up?'
@@ -351,7 +351,7 @@ def detail(request, question_id):
 ```
 
 **Step 9: Hardcoded vs Relative URLs**
-* nagivate back to "polls/templates/polls/index.html"
+* navigate back to "polls/templates/polls/index.html"
 * we can use a shortcut for the url definition - and specify a 'function call' name of sorts in our view as well (more like a url call reference)
 ```
 <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
