@@ -2,13 +2,13 @@
 
 Polls Application
 
-[Part 1: Setup & Requests/Responses](#part-1-setup-&-requests-responses)
+[Part 1: Setup & Requests/Responses](#part-1-setup-and-requests-responses)
 
 [Part 2: Models and Admin](#part-2-models-and-admin)
 
 [Part 3: Views and Templates](#part-3-views-and-templates)
 
-## Part 1: Setup & Requests/Responses
+## Part 1: Setup And Requests/Responses
 Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial01/
 
 <ins>**Topics Covered**</ins>
@@ -131,7 +131,7 @@ class Choice(models.Model):
 
 **Step 3: "Activate" Models**
 * link in django installed apps
-* ```
+```
 python manage.py makemigrations polls
 ```
 * run "python manage.py makemigrations"
