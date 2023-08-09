@@ -1,41 +1,57 @@
 # Django Documentation Walkthrough
 ### Resource generated for week 5 meeting presentation.
 
-Polls Application Links
+Polls Application
 [Part 1: Setup & Requests/Responses](#part-1-setup-requests-responses)
+
+[Part 2: Models and Admin](#part-2-models-and-admin)
+
+[Part 3: Views and Templates](#part-3-views-and-templates)
 
 ### Part 1: Setup & Requests/Responses
 https://docs.djangoproject.com/en/4.2/intro/tutorial01/
 
 Topics Covered:
-Creating New Project
-Project Hierarchy/File Structure
-Run Development Server
-Initial Setup Workflow
-- Initia
+* Creating New Project
+* Project Hierarchy/File Structure
+* Check Development Server
+* Run Development Server
+* New App Workflow
+
+
 Important Commands:
-Python manage.py check
-Python manage.py startapp app-name
-Python -m Django —version
-Django-admin startproject mysite .
+* python -m Django —version
+* django-admin startproject mysite .
+* python manage.py check
+* python manage.py startapp app-name
+
 
 Step 1: Create New Project
-- Run django-admin startproject mysite .
+* run "django-admin startproject mysite ." in the terminal
+* ensure you are cd in your project directory
 
 Step 2: Test Check
-- Run python manage.py check
+* run "python manage.py check" in terminal
+* must cd into project folder previously generated
 
 Step 3: Run Development Server Test
-- Run python manage.py run server
+* run "python manage.py runserver"
 
 Step 4: Create Polls App
-Run python manage,py start app polls
+* run "python manage.py startapp polls"
 
 Step 5: Create First View
-HttpResponse
+* navigate to polls/views.py
+```
+from django.http import HttpResponse
 
 
-Part 2: Models and Admin
+def index(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
+```
+
+
+### Part 2: Models and Admin
 https://docs.djangoproject.com/en/4.2/intro/tutorial02/
 Python manage.py createsuperuser
 Python manage.py make migrations
@@ -46,7 +62,7 @@ Migrations
 Models
 ORM
 
-Part 3: Views and Templates
+### Part 3: Views and Templates
 https://docs.djangoproject.com/en/4.2/intro/tutorial03/
 
 Topics Covered:
