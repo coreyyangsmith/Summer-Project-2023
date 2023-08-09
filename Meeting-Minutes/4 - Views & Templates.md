@@ -7,7 +7,7 @@ _HTTP Methods & Django Views/Templates & Cookies_
 3. Group Discussion
 4. Working Session
 
-# Lecture
+# Readings
 ### Lecture Videos (Total Time: 3h 24m 7s)
 ##### Django Models | 57m 52s
 [How Databases Work | 3:42:08 - 4:00:49 | 18m 41s](https://youtu.be/o0XbHvKxw7Y?t=13328)
@@ -69,13 +69,14 @@ The Django Documentation offers a great tutorial that will help you step through
 
 [Django Practice - Pt4 - Forms & Generic Views](https://docs.djangoproject.com/en/4.2/intro/tutorial04/)
 
-   
-
-
 # Lecture Resources
 [Django For Everybody - Video](https://youtu.be/o0XbHvKxw7Y)
 
 [Lecture Slides - TO BE POSTED]()
+
+[dj4e Assignments](https://www.dj4e.com/assn/)
+
+[Polls Applicaiton Walkthrough](https://github.com/coreyyangsmith/Summer-Project-2023/blob/aug-9-meeting/Documentation/Django/Django_Documentation_Walkthrough.MD)
 
 
 # ➡ Next Week
