@@ -8,6 +8,8 @@ Polls Application
 
 [Part 3: Views and Templates](#part-3-views-and-templates)
 
+[Part 4: Forms and Generic Views](#part-4-forms-and-generic-views)
+
 ## Part 1: Setup and Requests/Responses
 Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial01/
 
@@ -380,3 +382,102 @@ urlpatterns = [
 ```
 <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
 ```
+
+# Part 4: Forms and Generic Views
+Ref: https://docs.djangoproject.com/en/4.2/intro/tutorial04/
+
+<ins>**Topics Covered**</ins>
+* Migrations
+* Models
+* Django's ORM
+
+<ins>**Important Commands**</ins>
+```
+> python manage.py makemigrations
+> python manage.py migrate
+> python manage.py createsuperuser
+```
+
+<ins>**Walkthrough**</ins>
+**Step 1: Write a Form**
+* navigate to "detail.html"
+* Form POST vs Form GET
+* csrf_token
+```
+<form action="{% url 'polls:vote' question.id %}" method="post">
+{% csrf_token %}
+<fieldset>
+    <legend><h1>{{ question.question_text }}</h1></legend>
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+    {% for choice in question.choice_set.all %}
+        <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+        <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+    {% endfor %}
+</fieldset>
+<input type="submit" value="Vote">
+</form>
+```
+
+**Step 2: Update 'vote' view
+* navigate to "polls/views.py" and add the code block below:
+* reverse function
+```
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
+from django.urls import reverse
+
+from .models import Choice, Question
+
+def vote(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    try:
+        selected_choice = question.choice_set.get(pk=request.POST["choice"])
+    except (KeyError, Choice.DoesNotExist):
+        # Redisplay the question voting form.
+        return render(
+            request,
+            "polls/detail.html",
+            {
+                "question": question,
+                "error_message": "You didn't select a choice.",
+            },
+        )
+    else:
+        selected_choice.votes += 1
+        selected_choice.save()
+        # Always return an HttpResponseRedirect after successfully dealing
+        # with POST data. This prevents data from being posted twice if a
+        # user hits the Back button.
+        return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))
+```
+
+**Step 3: Adjust Results View**
+* navigate to "polls/views.py" and change the following code block:
+```
+from django.shortcuts import get_object_or_404, render
+
+def results(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, "polls/results.html", {"question": question})
+```
+
+**Step 4: Create results.html**
+* navigate to "polls/templates/polls/"
+* create "results.html" and add the following code block:
+```
+<h1>{{ question.question_text }}</h1>
+
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+```
+
+**Step 5: Testing**
+* run "python manage.py runserver" and investigate changes
+
+**Step 6: Refactor for Generic View**
+
