@@ -18,8 +18,8 @@ class Neighbourhood(models.Model):
     name = models.CharField(max_length = 40)
     image = models.FilePathField(path="/media/uploads", recursive = True)
     sector = models.CharField(max_length=9)
-    latitude = models.PointField()
-    multipolygon = models.MultiPolygonField()
+    location = models.PointField() # lat long data for neighbourhood geographic 'centre'
+    multipolygon = models.MultiPolygonField() # multipolygon boundary
     created_at = models.DateTimeField()
     updated_at = models.DateTimeField()
 
@@ -52,4 +52,13 @@ class Question(models.Model):
     name = models.CharField(20)
 
 class Quiz(models.Model):
-    name = models.CharField(20)
+    name = models.CharField(max_length=50)
+    user_id = models.ForeignKey(User, on_delete = models.CASCADE)
+    score = models.PositiveSmallIntegerField()
+    created_at = models.DateTimeField()
+    updated_at = models.DateTimeField()
+
+## Many-to-Many Model Relationship Implementation
+# 
+class QuestionSet(models.Model):
+    name = models.CharField()
