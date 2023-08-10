@@ -1,14 +1,12 @@
 function checkURL() {
   if (window.location.pathname.endsWith("results/")) {
-    const resultsElement = document.querySelector(".leaderboard-anchor");
-    resultsElement.classList.add("li-active");
-
-    console.log("results.html is loaded");
+    // set leaderboard as active
+    var resultsElement = $(".leaderboard-anchor");
+    resultsElement.addClass("li-active");
   } else if (window.location.pathname.endsWith("/")) {
-    const indexElement = document.querySelector(".home-anchor");
-    indexElement.classList.add("li-active");
-
-    console.log("index.html is loaded.");
+    // set home active
+    var indexElement = $(".home-anchor");
+    indexElement.addClass("li-active");
   }
 }
 
