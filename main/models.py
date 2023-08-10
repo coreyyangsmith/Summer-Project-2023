@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.gis.db import models
 import datetime
 from django.utils import timezone
 
@@ -13,13 +14,17 @@ class User(models.Model):
         return self.first_name + " " + self.last_name
 
 class Neighbourhood(models.Model):
-    neighbourhood_key = models.IntegerField(primary_key = True)
+    code = models.CharField(max_length = 3)    
     name = models.CharField(max_length = 40)
-    code = models.CharField(max_length = 3)
     image = models.FilePathField(path="/media/uploads", recursive = True)
+    sector = models.CharField(max_length=9)
+    latitude = models.PointField()
+    multipolygon = models.MultiPolygonField()
+    created_at = models.DateTimeField()
+    updated_at = models.DateTimeField()
 
     def __str__(self):
-        return self.name
+        return self.code + "-" + self.name
 
 class Voting(models.Model):
     vote_key = models.IntegerField(primary_key = True)
@@ -32,3 +37,5 @@ class Voting(models.Model):
 
     def timestamp(self):
         return self.vote_time >= timezone.now() - datetime.timedelta(days=1)
+    
+class
