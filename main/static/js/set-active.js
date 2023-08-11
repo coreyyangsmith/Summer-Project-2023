@@ -10,12 +10,4 @@ function checkURL() {
   }
 }
 
-$(".image-left").click(function () {
-  console.log("image left clicked");
-});
-
-$(".image-right").click(function () {
-  console.log("image right clicked");
-});
-
-checkURL();
+checkURL(); // check the url to set active nav link
