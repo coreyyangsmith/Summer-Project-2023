@@ -16,12 +16,12 @@ class User(models.Model):
 class Neighbourhood(models.Model):
     code = models.CharField(max_length = 3, default="AAA")    
     name = models.CharField(max_length = 40, default="DEFAULT")
-    image = models.FilePathField(path="/media/uploads", recursive = True)
+    image = models.ImageField()
     sector = models.CharField(max_length=9, default="DEFAULT")
     # location = models.PointField() # lat long data for neighbourhood geographic 'centre'
     # multipolygon = models.MultiPolygonField() # multipolygon boundary
-    created_at = models.DateTimeField(default="Created UTC")
-    updated_at = models.DateTimeField(default="Updated UTC")
+    created_at = models.DateTimeField("Created UTC")
+    updated_at = models.DateTimeField("Updated UTC")
 
     def __str__(self):
         return self.code + "-" + self.name
@@ -45,26 +45,30 @@ class Metric(models.Model):
     actual_wgt = models.FloatField()
     perceived_value = models.FloatField()
     perceived_wgt = models.FloatField()
-    created_at = models.DateTimeField(default="Created UTC")
-    updated_at = models.DateTimeField(default="Updated UTC")
+    created_at = models.DateTimeField("Created UTC")
+    updated_at = models.DateTimeField("Updated UTC")
+
+    def __str__(self):
+        return self.name + "-" + self.neighourhood_key.code
 
 class Quiz(models.Model):
     name = models.CharField(max_length=50)
     user_id = models.ForeignKey(User, on_delete = models.CASCADE)
     score = models.PositiveSmallIntegerField()
-    created_at = models.DateTimeField(default="Created UTC")
-    updated_at = models.DateTimeField(default="Updated UTC")
+    created_at = models.DateTimeField("Created UTC")
+    updated_at = models.DateTimeField("Updated UTC")
+
+    def __str__(self):
+        return self.id + "-" + self.name + "-" + self.user_id
 
 class Question(models.Model):
     name = models.CharField(max_length=20)
     quiz_id = models.ForeignKey(Quiz, on_delete=models.CASCADE) 
     comparison = models.CharField(max_length=16) # greaterthan, lessthan, greaterthanequal, lessthanequal, notequal, equal
-    metric_id_1 = models.ForeignKey(Metric, on_delete=models.CASCADE) # grab metric ID to then grab neighbourhood ID for comparison
-    metric_id_2 = models.ForeignKey(Metric, on_delete=models.CASCADE) # grab metric ID to then grab neighbourhood ID for comparison
-    created_at = models.DateTimeField(default="Created UTC")
-    updated_at = models.DateTimeField(default="Updated UTC")
+    metric_id_1 = models.ForeignKey(Metric, related_name="metric_1", on_delete=models.CASCADE) # grab metric ID to then grab neighbourhood ID for comparison
+    metric_id_2 = models.ForeignKey(Metric, related_name="metric_2", on_delete=models.CASCADE) # grab metric ID to then grab neighbourhood ID for comparison
+    created_at = models.DateTimeField("Created UTC")
+    updated_at = models.DateTimeField("Updated UTC")
 
-## Many-to-Many Model Relationship Implementation
-# 
-class QuestionSet(models.Model):
-    name = models.CharField(max_length=20)
+    def __str__(self):
+        return self.id + "-" + self.name + "-" + self.quiz_id
