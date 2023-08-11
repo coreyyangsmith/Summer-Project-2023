@@ -1,5 +1,5 @@
 var calgaryCommunities = {}; // store community data
-var communityPictures = [];
+var communityCode = [];
 const imageLeft = $(".image-left");
 const imageRight = $(".image-right");
 const imagePathPrefix = "../../../media/community_images";
@@ -10,7 +10,7 @@ function getRandomInt(min, max) {
 
 function loadRandomImage() {
   let min = 0;
-  let max = communityPictures.length;
+  let max = communityCode.length;
   console.log(max);
   let randomIntLeft = getRandomInt(min, max);
   let randomIntRight = getRandomInt(min, max);
@@ -18,14 +18,8 @@ function loadRandomImage() {
   console.log(randomIntLeft);
 
   // choose images
-  let randomImageLeft =
-    imagePathPrefix + "/" + communityPictures[randomIntLeft];
-  let randomImageRight =
-    imagePathPrefix + "/" + communityPictures[randomIntRight];
-
-  // load image
-  imageLeft.attr("src", randomImageLeft);
-  imageRight.attr("src", randomImageRight);
+  let randomImageLeft = imagePathPrefix + "/" + communityCode[randomIntLeft];
+  let randomImageRight = imagePathPrefix + "/" + communityCode[randomIntRight];
 }
 
 function changeHeader() {}
@@ -34,7 +28,7 @@ $.getJSON(
   "../../../media/community_images/utils/communities.json",
   function (data) {
     calgaryCommunities = data;
-    communityPictures = Object.values(calgaryCommunities);
+    communityCode = Object.key(calgaryCommunities);
     loadRandomImage();
   }
 ).fail(function (jqXHR, textStatus, errorThrown) {
