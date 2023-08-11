@@ -1,196 +1,778 @@
 {
-  "ABB": "ABB.jpg",
-  "ACA": "ACA.png",
-  "ALT": "ALT.webp",
-  "APP": "APP.png",
-  "ARB": "ARB.png",
-  "ASP": "ASP.png",
-  "AUB": "AUB.png",
-  "BDO": "BDO.jpg",
-  "BED": "BED.jpg",
-  "BEL": "BEL.jpg",
-  "BLM": "BLM.jpg",
-  "BLN": "BLN.png",
-  "BNF": "BNF.jpg",
-  "BNK": "BNK.jpg",
-  "BOW": "BOW.png",
-  "BRA": "BRA.png",
-  "BRE": "BRE.jpg",
-  "BRI": "BRI.png",
-  "BRT": "BRT.jpg",
-  "BVD": "BVD.jpg",
-  "BYV": "BYV.jpg",
-  "CAM": "CAM.jpg",
-  "CAN": "CAN.png",
-  "CAP": "CAP.jpg",
-  "CAR": "CAR.png",
-  "CAS": "CAS.webp",
-  "CED": "CED.png",
-  "CGR": "CGR.png",
-  "CHA": "CHA.png",
-  "CHK": "CHK.png",
-  "CHN": "CHN.webp",
-  "CHR": "CHR.png",
-  "CHV": "CHV.png",
-  "CHW": "CHW.jpg",
-  "CIT": "CIT.png",
-  "CLI": "CLI.png",
-  "CNS": "CNS.png",
-  "COA": "COA.jpg",
-  "COL": "COL.jpg",
-  "COR": "COR.png",
-  "COU": "COU.jpg",
-  "COV": "COV.png",
-  "CPF": "CPF.png",
-  "CRA": "CRA.png",
-  "CRE": "CRE.png",
-  "CRM": "CRM.jpg",
-  "CSC": "CSC.png",
-  "DAL": "DAL.png",
-  "DDG": "DDG.png",
-  "DIA": "DIA.jpg",
-  "DIS": "DIS.png",
-  "DNE": "DNE.jpg",
-  "DNW": "DNW.png",
-  "DOV": "DOV.jpg",
-  "DRG": "DRG.png",
-  "DRN": "DRN.png",
-  "EAG": "EAG.jpg",
-  "EAU": "EAU.png",
-  "EDG": "EDG.png",
-  "EPK": "EPK.png",
-  "ERI": "ERI.jpg",
-  "ERL": "ERL.jpg",
-  "EVE": "EVE.png",
-  "EVN": "EVN.png",
-  "EYA": "EYA.jpg",
-  "FAI": "FAI.png",
-  "FAL": "FAL.png",
-  "FHT": "FHT.jpg",
-  "FLN": "FLN.jpg",
-  "GAG": "GAG.jpg",
-  "GBK": "GBK.png",
-  "GDL": "GDL.png",
-  "GLA": "GLA.png",
-  "GRV": "GRV.jpg",
-  "HAM": "HAM.png",
-  "HAR": "HAR.jpg",
-  "HAW": "HAW.jpg",
-  "HAY": "HAY.jpg",
-  "HIL": "HIL.jpg",
-  "HIW": "HIW.png",
-  "HPK": "HPK.png",
-  "HUN": "HUN.png",
-  "ING": "ING.png",
-  "KCA": "KCA.png",
-  "KEL": "KEL.png",
-  "KIN": "KIN.png",
-  "KSH": "KSH.jpg",
-  "LEG": "LEG.png",
-  "LIV": "LIV.png",
-  "LKB": "LKB.png",
-  "LKV": "LKV.png",
-  "LMR": "LMR.jpg",
-  "LPK": "LPK.png",
-  "MAC": "MAC.jpg",
-  "MAF": "MAF.jpg",
-  "MAH": "MAH.png",
-  "MAL": "MAL.png",
-  "MAN": "MAN.jpg",
-  "MCK": "MCK.png",
-  "MDH": "MDH.jpg",
-  "MEA": "MEA.jpg",
-  "MID": "MID.png",
-  "MIS": "MIS.jpg",
-  "MLR": "MLR.png",
-  "MON": "MON.jpg",
-  "MOP": "MOP.jpg",
-  "MOR": "MOR.jpg",
-  "MPL": "MPL.png",
-  "MRL": "MRL.png",
-  "MRT": "MRT.png",
-  "NEB": "NEB.webp",
-  "NGM": "NGM.png",
-  "NHV": "NHV.jpg",
-  "NOL": "NOL.png",
-  "OAK": "OAK.png",
-  "OGD": "OGD.png",
-  "PAL": "PAL.jpg",
-  "PAN": "PAN.webp",
-  "PAT": "PAT.png",
-  "PCK": "PCK.jpg",
-  "PEN": "PEN.jpg",
-  "PIN": "PIN.png",
-  "PKD": "PKD.jpg",
-  "PKH": "PKH.jpg",
-  "PKL": "PKL.png",
-  "POI": "POI.png",
-  "PUM": "PUM.jpg",
-  "QLD": "QLD.png",
-  "RAM": "RAM.jpg",
-  "RAN": "RAN.png",
-  "RCK": "RCK.jpg",
-  "RDL": "RDL.jpg",
-  "RED": "RED.jpg",
-  "REN": "REN.jpg",
-  "RIC": "RIC.jpg",
-  "RID": "RID.jpg",
-  "RIV": "RIV.png",
-  "RMT": "RMT.png",
-  "ROC": "ROC.png",
-  "ROX": "ROX.jpg",
-  "ROY": "ROY.png",
-  "RSN": "RSN.png",
-  "RUN": "RUN.png",
-  "RUT": "RUT.jpg",
-  "SAD": "SAD.png",
-  "SAN": "SAN.jpg",
-  "SCA": "SCA.png",
-  "SCE": "SCE.png",
-  "SDC": "SDC.png",
-  "SET": "SET.png",
-  "SGH": "SGH.png",
-  "SHG": "SHG.png",
-  "SHN": "SHN.png",
-  "SHS": "SHS.png",
-  "SHW": "SHW.webp",
-  "SIG": "SIG.jpg",
-  "SIL": "SIL.png",
-  "SKR": "SKR.jpg",
-  "SNA": "SNA.jpg",
-  "SOC": "SOC.jpg",
-  "SOM": "SOM.png",
-  "SOV": "SOV.jpg",
-  "SOW": "SOW.jpg",
-  "SPH": "SPH.png",
-  "SPR": "SPR.jpg",
-  "SSD": "SSD.jpg",
-  "STA": "STA.png",
-  "STR": "STR.png",
-  "SVO": "SVO.webp",
-  "TAR": "TAR.png",
-  "TEM": "TEM.png",
-  "THO": "THO.jpg",
-  "TUS": "TUS.jpg",
-  "TUX": "TUX.png",
-  "UMR": "UMR.jpg",
-  "UND": "UND.jpg",
-  "UNI": "UNI.jpg",
-  "UOC": "UOC.jpg",
-  "utils": "utils",
-  "VAL": "VAL.png",
-  "VAR": "VAR.png",
-  "VIS": "VIS.jpg",
-  "WAL": "WAL.png",
-  "WBN": "WBN.png",
-  "WGT": "WGT.jpg",
-  "WHI": "WHI.png",
-  "WHL": "WHL.jpg",
-  "WIL": "WIL.png",
-  "WLD": "WLD.jpg",
-  "WND": "WND.jpg",
-  "WOO": "WOO.png",
-  "WSP": "WSP.png",
-  "WWO": "WWO.jpg",
-  "YKV": "YKV.jpg"
+  "ABB": {
+    "name": "ABBEYDALE",
+    "filename": "ABB.jpg"
+  },
+  "ACA": {
+    "name": "ACADIA",
+    "filename": "ACA.png"
+  },
+  "ALT": {
+    "name": "ALTADORE",
+    "filename": "ALT.webp"
+  },
+  "APP": {
+    "name": "APPLEWOOD PARK",
+    "filename": "APP.png"
+  },
+  "ARB": {
+    "name": "ARBOUR LAKE",
+    "filename": "ARB.png"
+  },
+  "ASP": {
+    "name": "ASPEN WOODS",
+    "filename": "ASP.png"
+  },
+  "AUB": {
+    "name": "AUBURN BAY",
+    "filename": "AUB.png"
+  },
+  "BDO": {
+    "name": "BONAVISTA DOWNS",
+    "filename": "BDO.jpg"
+  },
+  "BED": {
+    "name": "BEDDINGTON HEIGHTS",
+    "filename": "BED.jpg"
+  },
+  "BEL": {
+    "name": "BEL-AIRE",
+    "filename": "BEL.jpg"
+  },
+  "BLM": {
+    "name": "BELMONT",
+    "filename": "BLM.jpg"
+  },
+  "BLN": {
+    "name": "BELTLINE",
+    "filename": "BLN.png"
+  },
+  "BNF": {
+    "name": "BANFF TRAIL",
+    "filename": "BNF.jpg"
+  },
+  "BNK": {
+    "name": "BANKVIEW",
+    "filename": "BNK.jpg"
+  },
+  "BOW": {
+    "name": "BOWNESS",
+    "filename": "BOW.png"
+  },
+  "BRA": {
+    "name": "BRAESIDE",
+    "filename": "BRA.png"
+  },
+  "BRE": {
+    "name": "BRENTWOOD",
+    "filename": "BRE.jpg"
+  },
+  "BRI": {
+    "name": "BRIDLEWOOD",
+    "filename": "BRI.png"
+  },
+  "BRT": {
+    "name": "BRITANNIA",
+    "filename": "BRT.jpg"
+  },
+  "BVD": {
+    "name": "BELVEDERE",
+    "filename": "BVD.jpg"
+  },
+  "BYV": {
+    "name": "BAYVIEW",
+    "filename": "BYV.jpg"
+  },
+  "CAM": {
+    "name": "CAMBRIAN HEIGHTS",
+    "filename": "CAM.jpg"
+  },
+  "CAN": {
+    "name": "CANYON MEADOWS",
+    "filename": "CAN.png"
+  },
+  "CAP": {
+    "name": "CAPITOL HILL",
+    "filename": "CAP.jpg"
+  },
+  "CAR": {
+    "name": "CARRINGTON",
+    "filename": "CAR.png"
+  },
+  "CAS": {
+    "name": "CASTLERIDGE",
+    "filename": "CAS.webp"
+  },
+  "CED": {
+    "name": "CEDARBRAE",
+    "filename": "CED.png"
+  },
+  "CGR": {
+    "name": "COUGAR RIDGE",
+    "filename": "CGR.png"
+  },
+  "CHA": {
+    "name": "CHAPARRAL",
+    "filename": "CHA.png"
+  },
+  "CHK": {
+    "name": "CHINOOK PARK",
+    "filename": "CHK.png"
+  },
+  "CHN": {
+    "name": "CHINATOWN",
+    "filename": "CHN.webp"
+  },
+  "CHR": {
+    "name": "CHRISTIE PARK",
+    "filename": "CHR.png"
+  },
+  "CHV": {
+    "name": "COUNTRY HILLS VILLAGE",
+    "filename": "CHV.png"
+  },
+  "CHW": {
+    "name": "CHARLESWOOD",
+    "filename": "CHW.jpg"
+  },
+  "CIT": {
+    "name": "CITADEL",
+    "filename": "CIT.png"
+  },
+  "CLI": {
+    "name": "CLIFF BUNGALOW",
+    "filename": "CLI.png"
+  },
+  "CNS": {
+    "name": "CORNERSTONE",
+    "filename": "CNS.png"
+  },
+  "COA": {
+    "name": "COACH HILL",
+    "filename": "COA.jpg"
+  },
+  "COL": {
+    "name": "COLLINGWOOD",
+    "filename": "COL.jpg"
+  },
+  "COR": {
+    "name": "CORAL SPRINGS",
+    "filename": "COR.png"
+  },
+  "COU": {
+    "name": "COUNTRY HILLS",
+    "filename": "COU.jpg"
+  },
+  "COV": {
+    "name": "COVENTRY HILLS",
+    "filename": "COV.png"
+  },
+  "CPF": {
+    "name": "COPPERFIELD",
+    "filename": "CPF.png"
+  },
+  "CRA": {
+    "name": "CRANSTON",
+    "filename": "CRA.png"
+  },
+  "CRE": {
+    "name": "CRESCENT HEIGHTS",
+    "filename": "CRE.png"
+  },
+  "CRM": {
+    "name": "CRESTMONT",
+    "filename": "CRM.jpg"
+  },
+  "CSC": {
+    "name": "CITYSCAPE",
+    "filename": "CSC.png"
+  },
+  "DAL": {
+    "name": "DALHOUSIE",
+    "filename": "DAL.png"
+  },
+  "DDG": {
+    "name": "DOUGLASDALE/GLEN",
+    "filename": "DDG.png"
+  },
+  "DIA": {
+    "name": "DIAMOND COVE",
+    "filename": "DIA.jpg"
+  },
+  "DIS": {
+    "name": "DISCOVERY RIDGE",
+    "filename": "DIS.png"
+  },
+  "DNE": {
+    "name": "DOWNTOWN EAST VILLAGE",
+    "filename": "DNE.jpg"
+  },
+  "DNW": {
+    "name": "DOWNTOWN WEST END",
+    "filename": "DNW.png"
+  },
+  "DOV": {
+    "name": "DOVER",
+    "filename": "DOV.jpg"
+  },
+  "DRG": {
+    "name": "DEER RIDGE",
+    "filename": "DRG.png"
+  },
+  "DRN": {
+    "name": "DEER RUN",
+    "filename": "DRN.png"
+  },
+  "EAG": {
+    "name": "EAGLE RIDGE",
+    "filename": "EAG.jpg"
+  },
+  "EAU": {
+    "name": "EAU CLAIRE",
+    "filename": "EAU.png"
+  },
+  "EDG": {
+    "name": "EDGEMONT",
+    "filename": "EDG.png"
+  },
+  "EPK": {
+    "name": "ELBOW PARK",
+    "filename": "EPK.png"
+  },
+  "ERI": {
+    "name": "ERIN WOODS",
+    "filename": "ERI.jpg"
+  },
+  "ERL": {
+    "name": "ERLTON",
+    "filename": "ERL.jpg"
+  },
+  "EVE": {
+    "name": "EVERGREEN",
+    "filename": "EVE.png"
+  },
+  "EVN": {
+    "name": "EVANSTON",
+    "filename": "EVN.png"
+  },
+  "EYA": {
+    "name": "ELBOYA",
+    "filename": "EYA.jpg"
+  },
+  "FAI": {
+    "name": "FAIRVIEW",
+    "filename": "FAI.png"
+  },
+  "FAL": {
+    "name": "FALCONRIDGE",
+    "filename": "FAL.png"
+  },
+  "FHT": {
+    "name": "FOREST HEIGHTS",
+    "filename": "FHT.jpg"
+  },
+  "FLN": {
+    "name": "FOREST LAWN",
+    "filename": "FLN.jpg"
+  },
+  "GAG": {
+    "name": "GARRISON GREEN",
+    "filename": "GAG.jpg"
+  },
+  "GBK": {
+    "name": "GLENBROOK",
+    "filename": "GBK.png"
+  },
+  "GDL": {
+    "name": "GLENDALE",
+    "filename": "GDL.png"
+  },
+  "GLA": {
+    "name": "GLAMORGAN",
+    "filename": "GLA.png"
+  },
+  "GRV": {
+    "name": "GREENVIEW",
+    "filename": "GRV.jpg"
+  },
+  "HAM": {
+    "name": "HAMPTONS",
+    "filename": "HAM.png"
+  },
+  "HAR": {
+    "name": "HARVEST HILLS",
+    "filename": "HAR.jpg"
+  },
+  "HAW": {
+    "name": "HAWKWOOD",
+    "filename": "HAW.jpg"
+  },
+  "HAY": {
+    "name": "HAYSBORO",
+    "filename": "HAY.jpg"
+  },
+  "HIL": {
+    "name": "HILLHURST",
+    "filename": "HIL.jpg"
+  },
+  "HIW": {
+    "name": "HIGHWOOD",
+    "filename": "HIW.png"
+  },
+  "HPK": {
+    "name": "HIGHLAND PARK",
+    "filename": "HPK.png"
+  },
+  "HUN": {
+    "name": "HUNTINGTON HILLS",
+    "filename": "HUN.png"
+  },
+  "ING": {
+    "name": "INGLEWOOD",
+    "filename": "ING.png"
+  },
+  "KCA": {
+    "name": "KINCORA",
+    "filename": "KCA.png"
+  },
+  "KEL": {
+    "name": "KELVIN GROVE",
+    "filename": "KEL.png"
+  },
+  "KIN": {
+    "name": "KINGSLAND",
+    "filename": "KIN.png"
+  },
+  "KSH": {
+    "name": "KEYSTONE HILLS",
+    "filename": "KSH.jpg"
+  },
+  "LEG": {
+    "name": "LEGACY",
+    "filename": "LEG.png"
+  },
+  "LIV": {
+    "name": "LIVINGSTON",
+    "filename": "LIV.png"
+  },
+  "LKB": {
+    "name": "LAKE BONAVISTA",
+    "filename": "LKB.png"
+  },
+  "LKV": {
+    "name": "LAKEVIEW",
+    "filename": "LKV.png"
+  },
+  "LMR": {
+    "name": "LOWER MOUNT ROYAL",
+    "filename": "LMR.jpg"
+  },
+  "LPK": {
+    "name": "LINCOLN PARK",
+    "filename": "LPK.png"
+  },
+  "MAC": {
+    "name": "MACEWAN GLEN",
+    "filename": "MAC.jpg"
+  },
+  "MAF": {
+    "name": "MAYFAIR",
+    "filename": "MAF.jpg"
+  },
+  "MAH": {
+    "name": "MAHOGANY",
+    "filename": "MAH.png"
+  },
+  "MAL": {
+    "name": "MAYLAND HEIGHTS",
+    "filename": "MAL.png"
+  },
+  "MAN": {
+    "name": "MANCHESTER",
+    "filename": "MAN.jpg"
+  },
+  "MCK": {
+    "name": "MCKENZIE LAKE",
+    "filename": "MCK.png"
+  },
+  "MDH": {
+    "name": "MEDICINE HILL",
+    "filename": "MDH.jpg"
+  },
+  "MEA": {
+    "name": "MEADOWLARK PARK",
+    "filename": "MEA.jpg"
+  },
+  "MID": {
+    "name": "MIDNAPORE",
+    "filename": "MID.png"
+  },
+  "MIS": {
+    "name": "MISSION",
+    "filename": "MIS.jpg"
+  },
+  "MLR": {
+    "name": "MILLRISE",
+    "filename": "MLR.png"
+  },
+  "MON": {
+    "name": "MONTGOMERY",
+    "filename": "MON.jpg"
+  },
+  "MOP": {
+    "name": "MOUNT PLEASANT",
+    "filename": "MOP.jpg"
+  },
+  "MOR": {
+    "name": "MONTEREY PARK",
+    "filename": "MOR.jpg"
+  },
+  "MPL": {
+    "name": "MAPLE RIDGE",
+    "filename": "MPL.png"
+  },
+  "MRL": {
+    "name": "MARLBOROUGH",
+    "filename": "MRL.png"
+  },
+  "MRT": {
+    "name": "MARTINDALE",
+    "filename": "MRT.png"
+  },
+  "NEB": {
+    "name": "NEW BRIGHTON",
+    "filename": "NEB.webp"
+  },
+  "NGM": {
+    "name": "NORTH GLENMORE PARK",
+    "filename": "NGM.png"
+  },
+  "NHV": {
+    "name": "NORTH HAVEN",
+    "filename": "NHV.jpg"
+  },
+  "NOL": {
+    "name": "NOLAN HILL",
+    "filename": "NOL.png"
+  },
+  "OAK": {
+    "name": "OAKRIDGE",
+    "filename": "OAK.png"
+  },
+  "OGD": {
+    "name": "OGDEN",
+    "filename": "OGD.png"
+  },
+  "PAL": {
+    "name": "PALLISER",
+    "filename": "PAL.jpg"
+  },
+  "PAN": {
+    "name": "PANORAMA HILLS",
+    "filename": "PAN.webp"
+  },
+  "PAT": {
+    "name": "PATTERSON",
+    "filename": "PAT.png"
+  },
+  "PCK": {
+    "name": "PINE CREEK",
+    "filename": "PCK.jpg"
+  },
+  "PEN": {
+    "name": "PENBROOKE MEADOWS",
+    "filename": "PEN.jpg"
+  },
+  "PIN": {
+    "name": "PINERIDGE",
+    "filename": "PIN.png"
+  },
+  "PKD": {
+    "name": "PARKDALE",
+    "filename": "PKD.jpg"
+  },
+  "PKH": {
+    "name": "PARKHILL",
+    "filename": "PKH.jpg"
+  },
+  "PKL": {
+    "name": "PARKLAND",
+    "filename": "PKL.png"
+  },
+  "POI": {
+    "name": "POINT MCKAY",
+    "filename": "POI.png"
+  },
+  "PUM": {
+    "name": "PUMP HILL",
+    "filename": "PUM.jpg"
+  },
+  "QLD": {
+    "name": "QUEENSLAND",
+    "filename": "QLD.png"
+  },
+  "RAM": {
+    "name": "RAMSAY",
+    "filename": "RAM.jpg"
+  },
+  "RAN": {
+    "name": "RANCHLANDS",
+    "filename": "RAN.png"
+  },
+  "RCK": {
+    "name": "ROSSCARROCK",
+    "filename": "RCK.jpg"
+  },
+  "RDL": {
+    "name": "ROSEDALE",
+    "filename": "RDL.jpg"
+  },
+  "RED": {
+    "name": "RED CARPET",
+    "filename": "RED.jpg"
+  },
+  "REN": {
+    "name": "RENFREW",
+    "filename": "REN.jpg"
+  },
+  "RIC": {
+    "name": "RICHMOND",
+    "filename": "RIC.jpg"
+  },
+  "RID": {
+    "name": "RIDEAU PARK",
+    "filename": "RID.jpg"
+  },
+  "RIV": {
+    "name": "RIVERBEND",
+    "filename": "RIV.png"
+  },
+  "RMT": {
+    "name": "ROSEMONT",
+    "filename": "RMT.png"
+  },
+  "ROC": {
+    "name": "ROCKY RIDGE",
+    "filename": "ROC.png"
+  },
+  "ROX": {
+    "name": "ROXBORO",
+    "filename": "ROX.jpg"
+  },
+  "ROY": {
+    "name": "ROYAL OAK",
+    "filename": "ROY.png"
+  },
+  "RSN": {
+    "name": "REDSTONE",
+    "filename": "RSN.png"
+  },
+  "RUN": {
+    "name": "RUNDLE",
+    "filename": "RUN.png"
+  },
+  "RUT": {
+    "name": "RUTLAND PARK",
+    "filename": "RUT.jpg"
+  },
+  "SAD": {
+    "name": "SADDLE RIDGE",
+    "filename": "SAD.png"
+  },
+  "SAN": {
+    "name": "SANDSTONE VALLEY",
+    "filename": "SAN.jpg"
+  },
+  "SCA": {
+    "name": "SCARBORO",
+    "filename": "SCA.png"
+  },
+  "SCE": {
+    "name": "SCENIC ACRES",
+    "filename": "SCE.png"
+  },
+  "SDC": {
+    "name": "SUNDANCE",
+    "filename": "SDC.png"
+  },
+  "SET": {
+    "name": "SETON",
+    "filename": "SET.png"
+  },
+  "SGH": {
+    "name": "SAGE HILL",
+    "filename": "SGH.png"
+  },
+  "SHG": {
+    "name": "SHAGANAPPI",
+    "filename": "SHG.png"
+  },
+  "SHN": {
+    "name": "SHAWNESSY",
+    "filename": "SHN.png"
+  },
+  "SHS": {
+    "name": "SHAWNEE SLOPES",
+    "filename": "SHS.png"
+  },
+  "SHW": {
+    "name": "SHERWOOD",
+    "filename": "SHW.webp"
+  },
+  "SIG": {
+    "name": "SIGNAL HILL",
+    "filename": "SIG.jpg"
+  },
+  "SIL": {
+    "name": "SILVER SPRINGS",
+    "filename": "SIL.png"
+  },
+  "SKR": {
+    "name": "SKYVIEW RANCH",
+    "filename": "SKR.jpg"
+  },
+  "SNA": {
+    "name": "SUNALTA",
+    "filename": "SNA.jpg"
+  },
+  "SOC": {
+    "name": "SOUTH CALGARY",
+    "filename": "SOC.jpg"
+  },
+  "SOM": {
+    "name": "SOMERSET",
+    "filename": "SOM.png"
+  },
+  "SOV": {
+    "name": "SOUTHVIEW",
+    "filename": "SOV.jpg"
+  },
+  "SOW": {
+    "name": "SOUTHWOOD",
+    "filename": "SOW.jpg"
+  },
+  "SPH": {
+    "name": "SPRINGBANK HILL",
+    "filename": "SPH.png"
+  },
+  "SPR": {
+    "name": "SPRUCE CLIFF",
+    "filename": "SPR.jpg"
+  },
+  "SSD": {
+    "name": "SUNNYSIDE",
+    "filename": "SSD.jpg"
+  },
+  "STA": {
+    "name": "ST. ANDREWS HEIGHTS",
+    "filename": "STA.png"
+  },
+  "STR": {
+    "name": "STRATHCONA PARK",
+    "filename": "STR.png"
+  },
+  "SVO": {
+    "name": "SILVERADO",
+    "filename": "SVO.webp"
+  },
+  "TAR": {
+    "name": "TARADALE",
+    "filename": "TAR.png"
+  },
+  "TEM": {
+    "name": "TEMPLE",
+    "filename": "TEM.png"
+  },
+  "THO": {
+    "name": "THORNCLIFFE",
+    "filename": "THO.jpg"
+  },
+  "TUS": {
+    "name": "TUSCANY",
+    "filename": "TUS.jpg"
+  },
+  "TUX": {
+    "name": "TUXEDO PARK",
+    "filename": "TUX.png"
+  },
+  "UMR": {
+    "name": "UPPER MOUNT ROYAL",
+    "filename": "UMR.jpg"
+  },
+  "UND": {
+    "name": "UNIVERSITY DISTRICT",
+    "filename": "UND.jpg"
+  },
+  "UNI": {
+    "name": "UNIVERSITY HEIGHTS",
+    "filename": "UNI.jpg"
+  },
+  "UOC": {
+    "name": "UNIVERSITY OF CALGARY",
+    "filename": "UOC.jpg"
+  },
+  "utils": {
+    "name": "?",
+    "filename": "utils"
+  },
+  "VAL": {
+    "name": "VALLEY RIDGE",
+    "filename": "VAL.png"
+  },
+  "VAR": {
+    "name": "VARSITY",
+    "filename": "VAR.png"
+  },
+  "VIS": {
+    "name": "VISTA HEIGHTS",
+    "filename": "VIS.jpg"
+  },
+  "WAL": {
+    "name": "WALDEN",
+    "filename": "WAL.png"
+  },
+  "WBN": {
+    "name": "WOODBINE",
+    "filename": "WBN.png"
+  },
+  "WGT": {
+    "name": "WESTGATE",
+    "filename": "WGT.jpg"
+  },
+  "WHI": {
+    "name": "WHITEHORN",
+    "filename": "WHI.png"
+  },
+  "WHL": {
+    "name": "WEST HILLHURST",
+    "filename": "WHL.jpg"
+  },
+  "WIL": {
+    "name": "WILLOW PARK",
+    "filename": "WIL.png"
+  },
+  "WLD": {
+    "name": "WILDWOOD",
+    "filename": "WLD.jpg"
+  },
+  "WND": {
+    "name": "WINDSOR PARK",
+    "filename": "WND.jpg"
+  },
+  "WOO": {
+    "name": "WOODLANDS",
+    "filename": "WOO.png"
+  },
+  "WSP": {
+    "name": "WEST SPRINGS",
+    "filename": "WSP.png"
+  },
+  "WWO": {
+    "name": "WOLF WILLOW",
+    "filename": "WWO.jpg"
+  },
+  "YKV": {
+    "name": "YORKVILLE",
+    "filename": "YKV.jpg"
+  }
 }

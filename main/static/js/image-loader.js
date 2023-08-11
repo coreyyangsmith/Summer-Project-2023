@@ -28,6 +28,8 @@ function loadRandomImage() {
   imageRight.attr("src", randomImageRight);
 }
 
+function changeHeader() {}
+
 $.getJSON(
   "../../../media/community_images/utils/communities.json",
   function (data) {
