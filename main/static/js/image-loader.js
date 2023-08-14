@@ -1,7 +1,9 @@
 var calgaryCommunities = {}; // store community data
 var communityCode = [];
 const imageLeft = $(".image-left");
+const imageLeftHeader = $(".left-header");
 const imageRight = $(".image-right");
+const imageRightHeader = $(".right-header");
 const imagePathPrefix = "../../../media/community_images";
 
 function getRandomInt(min, max) {
@@ -11,15 +13,36 @@ function getRandomInt(min, max) {
 function loadRandomImage() {
   let min = 0;
   let max = communityCode.length;
-  console.log(max);
+
+  // get random number
   let randomIntLeft = getRandomInt(min, max);
   let randomIntRight = getRandomInt(min, max);
 
-  console.log(randomIntLeft);
+  // get community code based on random number
+  let randomCommunityCodeLeft = communityCode[randomIntLeft];
+  let randomCommunityCodeRight = communityCode[randomIntRight];
 
-  // choose images
-  let randomImageLeft = imagePathPrefix + "/" + communityCode[randomIntLeft];
-  let randomImageRight = imagePathPrefix + "/" + communityCode[randomIntRight];
+  // get filenames
+  let randomImageLeft =
+    imagePathPrefix +
+    "/" +
+    calgaryCommunities[randomCommunityCodeLeft]["filename"];
+  let randomImageRight =
+    imagePathPrefix +
+    "/" +
+    calgaryCommunities[randomCommunityCodeRight]["filename"];
+
+  // get community names
+  let leftCommunityName = calgaryCommunities[randomCommunityCodeLeft]["name"];
+  let rightCommunityName = calgaryCommunities[randomCommunityCodeRight]["name"];
+
+  // change the image
+  imageLeft.attr("src", randomImageLeft);
+  imageRight.attr("src", randomImageRight);
+
+  // change the txt
+  imageLeftHeader.text(leftCommunityName);
+  imageRightHeader.text(rightCommunityName);
 }
 
 function changeHeader() {}
@@ -28,7 +51,7 @@ $.getJSON(
   "../../../media/community_images/utils/communities.json",
   function (data) {
     calgaryCommunities = data;
-    communityCode = Object.key(calgaryCommunities);
+    communityCode = Object.keys(calgaryCommunities);
     loadRandomImage();
   }
 ).fail(function (jqXHR, textStatus, errorThrown) {
