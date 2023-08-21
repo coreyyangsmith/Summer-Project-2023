@@ -26,10 +26,9 @@ class Neighbourhood(models.Model):
     def __str__(self):
         return self.code + "-" + self.name
 
-class Voting(models.Model):
-    vote_key = models.IntegerField(primary_key = True)
+class Vote(models.Model):
     neighbourhood_key = models.ForeignKey(Neighbourhood, on_delete = models.CASCADE)
-    user_info = models.CharField(max_length = 200) # placeholder
+    user_id = models.ForeignKey(User, on_delete = models.CASCADE)
     vote_time = models.DateTimeField("Timestamp when user submitted")
 
     def __str__(self):
@@ -59,7 +58,7 @@ class Quiz(models.Model):
     updated_at = models.DateTimeField("Updated UTC")
 
     def __str__(self):
-        return self.id + "-" + self.name + "-" + self.user_id
+        return str(self.id) + "-" + self.name + "-" + str(self.user_id.id)
 
 class Question(models.Model):
     name = models.CharField(max_length=20)
@@ -71,4 +70,4 @@ class Question(models.Model):
     updated_at = models.DateTimeField("Updated UTC")
 
     def __str__(self):
-        return self.id + "-" + self.name + "-" + self.quiz_id
+        return str(self.id) + "-" + self.name + "-" + str(self.quiz_id.id)
