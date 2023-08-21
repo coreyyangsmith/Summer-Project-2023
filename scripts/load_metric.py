@@ -4,6 +4,8 @@ from main.models import Metric
 
 DATA_PATH = "Data/metric.csv"
 
+#WIP 
+
 with open(DATA_PATH) as f:
     reader = csv.reader(f)
     for row in reader:
