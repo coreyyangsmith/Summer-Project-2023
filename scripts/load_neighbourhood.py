@@ -19,7 +19,8 @@ def run():
                 sector=row[3],
                 created_at=timezone.now(),
                 updated_at=timezone.now(),
-            )           
+            )       
+    
 
 
 
