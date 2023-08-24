@@ -13,6 +13,7 @@
 
 {% block content %}
 <section class="yellow-background py-5">
+    <!-- head -->
     <div class="px-4 text-center pt-5">
         <h1 class="display-5 fw-bold">Top Calgary Communities</h1>
         <div class="col-lg-6 mx-auto">
@@ -20,10 +21,12 @@
         </div>
     </div>
 
+    <!-- display top 10 communities -->
+    {% for community_code in test %}
     <div class="container text-center py-5 mt-5 white-background-opaque">
         <div class="row align-items-center">
             <div class="col-md-3">
-                <p class="h2">1</p>
+                <p class="h2">{{forloop.counter}}</p>
             </div>
             <div class="col-md-6">
                 <img class="image-disc-page image-left" src="../../../media/images/sample_pics/bridgeland-sample.jpg"
@@ -34,5 +37,6 @@
             </div>
         </div>
     </div>
+    {% endfor %}
 </section>
 {% endblock %}
