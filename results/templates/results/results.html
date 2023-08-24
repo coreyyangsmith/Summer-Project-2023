@@ -22,18 +22,18 @@
     </div>
 
     <!-- display top 10 communities -->
-    {% for community_code in test %}
+    {% for community_code in community_codes %}
     <div class="container text-center py-5 mt-5 white-background-opaque">
         <div class="row align-items-center">
             <div class="col-md-3">
                 <p class="h2">{{forloop.counter}}</p>
             </div>
             <div class="col-md-6">
-                <img class="image-disc-page image-left" src="../../../media/images/sample_pics/bridgeland-sample.jpg"
-                    alt="">
+                <img class="image-disc-page image-leaderboard"
+                    src="../../../media/images/sample_pics/bridgeland-sample.jpg" alt="Bridgeland image">
             </div>
             <div class="col-md-3">
-                <p class="h4">Bridgeland</p>
+                <p class="h4 community-name">Bridgeland</p>
             </div>
         </div>
     </div>
