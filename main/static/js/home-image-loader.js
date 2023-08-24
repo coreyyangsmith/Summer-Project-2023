@@ -3,7 +3,7 @@
  *
  * @version 1.x (testing for functionality)
  *
- * Note:
+ * Note (s):
  *    - Uses the following CSS classes:
  *      - image-left, image-right
  *      - left-header, right-header
@@ -59,15 +59,14 @@ function loadRandomImage() {
  * @param {string} communityCodeRight - Calgary Community Code
  */
 function changeImage(communityCodeLeft, communityCodeRight) {
-  // get filenames
-  let randomImageLeft =
+  let imageLeft =
     imagePathPrefix + "/" + calgaryCommunities[communityCodeLeft]["filename"];
-  let randomImageRight =
+  let imageRight =
     imagePathPrefix + "/" + calgaryCommunities[communityCodeRight]["filename"];
 
   // change the image
-  imageLeft.attr("src", randomImageLeft);
-  imageRight.attr("src", randomImageRight);
+  imageLeft.attr("src", imageLeft);
+  imageRight.attr("src", imageRight);
 }
 
 /**
@@ -77,7 +76,6 @@ function changeImage(communityCodeLeft, communityCodeRight) {
  * @param {string} communityCodeRight - Calgary Community Code
  */
 function changeHeader(communityCodeLeft, communityCodeRight) {
-  // get community names
   let leftCommunityName = calgaryCommunities[communityCodeLeft]["name"];
   let rightCommunityName = calgaryCommunities[communityCodeRight]["name"];
 
