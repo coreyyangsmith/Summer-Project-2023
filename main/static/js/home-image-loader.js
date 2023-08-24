@@ -15,7 +15,7 @@
 var calgaryCommunities = {};
 var communityCode = [];
 
-// html elements
+// HTML elements
 const imageLeft = $(".image-left");
 const imageLeftHeader = $(".left-header");
 const imageRight = $(".image-right");

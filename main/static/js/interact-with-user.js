@@ -4,6 +4,8 @@
  * Note (s):
  *    - Uses the following css classes:
  *      - image-left, image-right
+ *
+ * @version 1.0.0
  */
 
 /**
