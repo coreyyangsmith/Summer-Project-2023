@@ -1,34 +1,38 @@
+<!-- RESULTS.HTML -->
+<!-- HTML that displays the leaderboard. -->
+
 {% extends 'main/base.html' %}
 {% load static %}
 
 <h1>These are the results/summary</h1>
 
 {% block title %}Home Page{% endblock %}
+
 {% block loadcss %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">{% endblock %}
 
 {% block content %}
-
-<div class="px-4 pt-5 my-5 text-center">
-    <h1 class="display-5 fw-bold">Top Calgary Communities</h1>
-    <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Browse through Calgary's top 10 communities.</p>
-    </div>
-</div>
-
-<div class="container text-center py-5 mt-5 white-background-opaque">
-    <div class="row align-items-center">
-        <div class="col-md-3">
-            <p class="h2">1</p>
-        </div>
-        <div class="col-md-6">
-            <img class="image-disc-page image-left" src="../../../media/images/sample_pics/bridgeland-sample.jpg"
-                alt="">
-        </div>
-        <div class="col-md-3">
-            <p class="h4">Bridgeland</p>
+<section class="yellow-background">
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">Top Calgary Communities</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Browse through Calgary's top 10 communities.</p>
         </div>
     </div>
-</div>
 
+    <div class="container text-center py-5 mt-5 white-background-opaque">
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <p class="h2">1</p>
+            </div>
+            <div class="col-md-6">
+                <img class="image-disc-page image-left" src="../../../media/images/sample_pics/bridgeland-sample.jpg"
+                    alt="">
+            </div>
+            <div class="col-md-3">
+                <p class="h4">Bridgeland</p>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
