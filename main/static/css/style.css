@@ -1,18 +1,6 @@
 /*----------------------------------------------------------*/
 /* tags*/
 /*----------------------------------------------------------*/
-body {
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-
-  /* background image */
-  background-image: url("../../media/images/wallpaper/peace_bridge_blurred.jpg");
-  background-position: center center;
-  background-repeat: repeat-y;
-  background-size: cover;
-}
-
 li {
   padding: 1rem;
 }
@@ -29,6 +17,17 @@ li > a:hover {
 /*----------------------------------------------------------*/
 /* re-usable classes*/
 /*----------------------------------------------------------*/
+.blurred-peace-bridge-background {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+
+  /* background image */
+  background-image: url("../../media/images/wallpaper/peace_bridge_blurred.jpg");
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
 
 .white-background {
   background-color: rgba(245, 245, 250, 0.3);
@@ -36,6 +35,10 @@ li > a:hover {
 
 .white-background-opaque {
   background-color: rgba(245, 245, 250);
+}
+
+.black-background {
+  background-color: #111111;
 }
 
 .image-disc-page {
@@ -71,7 +74,7 @@ li > a:hover {
 }
 
 /*----------------------------------------------------------*/
-/* compare */
+/* community images */
 /*----------------------------------------------------------*/
 .image-shadow {
   transition: box-shadow 0.3s ease;
