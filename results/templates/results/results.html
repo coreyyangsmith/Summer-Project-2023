@@ -26,14 +26,14 @@
     <div class="container text-center py-5 mt-5 white-background-opaque">
         <div class="row align-items-center">
             <div class="col-md-3">
-                <p class="h2">{{forloop.counter}}</p>
+                <p class="h2 community-rank">{{forloop.counter}}</p>
             </div>
             <div class="col-md-6">
-                <img class="image-disc-page image-leaderboard"
-                    src="../../../media/community_images/{{community_code}}.png" alt="Bridgeland image">
+                <img class="image-disc-page community-image" id="community-image-{{forloop.counter}}" src=""
+                    alt=" community image">
             </div>
             <div class="col-md-3">
-                <p class="h4 community-name">{{community_code}}</p>
+                <p class="h4 community-name" id="community-name-{{forloop.counter}}"></p>
             </div>
         </div>
     </div>

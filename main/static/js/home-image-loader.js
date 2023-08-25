@@ -22,7 +22,7 @@ const imageRight = $(".image-right");
 const imageRightHeader = $(".right-header");
 
 // path prefix for images
-const imagePathPrefix = "../../../media/community_images";
+var imagePathPrefix = "../../../media/community_images";
 
 /**
  * Generates random number
@@ -59,14 +59,14 @@ function loadRandomImage() {
  * @param {string} communityCodeRight - Calgary Community Code
  */
 function changeImage(communityCodeLeft, communityCodeRight) {
-  let imageLeft =
+  let leftImage =
     imagePathPrefix + "/" + calgaryCommunities[communityCodeLeft]["filename"];
-  let imageRight =
+  let rightImage =
     imagePathPrefix + "/" + calgaryCommunities[communityCodeRight]["filename"];
 
   // change the image
-  imageLeft.attr("src", imageLeft);
-  imageRight.attr("src", imageRight);
+  imageLeft.attr("src", leftImage);
+  imageRight.attr("src", rightImage);
 }
 
 /**
