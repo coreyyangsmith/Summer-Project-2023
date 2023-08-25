@@ -124,7 +124,7 @@ li > a:hover {
 /*----------------------------------------------------------*/
 /* Media Queries */
 /*----------------------------------------------------------*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 769px) {
   .image-padding {
     padding-top: 50px;
   }
