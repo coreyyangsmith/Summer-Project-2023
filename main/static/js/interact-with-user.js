@@ -12,9 +12,13 @@
  * Listens for left and right image clicks on home page.
  */
 $(".image-left").click(function () {
-  console.log("image left clicked");
+  comm_code = document.getElementById("img-left").src.split("/").pop().split(".")[0]
+  console.log(comm_code);
+  loadRandomImage();
 });
 
 $(".image-right").click(function () {
-  console.log("image right clicked");
+  comm_code = document.getElementById("img-right").src.split("/").pop().split(".")[0]
+  console.log(comm_code);
+  loadRandomImage();
 });
