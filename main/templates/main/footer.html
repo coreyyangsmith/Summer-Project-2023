@@ -1,24 +1,26 @@
+<!-- FOOTER.HTML -->
+<!-- HTML that is served on every single page in our project. -->
+
 {% load static %}
 
 {% block loadcss %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 {% endblock %}
 
 
-<footer>
-    <div class="container pt-3">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-4 border-top">
+<section class="black-background" id="site-footer">
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-center align-items-center">
             <div class="col-md-4 d-flex align-items-center">
                 <span class="mb-3 mb-md-0 text-white">last updated 2023</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
-                    <a href="#"><i class="fa fa-github" style="font-size:36px"></i></a>
+                    <a href="#"><i class="fa fa-github github-icon" style="font-size:36px"></i></a>
                 </li>
             </ul>
         </footer>
     </div>
-</footer>
+</section>

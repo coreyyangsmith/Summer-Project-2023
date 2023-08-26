@@ -1,18 +1,6 @@
 /*----------------------------------------------------------*/
 /* tags*/
 /*----------------------------------------------------------*/
-body {
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-
-  /* background image */
-  background-image: url("../../media/images/wallpaper/peace_bridge_blurred.jpg");
-  background-position: center center;
-  background-repeat: repeat-y;
-  background-size: cover;
-}
-
 li {
   padding: 1rem;
 }
@@ -29,6 +17,17 @@ li > a:hover {
 /*----------------------------------------------------------*/
 /* re-usable classes*/
 /*----------------------------------------------------------*/
+.blurred-peace-bridge-background {
+  height: 92vh;
+  padding: 0;
+  margin: 0;
+
+  /* background image */
+  background-image: url("../../media/images/wallpaper/peace_bridge_blurred.jpg");
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
 
 .white-background {
   background-color: rgba(245, 245, 250, 0.3);
@@ -38,9 +37,25 @@ li > a:hover {
   background-color: rgba(245, 245, 250);
 }
 
+.yellow-background {
+  background-color: #faaf19;
+}
+
+.black-background {
+  background-color: #111111;
+}
+
 .image-disc-page {
   height: 320px;
   width: 480px;
+}
+
+.image-padding {
+  padding-top: 13rem;
+}
+
+.header-padding {
+  padding-top: 8rem;
 }
 
 /*----------------------------------------------------------*/
@@ -71,7 +86,7 @@ li > a:hover {
 }
 
 /*----------------------------------------------------------*/
-/* compare */
+/* community images */
 /*----------------------------------------------------------*/
 .image-shadow {
   transition: box-shadow 0.3s ease;
@@ -95,5 +110,22 @@ li > a:hover {
 }
 
 /*----------------------------------------------------------*/
-/* footer */
+/* Footer */
 /*----------------------------------------------------------*/
+#site-footer {
+  height: 8vh;
+}
+
+.github-icon {
+  color: #f5f5fa;
+  font-size: 36px;
+}
+
+/*----------------------------------------------------------*/
+/* Media Queries */
+/*----------------------------------------------------------*/
+@media only screen and (max-width: 769px) {
+  .image-padding {
+    padding-top: 50px;
+  }
+}
