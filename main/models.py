@@ -32,13 +32,13 @@ class Neighbourhood(models.Model):
 
 class Vote(models.Model):
     neighbourhood_key = models.ForeignKey(Neighbourhood, on_delete = models.CASCADE)
-    user_id = models.ForeignKey(User, on_delete = models.CASCADE)
+    # user_id = models.ForeignKey(User, on_delete = models.CASCADE)
     vote_time = models.DateTimeField("Timestamp when user submitted")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)    
 
     def __str__(self):
-        return self.user_info
+        return self.neighbourhood_key.name
 
     def timestamp(self):
         return self.vote_time >= timezone.now() - datetime.timedelta(days=1)
