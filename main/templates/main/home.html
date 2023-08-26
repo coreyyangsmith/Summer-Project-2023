@@ -1,4 +1,5 @@
 <!-- HOME.HTML -->
+<!-- HTML that displays two community images to choose. -->
 {% extends 'main/base.html' %}
 {% load static %}
 
@@ -7,18 +8,21 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">{% endblock %}
 
 {% block content %}
-<section id="community-pictures" class="white-background" style="margin-top: 12%;">
-    <div class="container-fluid text-center py-5">
-        <div class="row align-items-center gx-5">
+<section id="community-pictures" class="blurred-peace-bridge-background image-padding">
+    <div class="container-fluid text-center">
+        <!-- left image -->
+        <div class="row align-items-center">
             <div class="col-md-6 col-xl-6">
-                <h1 class="display-4">Bridgeland</h1>
+                <h1 class="display-4 left-header">Bridgeland</h1>
                 <div class="compare-image-container image-shadow">
                     <img class="image-disc-page image-left"
                         src="../../../media/images/sample_pics/bridgeland-sample.jpg" alt="">
                 </div>
             </div>
+
+            <!-- right image -->
             <div class=" col-md-6 col-xl-6">
-                <h1 class="display-4">Inglewood</h1>
+                <h1 class="display-4 right-header">Inglewood</h1>
                 <div class="compare-image-container image-shadow">
                     <img class="image-disc-page image-right"
                         src="../../../media/images/sample_pics/inglewood_sample.jpg" alt="">
@@ -27,7 +31,4 @@
         </div>
     </div>
 </section>
-
-<!-- {% include "main/footer.html"%} -->
-
 {% endblock %}
