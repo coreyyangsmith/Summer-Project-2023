@@ -1,9 +1,29 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-# test data for results page and linked Javascript file (delete after)
-TEST_DATA = ["ABB", "BRI", "CIT", "DNE", "FLN", "KIN", "MIS", "PCK", "RIV", "SHS"]
-test_community_data = {"community_codes": TEST_DATA}
+from main.models import Vote, Neighbourhood
+
+from django.db.models import Count
 
 def index(response):
-    return render(response, "results/results.html", test_community_data)
+
+    top_communities = Vote.objects.all().values('neighbourhood_key').annotate(total=Count('neighbourhood_key')).order_by('-total')[:10]
+   
+    community_data = []
+    for communities in top_communities:
+        code = communities.get("neighbourhood_key")
+        community_data.append(Neighbourhood.objects.all().filter(id=code).values('code'))
+
+    final_community_data = []
+    for community in community_data:
+        final_community_data.append(community[0].get('code'))
+        
+    print("----------")
+    print(top_communities)        
+    print("----------")
+    print(community_data)
+    print("----------")
+    print(final_community_data)
+
+    ctx = {"community_codes":final_community_data}
+    return render(response, "results/results.html", ctx)
