@@ -4,7 +4,6 @@ import csv
 from main.models import Neighbourhood
 
 from django.utils import timezone
-import datetime
 
 DATA_PATH = "scripts/seeding_data/neighbourhood.csv"
 
