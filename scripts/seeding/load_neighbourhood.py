@@ -1,11 +1,19 @@
-# batch script to populate Neighbourhood based on imported .csv data
-
+# Script to batch import and populate Neighbourhood model based on imported .csv data
 import csv
 from main.models import Neighbourhood
-
 from django.utils import timezone
 
-DATA_PATH = "scripts/seeding_data/neighbourhood.csv"
+'''
+Seeder Function to load Neighbourhood model
+
+Required Files:
+scripts/seeding/seeding_data/neighbourhood.csv
+
+Output:
+Populate local database with saved (testing) dataset.
+'''
+
+DATA_PATH = "scripts/seeding/seeding_data/neighbourhood.csv"
 
 def run():
     with open(DATA_PATH) as f:

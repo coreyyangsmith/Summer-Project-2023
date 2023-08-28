@@ -1,9 +1,14 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-
 from main.models import Vote, Neighbourhood
-
 from django.db.models import Count
+
+'''
+Index View: Main Results Page
+
+url: /results
+
+# TODO Corey | Add Documentation
+'''
 
 def index(response):
 
