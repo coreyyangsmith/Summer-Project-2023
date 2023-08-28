@@ -25,8 +25,13 @@ $(".image-right").click(function () {
 
 
 function ajax_update(comm_code) {
-  console.log("running ajax update");
-  console.log("received comm: " + comm_code);
+
+  Toastify({
+    text: "You voted for: " + comm_code,
+    duration: 3000
+    }).showToast();
+
+    
 
   $.ajax({
       type: 'GET',
