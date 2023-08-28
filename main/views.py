@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
 from .models import User, Vote, Neighbourhood
 
 from django.utils import timezone

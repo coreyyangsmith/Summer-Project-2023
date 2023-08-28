@@ -1,3 +1,7 @@
+'''
+Options File to manipulate variables related to database seeding.
+'''
+
 # MODELS GENERATRED FROM FIXED DATASET
 # NEIGHBOURHOOD
 # METRIC

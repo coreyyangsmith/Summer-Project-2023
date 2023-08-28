@@ -1,16 +1,14 @@
 import django
-from scripts.seeding import load_neighbourhood, load_vote
 from main.models import Neighbourhood, Vote
 
 '''
-Main Seeding Script
+Clear Database
 
 Required Files:
-scripts/load_neighbourhood.py
-scripts/load_vote.py
+None
 
 Output:
-Populate local database with saved and random (testing) dataset.
+Will completely wipe the local database
 '''
 
 django.setup()
@@ -21,8 +19,5 @@ def run():
     Vote.objects.all().delete()
     # TODO Corey | Metric.objects.all().delete()
     # TODO Corey | Question.objects.all().delete()
-    # TODO Corey | Quiz.objects.all().delete()            
+    # TODO Corey | Quiz.objects.all().delete()  
 
-    # Step 2: Load Data
-    load_neighbourhood.run()
-    load_vote.run()
