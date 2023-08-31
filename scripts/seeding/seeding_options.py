@@ -1,0 +1,12 @@
+'''
+Options File to manipulate variables related to database seeding.
+'''
+
+# MODELS GENERATRED FROM FIXED DATASET
+# NEIGHBOURHOOD
+# METRIC
+
+
+# MODELS GENERATED FROM RANDOM DATASET
+# VOTE
+NUMBER_TO_GENERATE = 100

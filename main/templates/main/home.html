@@ -9,26 +9,34 @@
 
 {% block content %}
 <section id="community-pictures" class="blurred-peace-bridge-background image-padding">
-    <div class="container-fluid text-center">
-        <!-- left image -->
-        <div class="row align-items-center">
-            <div class="col-md-6 col-xl-6">
-                <h1 class="display-4 left-header">Bridgeland</h1>
-                <div class="compare-image-container image-shadow">
-                    <img class="image-disc-page image-left"
-                        src="../../../media/images/sample_pics/bridgeland-sample.jpg" alt="">
-                </div>
-            </div>
 
-            <!-- right image -->
-            <div class=" col-md-6 col-xl-6">
-                <h1 class="display-4 right-header">Inglewood</h1>
-                <div class="compare-image-container image-shadow">
-                    <img class="image-disc-page image-right"
-                        src="../../../media/images/sample_pics/inglewood_sample.jpg" alt="">
-                </div>
+
+
+            <div class="container-fluid text-center">
+            <div class="row align-items-center">            
+                <!-- Left Image -->
+
+                        <div class="col-md-6 col-xl-6">
+                            <h1 class="display-4 left-header">Bridgeland</h1>
+                            <div class="compare-image-container image-shadow">
+                                <img id="img-left" class="image-disc-page image-left"
+                                    src="../../../media/images/sample_pics/bridgeland-sample.jpg" alt="">
+                            </div>
+                        </div>
+
+                <!-- Right Image -->
+
+                    <div class=" col-md-6 col-xl-6">
+                        <h1 class="display-4 right-header">Inglewood</h1>
+                        <div class="compare-image-container image-shadow">
+                            <img id="img-right" class="image-disc-page image-right"
+                                src="../../../media/images/sample_pics/inglewood_sample.jpg" alt="">
+                        </div>
+                    </div>
+
             </div>
         </div>
-    </div>
+
+
 </section>
 {% endblock %}
