@@ -8,6 +8,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path("", views.home, name="home"),    
+    path("frontend/", views.frontend_test, name="frontend"),
     path("<int:id>", views.index, name="index"),
     re_path(r"vote/(?P<comm_code>[A-Z]{3})", views.vote, name="vote"), #/vote/COU
 ]
