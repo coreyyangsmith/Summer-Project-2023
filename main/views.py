@@ -18,3 +18,7 @@ def vote(request, comm_code):
                     created_at=timezone.now(),
                     updated_at=timezone.now())
     return render(request, 'main/home.html',{})
+
+def frontend_test(request):
+    context = {}
+    return render(request, "index.html", context)
