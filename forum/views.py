@@ -17,6 +17,14 @@ def index(request):
 class NeighbourhoodListView(ListView): # TODO Corey | Add User Auth, filter view based on user permission
     model = Neighbourhood
 
+class NeigbourhoodDetailView(DetailView):
+    model = Neighbourhood    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)   
+        pk = self.kwargs['pk']              
+        context["neighbourhood"] = Neighbourhood.objects.get(pk=pk)      
+        return context      
+
 class CategoryListView(ListView):
     model = Category
     def get_queryset(self):
@@ -44,8 +52,6 @@ class ThreadDetailView(DetailView): # TODO Corey | Add Detail View for Threads(C
 
 class PostListView(ListView):
     model = Post
-    print("post view")
-
     def get_queryset(self):
         # Get path to neighbourhood, to find FK ref for category
         code = self.request.path

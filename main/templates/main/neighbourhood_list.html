@@ -4,7 +4,7 @@
     <h2>Neighbourhoods</h2>
     <ul>
         {% for neighbourhood in neighbourhood_list %}
-            <li><a href="/forum/{{ neighbourhood.code }}/">{{ neighbourhood.name }}</a> --> /forum/{{ neighbourhood.code }}/</li>
+            <li><a href="/forum/{{ neighbourhood.code }}/">{{ neighbourhood.name }}</a> --> /forum/{{ neighbourhood.code }}/ <a href="/forum/{{ neighbourhood.pk }}/detail/">(info)</a></li>
         {% endfor %}
     </ul>
 {% endblock %}
