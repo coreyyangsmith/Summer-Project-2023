@@ -29,3 +29,4 @@ with open(DATA_PATH) as f:
             created_at=row[6],
             updated_at=row[7],
         )
+    print("'Metric' loaded successfully.")        

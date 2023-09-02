@@ -1,0 +1,10 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h2>Categories for {{ category.neighbourhood.code }}</h2>
+    <ul>
+        {% for category in category_list %}
+            <li><a href="{{ category.id }}/">{{ category.name }}</a> --> /forum/{{ category.neighbourhood.code }}/{{ category.pk }}/</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

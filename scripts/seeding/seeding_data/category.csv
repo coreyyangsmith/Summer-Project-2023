@@ -1,0 +1,772 @@
+ERL,Announcements
+ERL,General Discussion
+ERL,Event Planning
+ERL,Off Topic
+COA,Announcements
+COA,General Discussion
+COA,Event Planning
+COA,Off Topic
+DIA,Announcements
+DIA,General Discussion
+DIA,Event Planning
+DIA,Off Topic
+THO,Announcements
+THO,General Discussion
+THO,Event Planning
+THO,Off Topic
+FHT,Announcements
+FHT,General Discussion
+FHT,Event Planning
+FHT,Off Topic
+HAY,Announcements
+HAY,General Discussion
+HAY,Event Planning
+HAY,Off Topic
+CSC,Announcements
+CSC,General Discussion
+CSC,Event Planning
+CSC,Off Topic
+BLM,Announcements
+BLM,General Discussion
+BLM,Event Planning
+BLM,Off Topic
+DOV,Announcements
+DOV,General Discussion
+DOV,Event Planning
+DOV,Off Topic
+MRT,Announcements
+MRT,General Discussion
+MRT,Event Planning
+MRT,Off Topic
+WAL,Announcements
+WAL,General Discussion
+WAL,Event Planning
+WAL,Off Topic
+VAR,Announcements
+VAR,General Discussion
+VAR,Event Planning
+VAR,Off Topic
+COL,Announcements
+COL,General Discussion
+COL,Event Planning
+COL,Off Topic
+QLD,Announcements
+QLD,General Discussion
+QLD,Event Planning
+QLD,Off Topic
+WOO,Announcements
+WOO,General Discussion
+WOO,Event Planning
+WOO,Off Topic
+OAK,Announcements
+OAK,General Discussion
+OAK,Event Planning
+OAK,Off Topic
+SOW,Announcements
+SOW,General Discussion
+SOW,Event Planning
+SOW,Off Topic
+RDL,Announcements
+RDL,General Discussion
+RDL,Event Planning
+RDL,Off Topic
+APP,Announcements
+APP,General Discussion
+APP,Event Planning
+APP,Off Topic
+RID,Announcements
+RID,General Discussion
+RID,Event Planning
+RID,Off Topic
+ARB,Announcements
+ARB,General Discussion
+ARB,Event Planning
+ARB,Off Topic
+BVD,Announcements
+BVD,General Discussion
+BVD,Event Planning
+BVD,Off Topic
+CPF,Announcements
+CPF,General Discussion
+CPF,Event Planning
+CPF,Off Topic
+SIG,Announcements
+SIG,General Discussion
+SIG,Event Planning
+SIG,Off Topic
+CAM,Announcements
+CAM,General Discussion
+CAM,Event Planning
+CAM,Off Topic
+BRT,Announcements
+BRT,General Discussion
+BRT,Event Planning
+BRT,Off Topic
+WBN,Announcements
+WBN,General Discussion
+WBN,Event Planning
+WBN,Off Topic
+RUN,Announcements
+RUN,General Discussion
+RUN,Event Planning
+RUN,Off Topic
+ERI,Announcements
+ERI,General Discussion
+ERI,Event Planning
+ERI,Off Topic
+PIN,Announcements
+PIN,General Discussion
+PIN,Event Planning
+PIN,Off Topic
+HIW,Announcements
+HIW,General Discussion
+HIW,Event Planning
+HIW,Off Topic
+MAL,Announcements
+MAL,General Discussion
+MAL,Event Planning
+MAL,Off Topic
+MAC,Announcements
+MAC,General Discussion
+MAC,Event Planning
+MAC,Off Topic
+DRG,Announcements
+DRG,General Discussion
+DRG,Event Planning
+DRG,Off Topic
+MOP,Announcements
+MOP,General Discussion
+MOP,Event Planning
+MOP,Off Topic
+SOV,Announcements
+SOV,General Discussion
+SOV,Event Planning
+SOV,Off Topic
+EDG,Announcements
+EDG,General Discussion
+EDG,Event Planning
+EDG,Off Topic
+RED,Announcements
+RED,General Discussion
+RED,Event Planning
+RED,Off Topic
+SSD,Announcements
+SSD,General Discussion
+SSD,Event Planning
+SSD,Off Topic
+CAP,Announcements
+CAP,General Discussion
+CAP,Event Planning
+CAP,Off Topic
+UMR,Announcements
+UMR,General Discussion
+UMR,Event Planning
+UMR,Off Topic
+SAD,Announcements
+SAD,General Discussion
+SAD,Event Planning
+SAD,Off Topic
+BED,Announcements
+BED,General Discussion
+BED,Event Planning
+BED,Off Topic
+PAT,Announcements
+PAT,General Discussion
+PAT,Event Planning
+PAT,Off Topic
+SOC,Announcements
+SOC,General Discussion
+SOC,Event Planning
+SOC,Off Topic
+COR,Announcements
+COR,General Discussion
+COR,Event Planning
+COR,Off Topic
+EAU,Announcements
+EAU,General Discussion
+EAU,Event Planning
+EAU,Off Topic
+MCK,Announcements
+MCK,General Discussion
+MCK,Event Planning
+MCK,Off Topic
+MIS,Announcements
+MIS,General Discussion
+MIS,Event Planning
+MIS,Off Topic
+GBK,Announcements
+GBK,General Discussion
+GBK,Event Planning
+GBK,Off Topic
+TUX,Announcements
+TUX,General Discussion
+TUX,Event Planning
+TUX,Off Topic
+DNE,Announcements
+DNE,General Discussion
+DNE,Event Planning
+DNE,Off Topic
+LPK,Announcements
+LPK,General Discussion
+LPK,Event Planning
+LPK,Off Topic
+STR,Announcements
+STR,General Discussion
+STR,Event Planning
+STR,Off Topic
+CHR,Announcements
+CHR,General Discussion
+CHR,Event Planning
+CHR,Off Topic
+SHG,Announcements
+SHG,General Discussion
+SHG,Event Planning
+SHG,Off Topic
+ING,Announcements
+ING,General Discussion
+ING,Event Planning
+ING,Off Topic
+SOM,Announcements
+SOM,General Discussion
+SOM,Event Planning
+SOM,Off Topic
+SAN,Announcements
+SAN,General Discussion
+SAN,Event Planning
+SAN,Off Topic
+SDC,Announcements
+SDC,General Discussion
+SDC,Event Planning
+SDC,Off Topic
+ASP,Announcements
+ASP,General Discussion
+ASP,Event Planning
+ASP,Off Topic
+UOC,Announcements
+UOC,General Discussion
+UOC,Event Planning
+UOC,Off Topic
+WHL,Announcements
+WHL,General Discussion
+WHL,Event Planning
+WHL,Off Topic
+RCK,Announcements
+RCK,General Discussion
+RCK,Event Planning
+RCK,Off Topic
+CAN,Announcements
+CAN,General Discussion
+CAN,Event Planning
+CAN,Off Topic
+FAI,Announcements
+FAI,General Discussion
+FAI,Event Planning
+FAI,Off Topic
+BEL,Announcements
+BEL,General Discussion
+BEL,Event Planning
+BEL,Off Topic
+MOR,Announcements
+MOR,General Discussion
+MOR,Event Planning
+MOR,Off Topic
+DIS,Announcements
+DIS,General Discussion
+DIS,Event Planning
+DIS,Off Topic
+HPK,Announcements
+HPK,General Discussion
+HPK,Event Planning
+HPK,Off Topic
+HUN,Announcements
+HUN,General Discussion
+HUN,Event Planning
+HUN,Off Topic
+GRV,Announcements
+GRV,General Discussion
+GRV,Event Planning
+GRV,Off Topic
+SGH,Announcements
+SGH,General Discussion
+SGH,Event Planning
+SGH,Off Topic
+MID,Announcements
+MID,General Discussion
+MID,Event Planning
+MID,Off Topic
+STA,Announcements
+STA,General Discussion
+STA,Event Planning
+STA,Off Topic
+EPK,Announcements
+EPK,General Discussion
+EPK,Event Planning
+EPK,Off Topic
+DRN,Announcements
+DRN,General Discussion
+DRN,Event Planning
+DRN,Off Topic
+BYV,Announcements
+BYV,General Discussion
+BYV,Event Planning
+BYV,Off Topic
+WLD,Announcements
+WLD,General Discussion
+WLD,Event Planning
+WLD,Off Topic
+MLR,Announcements
+MLR,General Discussion
+MLR,Event Planning
+MLR,Off Topic
+SET,Announcements
+SET,General Discussion
+SET,Event Planning
+SET,Off Topic
+CRA,Announcements
+CRA,General Discussion
+CRA,Event Planning
+CRA,Off Topic
+REN,Announcements
+REN,General Discussion
+REN,Event Planning
+REN,Off Topic
+ACA,Announcements
+ACA,General Discussion
+ACA,Event Planning
+ACA,Off Topic
+COU,Announcements
+COU,General Discussion
+COU,Event Planning
+COU,Off Topic
+BDO,Announcements
+BDO,General Discussion
+BDO,Event Planning
+BDO,Off Topic
+WGT,Announcements
+WGT,General Discussion
+WGT,Event Planning
+WGT,Off Topic
+LEG,Announcements
+LEG,General Discussion
+LEG,Event Planning
+LEG,Off Topic
+CAR,Announcements
+CAR,General Discussion
+CAR,Event Planning
+CAR,Off Topic
+KSH,Announcements
+KSH,General Discussion
+KSH,Event Planning
+KSH,Off Topic
+RSN,Announcements
+RSN,General Discussion
+RSN,Event Planning
+RSN,Off Topic
+WSP,Announcements
+WSP,General Discussion
+WSP,Event Planning
+WSP,Off Topic
+PUM,Announcements
+PUM,General Discussion
+PUM,Event Planning
+PUM,Off Topic
+GDL,Announcements
+GDL,General Discussion
+GDL,Event Planning
+GDL,Off Topic
+CRE,Announcements
+CRE,General Discussion
+CRE,Event Planning
+CRE,Off Topic
+LKB,Announcements
+LKB,General Discussion
+LKB,Event Planning
+LKB,Off Topic
+DDG,Announcements
+DDG,General Discussion
+DDG,Event Planning
+DDG,Off Topic
+VAL,Announcements
+VAL,General Discussion
+VAL,Event Planning
+VAL,Off Topic
+UND,Announcements
+UND,General Discussion
+UND,Event Planning
+UND,Off Topic
+SCE,Announcements
+SCE,General Discussion
+SCE,Event Planning
+SCE,Off Topic
+HAW,Announcements
+HAW,General Discussion
+HAW,Event Planning
+HAW,Off Topic
+SIL,Announcements
+SIL,General Discussion
+SIL,Event Planning
+SIL,Off Topic
+SKR,Announcements
+SKR,General Discussion
+SKR,Event Planning
+SKR,Off Topic
+CNS,Announcements
+CNS,General Discussion
+CNS,Event Planning
+CNS,Off Topic
+PCK,Announcements
+PCK,General Discussion
+PCK,Event Planning
+PCK,Off Topic
+MAH,Announcements
+MAH,General Discussion
+MAH,Event Planning
+MAH,Off Topic
+RAN,Announcements
+RAN,General Discussion
+RAN,Event Planning
+RAN,Off Topic
+LIV,Announcements
+LIV,General Discussion
+LIV,Event Planning
+LIV,Off Topic
+HAM,Announcements
+HAM,General Discussion
+HAM,Event Planning
+HAM,Off Topic
+CIT,Announcements
+CIT,General Discussion
+CIT,Event Planning
+CIT,Off Topic
+ROX,Announcements
+ROX,General Discussion
+ROX,Event Planning
+ROX,Off Topic
+SHN,Announcements
+SHN,General Discussion
+SHN,Event Planning
+SHN,Off Topic
+RIC,Announcements
+RIC,General Discussion
+RIC,Event Planning
+RIC,Off Topic
+UNI,Announcements
+UNI,General Discussion
+UNI,Event Planning
+UNI,Off Topic
+FAL,Announcements
+FAL,General Discussion
+FAL,Event Planning
+FAL,Off Topic
+CHK,Announcements
+CHK,General Discussion
+CHK,Event Planning
+CHK,Off Topic
+WWO,Announcements
+WWO,General Discussion
+WWO,Event Planning
+WWO,Off Topic
+YKV,Announcements
+YKV,General Discussion
+YKV,Event Planning
+YKV,Off Topic
+FLN,Announcements
+FLN,General Discussion
+FLN,Event Planning
+FLN,Off Topic
+WIL,Announcements
+WIL,General Discussion
+WIL,Event Planning
+WIL,Off Topic
+ABB,Announcements
+ABB,General Discussion
+ABB,Event Planning
+ABB,Off Topic
+MON,Announcements
+MON,General Discussion
+MON,Event Planning
+MON,Off Topic
+HAR,Announcements
+HAR,General Discussion
+HAR,Event Planning
+HAR,Off Topic
+OGD,Announcements
+OGD,General Discussion
+OGD,Event Planning
+OGD,Off Topic
+PEN,Announcements
+PEN,General Discussion
+PEN,Event Planning
+PEN,Off Topic
+SHS,Announcements
+SHS,General Discussion
+SHS,Event Planning
+SHS,Off Topic
+BNF,Announcements
+BNF,General Discussion
+BNF,Event Planning
+BNF,Off Topic
+SPH,Announcements
+SPH,General Discussion
+SPH,Event Planning
+SPH,Off Topic
+PKH,Announcements
+PKH,General Discussion
+PKH,Event Planning
+PKH,Off Topic
+NHV,Announcements
+NHV,General Discussion
+NHV,Event Planning
+NHV,Off Topic
+LKV,Announcements
+LKV,General Discussion
+LKV,Event Planning
+LKV,Off Topic
+VIS,Announcements
+VIS,General Discussion
+VIS,Event Planning
+VIS,Off Topic
+GLA,Announcements
+GLA,General Discussion
+GLA,Event Planning
+GLA,Off Topic
+EYA,Announcements
+EYA,General Discussion
+EYA,Event Planning
+EYA,Off Topic
+CLI,Announcements
+CLI,General Discussion
+CLI,Event Planning
+CLI,Off Topic
+RIV,Announcements
+RIV,General Discussion
+RIV,Event Planning
+RIV,Off Topic
+CHN,Announcements
+CHN,General Discussion
+CHN,Event Planning
+CHN,Off Topic
+TEM,Announcements
+TEM,General Discussion
+TEM,Event Planning
+TEM,Off Topic
+BRA,Announcements
+BRA,General Discussion
+BRA,Event Planning
+BRA,Off Topic
+WND,Announcements
+WND,General Discussion
+WND,Event Planning
+WND,Off Topic
+BOW,Announcements
+BOW,General Discussion
+BOW,Event Planning
+BOW,Off Topic
+WHI,Announcements
+WHI,General Discussion
+WHI,Event Planning
+WHI,Off Topic
+PKD,Announcements
+PKD,General Discussion
+PKD,Event Planning
+PKD,Off Topic
+RMT,Announcements
+RMT,General Discussion
+RMT,Event Planning
+RMT,Off Topic
+MPL,Announcements
+MPL,General Discussion
+MPL,Event Planning
+MPL,Off Topic
+BRE,Announcements
+BRE,General Discussion
+BRE,Event Planning
+BRE,Off Topic
+SCA,Announcements
+SCA,General Discussion
+SCA,Event Planning
+SCA,Off Topic
+POI,Announcements
+POI,General Discussion
+POI,Event Planning
+POI,Off Topic
+RUT,Announcements
+RUT,General Discussion
+RUT,Event Planning
+RUT,Off Topic
+RAM,Announcements
+RAM,General Discussion
+RAM,Event Planning
+RAM,Off Topic
+MRL,Announcements
+MRL,General Discussion
+MRL,Event Planning
+MRL,Off Topic
+MAN,Announcements
+MAN,General Discussion
+MAN,Event Planning
+MAN,Off Topic
+GAG,Announcements
+GAG,General Discussion
+GAG,Event Planning
+GAG,Off Topic
+SPR,Announcements
+SPR,General Discussion
+SPR,Event Planning
+SPR,Off Topic
+PKL,Announcements
+PKL,General Discussion
+PKL,Event Planning
+PKL,Off Topic
+CAS,Announcements
+CAS,General Discussion
+CAS,Event Planning
+CAS,Off Topic
+DAL,Announcements
+DAL,General Discussion
+DAL,Event Planning
+DAL,Off Topic
+PAL,Announcements
+PAL,General Discussion
+PAL,Event Planning
+PAL,Off Topic
+NGM,Announcements
+NGM,General Discussion
+NGM,Event Planning
+NGM,Off Topic
+ALT,Announcements
+ALT,General Discussion
+ALT,Event Planning
+ALT,Off Topic
+CHW,Announcements
+CHW,General Discussion
+CHW,Event Planning
+CHW,Off Topic
+CED,Announcements
+CED,General Discussion
+CED,Event Planning
+CED,Off Topic
+SVO,Announcements
+SVO,General Discussion
+SVO,Event Planning
+SVO,Off Topic
+CRM,Announcements
+CRM,General Discussion
+CRM,Event Planning
+CRM,Off Topic
+KCA,Announcements
+KCA,General Discussion
+KCA,Event Planning
+KCA,Off Topic
+DNW,Announcements
+DNW,General Discussion
+DNW,Event Planning
+DNW,Off Topic
+LMR,Announcements
+LMR,General Discussion
+LMR,Event Planning
+LMR,Off Topic
+BNK,Announcements
+BNK,General Discussion
+BNK,Event Planning
+BNK,Off Topic
+BLN,Announcements
+BLN,General Discussion
+BLN,Event Planning
+BLN,Off Topic
+HIL,Announcements
+HIL,General Discussion
+HIL,Event Planning
+HIL,Off Topic
+SNA,Announcements
+SNA,General Discussion
+SNA,Event Planning
+SNA,Off Topic
+NOL,Announcements
+NOL,General Discussion
+NOL,Event Planning
+NOL,Off Topic
+COV,Announcements
+COV,General Discussion
+COV,Event Planning
+COV,Off Topic
+MDH,Announcements
+MDH,General Discussion
+MDH,Event Planning
+MDH,Off Topic
+ROY,Announcements
+ROY,General Discussion
+ROY,Event Planning
+ROY,Off Topic
+TAR,Announcements
+TAR,General Discussion
+TAR,Event Planning
+TAR,Off Topic
+CHV,Announcements
+CHV,General Discussion
+CHV,Event Planning
+CHV,Off Topic
+EVN,Announcements
+EVN,General Discussion
+EVN,Event Planning
+EVN,Off Topic
+CGR,Announcements
+CGR,General Discussion
+CGR,Event Planning
+CGR,Off Topic
+ROC,Announcements
+ROC,General Discussion
+ROC,Event Planning
+ROC,Off Topic
+TUS,Announcements
+TUS,General Discussion
+TUS,Event Planning
+TUS,Off Topic
+CHA,Announcements
+CHA,General Discussion
+CHA,Event Planning
+CHA,Off Topic
+NEB,Announcements
+NEB,General Discussion
+NEB,Event Planning
+NEB,Off Topic
+PAN,Announcements
+PAN,General Discussion
+PAN,Event Planning
+PAN,Off Topic
+SHW,Announcements
+SHW,General Discussion
+SHW,Event Planning
+SHW,Off Topic
+BRI,Announcements
+BRI,General Discussion
+BRI,Event Planning
+BRI,Off Topic
+EVE,Announcements
+EVE,General Discussion
+EVE,Event Planning
+EVE,Off Topic
+AUB,Announcements
+AUB,General Discussion
+AUB,Event Planning
+AUB,Off Topic
+MAF,Announcements
+MAF,General Discussion
+MAF,Event Planning
+MAF,Off Topic
+EAG,Announcements
+EAG,General Discussion
+EAG,Event Planning
+EAG,Off Topic
+MEA,Announcements
+MEA,General Discussion
+MEA,Event Planning
+MEA,Off Topic
+KEL,Announcements
+KEL,General Discussion
+KEL,Event Planning
+KEL,Off Topic
+KIN,Announcements
+KIN,General Discussion
+KIN,Event Planning
+KIN,Off Topic

@@ -1,0 +1,14 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h2>Posts for {{ post.thread.name }}</h2>
+    <ul>
+        {% if post_list|length > 1 %}
+            {% for post in post_list %}
+                <li>{{ post.content }}</li>
+            {% endfor %}        
+        {% else %}
+            <h1>No posts in current thread. Create <a href="">new?</a></h1>
+        {% endif %}
+    </ul>
+{% endblock %}

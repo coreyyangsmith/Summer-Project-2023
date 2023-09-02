@@ -19,7 +19,14 @@ function checkURL() {
   } else if (window.location.pathname.endsWith("/")) {
     var indexElement = $(".home-anchor");
     indexElement.addClass("li-active");
+  } else if (window.location.pathname.endsWith("forum/")) {
+    var indexElement = $(".forum-anchor");
+    indexElement.addClass("li-active");
+  } else if (window.location.pathname.endsWith("frontend/")) {
+    var indexElement = $(".frontend-anchor");
+    indexElement.addClass("li-active");
   }
+  
 }
 
 checkURL();
