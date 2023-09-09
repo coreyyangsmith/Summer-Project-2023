@@ -24,7 +24,8 @@ def run():
             created_at=timezone.now(),
             updated_at=timezone.now(),
         )
-    
+    print("'Vote' loaded successfully.")    
+
 
 
 

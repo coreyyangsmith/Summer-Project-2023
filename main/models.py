@@ -6,6 +6,7 @@ from django.utils import timezone
 
 
 # Create your models here.
+# TODO Corey | refactor user to extend Django base user class
 class User(models.Model):
     first_name = models.CharField(max_length = 50)
     last_name = models.CharField(max_length = 50)

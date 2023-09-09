@@ -1,0 +1,10 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h2>Threads for {{ thread.category.neighbourhood.code }}</h2>
+    <ul>
+        {% for thread in thread_list %}
+            <li><a href="{{ thread.id }}/">{{ thread.name }}</a> --> /forum/{{ thread.category.neighbourhood.code }}/{{ thread.category.id }}/{{ thread.id }}/</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -27,6 +27,7 @@ def run():
                 created_at=timezone.now(),
                 updated_at=timezone.now(),
             )       
+    print("'Neighbourhood' loaded successfully.")            
     
 
 

@@ -1,0 +1,13 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h2>Neighbourhood Detail View</h2>
+    <img src="{{ neighbourhood.image }}"/>
+    <ul>
+        <li>Neighbourhood Name: {{ neighbourhood.name }}</li>
+        <li>Neighbourhood Code: {{ neighbourhood.code }}</li>
+        <li>Neighbourhood Sector: {{ neighbourhood.sector }}</li>     
+        <li>Neighbourhood Created At: {{ neighbourhood.created_at }}</li>    
+        <li>Neighbourhood Updated At: {{ neighbourhood.updated_at }}</li>                               
+    </ul>>
+{% endblock %}
