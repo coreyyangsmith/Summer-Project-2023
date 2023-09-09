@@ -1,7 +1,11 @@
 from django.shortcuts import render
-from .models import User, Vote, Neighbourhood
-
+from .models import *
+from .serializers import *
 from django.utils import timezone
+
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from rest_framework import status
 
 # Create your views here.
 def index(response, id):
@@ -22,3 +26,22 @@ def vote(request, comm_code):
 def frontend_test(request):
     context = {}
     return render(request, "index.html", context)
+
+### REST CALLS
+#-- Post --#
+@api_view(['GET', 'POST'])
+def neighbourhoods_list(request):
+    if request.method == 'GET':
+        data = Neighbourhood.objects.all()
+        serializer = NeighbourhoodSerializer(data, context={'request': request}, many=True)
+        return Response(serializer.data)
+
+    elif request.method == 'POST':
+        serializer = NeighbourhoodSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(status=status.HTTP_201_CREATED)
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST) 
+
+## TODO neighbourhoods_details
