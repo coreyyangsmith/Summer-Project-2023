@@ -1,9 +1,9 @@
-export default function CommunityForum() {
-    return (
-        <>
-        <h1>Welcome to the Landing Page</h1>
-        
-        
-        </>
-    )
+import React from 'react'
+
+const Landing = () => {
+  return (
+    <div>Landing</div>
+  )
 }
+
+export default Landing
