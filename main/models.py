@@ -1,52 +1,49 @@
 from django.db import models
-# from django.contrib.gis.db import models
 import datetime
 from django.utils import timezone
 
+from django.contrib.auth.models import User
 
-
-# Create your models here.
-# TODO Corey | refactor user to extend Django base user class
-class User(models.Model):
-    first_name = models.CharField(max_length = 50)
-    last_name = models.CharField(max_length = 50)
-    email = models.CharField(max_length = 62)
-    num_votes = models.IntegerField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.first_name + " " + self.last_name
-
-class Neighbourhood(models.Model):
+class Community(models.Model):
     code = models.CharField(max_length = 3, default="AAA")    
     name = models.CharField(max_length = 40, default="DEFAULT")
     image = models.ImageField()
     sector = models.CharField(max_length=9, default="DEFAULT")
-    # location = models.PointField() # lat long data for neighbourhood geographic 'centre'
-    # multipolygon = models.MultiPolygonField() # multipolygon boundary
+
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    profiles = models.ManyToManyField('Profile', through='ProfileCommunity', blank=False)
+
     def __str__(self):
         return self.code + "-" + self.name
+    
+class Profile(models.Model):
+    user = models.OneToOneField(User, null=True, on_delete=models.CASCADE)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    communities = models.ManyToManyField('Community', through='ProfileCommunity', blank=False),
+    
+    def __str__(self):
+        return self.first_name + " " + self.last_name    
 
 class Vote(models.Model):
-    neighbourhood_key = models.ForeignKey(Neighbourhood, on_delete = models.CASCADE)
+    community_key = models.ForeignKey(Community, on_delete = models.CASCADE)
     # user_id = models.ForeignKey(User, on_delete = models.CASCADE)
     vote_time = models.DateTimeField("Timestamp when user submitted")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)    
 
     def __str__(self):
-        return self.neighbourhood_key.name
+        return self.community_key.name
 
     def timestamp(self):
         return self.vote_time >= timezone.now() - datetime.timedelta(days=1)
     
 class Metric(models.Model):
     name = models.CharField(max_length=20)
-    neighourhood_key = models.ForeignKey(Neighbourhood, on_delete = models.CASCADE)
+    community_key = models.ForeignKey(Community, on_delete = models.CASCADE)
     actual_value = models.FloatField()
     actual_wgt = models.FloatField()
     perceived_value = models.FloatField()
@@ -78,3 +75,13 @@ class Question(models.Model):
 
     def __str__(self):
         return str(self.id) + "-" + self.name + "-" + str(self.quiz_id.id)
+    
+class ProfileCommunity(models.Model):
+    profile_id = models.ForeignKey(Profile, on_delete=models.CASCADE)
+    community_id = models.ForeignKey(Community, on_delete=models.CASCADE)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.profile_id.user.first_name + "-" + self.community_id.name  
+    

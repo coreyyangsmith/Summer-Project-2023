@@ -17,7 +17,7 @@ def home(request):
 
 def vote(request, comm_code):
     _, created = Vote.objects.get_or_create(
-                    neighbourhood_key = Neighbourhood.objects.get(code=comm_code),
+                    community_key = Community.objects.get(code=comm_code),
                     vote_time=timezone.now(),
                     created_at=timezone.now(),
                     updated_at=timezone.now())
@@ -30,14 +30,14 @@ def frontend_test(request):
 ### REST CALLS
 #-- Post --#
 @api_view(['GET', 'POST'])
-def neighbourhoods_list(request):
+def communities_list(request):
     if request.method == 'GET':
-        data = Neighbourhood.objects.all()
-        serializer = NeighbourhoodSerializer(data, context={'request': request}, many=True)
+        data = Community.objects.all()
+        serializer = CommunitySerializer(data, context={'request': request}, many=True)
         return Response(serializer.data)
 
     elif request.method == 'POST':
-        serializer = NeighbourhoodSerializer(data=request.data)
+        serializer = CommunitySerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(status=status.HTTP_201_CREATED)

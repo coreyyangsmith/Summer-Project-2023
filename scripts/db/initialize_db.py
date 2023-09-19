@@ -1,5 +1,5 @@
 import django
-from scripts.seeding import load_neighbourhoods, load_categories
+from scripts.seeding import load_communities, load_categories
 
 '''
 Initialize DB with Necessary Data
@@ -14,6 +14,6 @@ Populate local database with necessary data.
 django.setup()
 
 def run():
-    load_neighbourhoods.run()
+    load_communities.run()
     load_categories.run()
 

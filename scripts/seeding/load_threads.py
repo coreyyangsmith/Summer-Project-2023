@@ -1,7 +1,7 @@
 # Script to batch import and populate Thread model based on imported .csv data
 import csv
 from forum.models import Thread, Category
-from main.models import Neighbourhood
+from main.models import Community
 from django.utils import timezone
 
 '''
@@ -24,7 +24,7 @@ def run():
                 name=row[2],
                 created_at=timezone.now(),
                 updated_at=timezone.now(),
-                category=Category.objects.get(name=row[1], neighbourhood=Neighbourhood.objects.get(code=row[0])),
+                category=Category.objects.get(name=row[1], community=Community.objects.get(code=row[0])),
             )       
     print("'Thread' loaded successfully.")
 

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from main.models import Vote, Neighbourhood
+from main.models import Vote, Community
 from django.db.models import Count
 
 '''
@@ -12,12 +12,12 @@ url: /results
 
 def index(response):
 
-    top_communities = Vote.objects.all().values('neighbourhood_key').annotate(total=Count('neighbourhood_key')).order_by('-total')[:10]
+    top_communities = Vote.objects.all().values('community_key').annotate(total=Count('community_key')).order_by('-total')[:10]
    
     community_data = []
     for communities in top_communities:
-        code = communities.get("neighbourhood_key")
-        community_data.append(Neighbourhood.objects.all().filter(id=code).values('code'))
+        code = communities.get("community_key")
+        community_data.append(Community.objects.all().filter(id=code).values('code'))
 
     final_community_data = []
     for community in community_data:

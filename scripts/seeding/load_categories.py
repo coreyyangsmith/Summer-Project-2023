@@ -1,7 +1,7 @@
 # Script to batch import and populate Category model based on imported .csv data
 import csv
 from forum.models import Category
-from main.models import Neighbourhood
+from main.models import Community
 from django.utils import timezone
 
 '''
@@ -24,7 +24,7 @@ def run():
                 name=row[1],
                 created_at=timezone.now(),
                 updated_at=timezone.now(),
-                neighbourhood=Neighbourhood.objects.get(code=row[0]),
+                community=Community.objects.get(code=row[0]),
             )       
     print("'Category' loaded successfully.")
 

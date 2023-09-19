@@ -75,15 +75,15 @@ def posts_list(request):
 # later and potentially use an API (djangorestframework) to send this data
 # to the frontend (React) to be rendered.
 
-class NeighbourhoodListView(ListView): # TODO Corey | Add User Auth, filter view based on user permission
-    model = Neighbourhood
+class CommunityListView(ListView): # TODO Corey | Add User Auth, filter view based on user permission
+    model = Community
 
-class NeigbourhoodDetailView(DetailView):
-    model = Neighbourhood    
+class CommunityDetailView(DetailView):
+    model = Community    
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)   
         pk = self.kwargs['pk']              
-        context["neighbourhood"] = Neighbourhood.objects.get(pk=pk)      
+        context["community"] = Community.objects.get(pk=pk)      
         return context      
 
 class CategoryListView(ListView):
@@ -94,8 +94,8 @@ class CategoryListView(ListView):
         code = code[:-1]
         code = code.rsplit('/', 1)[-1]         
 
-        self.neighbourhood = get_object_or_404(Neighbourhood, code=code)
-        return Category.objects.filter(neighbourhood=self.neighbourhood)
+        self.community = get_object_or_404(Community, code=code)
+        return Category.objects.filter(community=self.community)
 
 class ThreadListView(ListView):
     model = Thread

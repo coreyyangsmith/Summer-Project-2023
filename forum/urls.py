@@ -4,12 +4,12 @@ from . import views
 
 urlpatterns = [
 
-    path("", views.NeighbourhoodListView.as_view(), name="neigbourhoods"), # /forum/
+    path("", views.CommunityListView.as_view(), name="communities"), # /forum/
     re_path(r'^[A-Z]{3}/$', views.CategoryListView.as_view(), name="categories"), # /forum/COU/ 
     re_path(r'^[A-Z]{3}/\d+/$', views.ThreadListView.as_view(), name="threads"), # /forum/COU/1234/
     re_path(r'^[A-Z]{3}/\d+/\d+', views.PostListView.as_view(), name="posts"), # /forum/COU/1234/123
     
-    path('<pk>/detail/', views.NeigbourhoodDetailView.as_view(),  name='neighbourhood-detail'), #/forum/1/
+    path('<pk>/detail/', views.CommunityDetailView.as_view(),  name='community-detail'), #/forum/1/
     
     re_path(r'^api/categories/$', views.categories_list),
     #re_path(r'^api/categories/([0-9])$', views.sessions_detail),  

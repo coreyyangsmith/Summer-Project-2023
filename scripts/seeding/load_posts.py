@@ -1,7 +1,7 @@
 # Script to batch import and populate Post model based on imported .csv data
 import csv
 from forum.models import Post, Thread, Category
-from main.models import Neighbourhood
+from main.models import Community
 from django.utils import timezone
 
 '''
@@ -26,7 +26,7 @@ def run():
                 updated_at=timezone.now(),
                 thread=Thread.objects.get(name=row[2], category=
                     Category.objects.get(name=row[1], neighbourhood=
-                        Neighbourhood.objects.get(code=row[0]))),
+                        Community.objects.get(code=row[0]))),
             )       
     print("'Post' loaded successfully.")
 

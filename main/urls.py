@@ -12,8 +12,8 @@ urlpatterns = [
     path("<int:id>", views.index, name="index"),
     re_path(r"vote/(?P<comm_code>[A-Z]{3})", views.vote, name="vote"), #/vote/COU
 
-    re_path(r'^api/neighbourhoods/$', views.neighbourhoods_list), # /api/neighbourhoods/
-    #re_path(r'^api/neighbourhoods/([0-9])$', views.neighbourhoods_detail),  #   
+    re_path(r'^api/communities/$', views.communities_list), # /api/communities/
+    #re_path(r'^api/communities/([0-9])$', views.communities_detail),  #   
 
 ]
 urlpatterns += staticfiles_urlpatterns()

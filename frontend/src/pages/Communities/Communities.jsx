@@ -1,4 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+useEffect(() => {
+  fetchCommunities(() => {
+
+  })
+
+  fetchCommunities();
+
+}, [])
 
 const Communities = () => {
   return (

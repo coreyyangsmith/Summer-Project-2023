@@ -39,9 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Main App
     'main.apps.MainConfig',
     'results.apps.ResultsConfig',
     'forum.apps.ForumConfig',
+
+    # Third Party
     'corsheaders', #need this for back-end API
     'rest_framework', #need this for back-end API, to create REST calls
 ]

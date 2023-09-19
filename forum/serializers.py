@@ -4,7 +4,7 @@ from .models import *
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ('id', 'name', 'neighbourhood',
+        fields = ('id', 'name', 'community',
                   'created_at', 'updated_at')
         
 class ThreadSerializer(serializers.ModelSerializer):
