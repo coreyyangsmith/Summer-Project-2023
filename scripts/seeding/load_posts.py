@@ -25,7 +25,7 @@ def run():
                 created_at=timezone.now(),
                 updated_at=timezone.now(),
                 thread=Thread.objects.get(name=row[2], category=
-                    Category.objects.get(name=row[1], neighbourhood=
+                    Category.objects.get(name=row[1], community=
                         Community.objects.get(code=row[0]))),
             )       
     print("'Post' loaded successfully.")

@@ -19,7 +19,7 @@ def run():
 
         _, created = Vote.objects.get_or_create(
             
-            neighbourhood_key= random_community,
+            community_key= random_community,
             vote_time=timezone.now(),
             created_at=timezone.now(),
             updated_at=timezone.now(),

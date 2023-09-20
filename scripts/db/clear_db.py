@@ -1,5 +1,5 @@
 import django
-from main.models import Neighbourhood, Vote
+from main.models import Community, Vote
 
 '''
 Clear Database
@@ -15,7 +15,7 @@ django.setup()
 
 def run():
     # Step 1: Delete All Existing Data
-    Neighbourhood.objects.all().delete()
+    Community.objects.all().delete()
     Vote.objects.all().delete()
     # TODO Corey | Metric.objects.all().delete()
     # TODO Corey | Question.objects.all().delete()

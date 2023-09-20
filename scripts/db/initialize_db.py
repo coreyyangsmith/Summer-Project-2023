@@ -1,5 +1,5 @@
 import django
-from scripts.seeding import load_communities, load_categories
+from scripts.seeding import load_communities, load_categories, load_users
 
 '''
 Initialize DB with Necessary Data
@@ -16,4 +16,5 @@ django.setup()
 def run():
     load_communities.run()
     load_categories.run()
+    load_users.run()
 
