@@ -2,12 +2,12 @@
 import axios from 'axios'
 
 {/* 
-src/api/posts.js
-Responsible for setting up Axios' baseURL to be utilized throughout the project.
+src/api/naked.js
+Responsible for setting up Axios' baseURL to be utilized for items without a needed base!
 */}
 
 const axiosClient = axios.create({
-    baseURL : `http://127.0.0.1:8000/api/`
+    baseURL : ``
 });
 
 export function getRequest(URL, payload) {
