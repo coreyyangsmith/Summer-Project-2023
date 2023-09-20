@@ -13,20 +13,20 @@ const CommunityCard = (props) => {
     const theme = createTheme();
 
     theme.typography.h3 = {
-    fontSize: '1.2rem',
+    fontSize: '0.9rem',
     '@media (min-width:600px)': {
-        fontSize: '1.5rem',
+        fontSize: '1.3rem',
     },
     [theme.breakpoints.up('md')]: {
-        fontSize: '2.4rem',
+        fontSize: '2.1rem',
     },
     };
 
     const paperSX = {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        boxShadow: 3,
+        alignItems: 'center',        
+        boxShadow: 3,       
         "&:hover": {
           boxShadow: 12,
         },
@@ -39,7 +39,7 @@ const CommunityCard = (props) => {
         justifyContent: 'center',
         overflow: "hidden", 
         textOverflow: "ellipsis", 
-    
+        objectFit: 'cover'
     };
 
     const typographySX = {
@@ -52,18 +52,19 @@ const CommunityCard = (props) => {
 
 
     return(
-        <Grid item xs={6}> 
+        <Grid item xs={4}> 
             <ThemeProvider theme={theme}>
                 <Paper sx={paperSX}>
                     <Box component="img"
-                        padding={1}
+                        padding={0.5}
                         sx={boxSX}
+                        className='blue-container'
                         src={"http://127.0.0.1:8000/media/community_images/" + props.community.code + ".png"}/>
                         <Typography noWrap 
                                     variant="h3"
                                     sx={typographySX}>
                             {props.community.name}
-                        </Typography>
+                        </Typography>                       
                 </Paper>     
             </ThemeProvider>            
         </Grid>                

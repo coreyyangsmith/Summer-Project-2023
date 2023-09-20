@@ -13,7 +13,7 @@ const CommunityPage = (props) => {
   console.log("loading CommunityPage");
 
 
-  // Map incoming
+  // Map Incoming
   const myCommunities = props.communities.map(community => {
     return (
     <React.Fragment key={community.pk}> 
