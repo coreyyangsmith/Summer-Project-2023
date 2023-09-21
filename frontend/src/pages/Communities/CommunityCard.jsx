@@ -17,8 +17,6 @@ const CommunityCard = (props) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        console.log(props.community.code);
-        console.log(props.community.id);
         navigate('/communities/' + props.community.code, { state: { id: props.community.id }});      
     }
 
@@ -68,13 +66,13 @@ const CommunityCard = (props) => {
                     <Box component="img"
                         padding={0.5}
                         sx={boxSX}
-                        className='blue-container'
+                        className='blur-container'
                         onClick={handleClick}
                         src={"http://127.0.0.1:8000/media/community_images/" + props.community.code + ".png"}/>
                         <Typography noWrap 
                                     variant="h3"
                                     sx={typographySX}>
-                            {props.community.id}
+                            {props.community.name}
                         </Typography>                       
                 </Paper>     
             </ThemeProvider>            

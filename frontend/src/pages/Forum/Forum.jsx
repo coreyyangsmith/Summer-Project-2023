@@ -14,7 +14,6 @@ export default function Forum(props) {
     const { id } = state; // Read values passed on state
 
     console.log("loading Forum")
-    console.log(props.id);
     var communityID = id; // TODO | TO DYNAMICALLY LOAD IN LATER
 
     const [categories, setCategories] = useState([]);

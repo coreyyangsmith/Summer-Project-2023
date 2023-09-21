@@ -5,26 +5,26 @@ import React from 'react'
 import Categories from "./Categories"
 import ForumCard from './ForumCard'
 
+// MUI Import
+import { Grid } from '@mui/material'
+
 const ForumPage = (props) => {
   console.log("loading forum page")
 
   
     // Map Incoming
-    const myCommunities = props.categories.map(category => {
+    const myCategories = props.categories.map(category => {
       return (
       <React.Fragment key={category.pk}> 
         <ForumCard category={category}/>
       </React.Fragment>
     )})   
 
-
-
-
-
-
   return (
     <>
-      {myCommunities}
+  <Grid container spacing={2}>
+        {myCategories}
+    </Grid>
     </>
   )
 }

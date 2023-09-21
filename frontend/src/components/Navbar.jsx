@@ -17,7 +17,7 @@ import Diversity1Icon from '@mui/icons-material/Diversity1'; //Main Logo Icon
 import { Link } from 'react-router-dom';
 
 // Page Setup
-const pages = ['Home', 'Communities', 'Forum'];
+const pages = ['Home', 'Communities'];
 const settings = ['Profile', 'Logout'];
 
 function Navbar() {
