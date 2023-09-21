@@ -59,6 +59,7 @@ const App = () => {
             <Route path="/" element={<Landing />} />
             <Route path="/home" element={<Home />} />            
             <Route path="/communities" element={<Communities />} />
+            <Route path="/communities/:code" element={<Forum code={823}/>}/>     
             <Route path="/forum" element={<Forum />} />
 
             <Route path="/profile" element={<Profile />} />            

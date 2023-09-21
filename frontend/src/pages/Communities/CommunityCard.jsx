@@ -1,6 +1,9 @@
 // React Import 
 import React from 'react'
 
+// Routing
+import { useNavigate } from 'react-router-dom';
+
 // MUI Import
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid'
@@ -11,6 +14,13 @@ import { createTheme, ThemeProvider } from '@mui/material';
 const CommunityCard = (props) => {
 
     const theme = createTheme();
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        console.log(props.community.code);
+        console.log(props.community.id);
+        navigate('/communities/' + props.community.code, { state: { id: props.community.id }});      
+    }
 
     theme.typography.h3 = {
     fontSize: '0.9rem',
@@ -59,11 +69,12 @@ const CommunityCard = (props) => {
                         padding={0.5}
                         sx={boxSX}
                         className='blue-container'
+                        onClick={handleClick}
                         src={"http://127.0.0.1:8000/media/community_images/" + props.community.code + ".png"}/>
                         <Typography noWrap 
                                     variant="h3"
                                     sx={typographySX}>
-                            {props.community.name}
+                            {props.community.id}
                         </Typography>                       
                 </Paper>     
             </ThemeProvider>            

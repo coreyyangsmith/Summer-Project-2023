@@ -7,11 +7,15 @@ import ForumPage from "./ForumPage";
 
 // API
 import { getRequest } from "../../api/posts"
+import { useLocation } from 'react-router-dom';
 
-export default function Forum() {
-    console.log("loading topics")
+export default function Forum(props) {
+    const {state} = useLocation();
+    const { id } = state; // Read values passed on state
 
-    var communityID = 798; // TODO | TO DYNAMICALLY LOAD IN LATER
+    console.log("loading Forum")
+    console.log(props.id);
+    var communityID = id; // TODO | TO DYNAMICALLY LOAD IN LATER
 
     const [categories, setCategories] = useState([]);
     const [communities, setCommunities] = useState([]);    
