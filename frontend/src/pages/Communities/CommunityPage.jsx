@@ -10,17 +10,19 @@ import CommunityFilter from './CommunityFilter'
 
 // Community Page Holds Page Logic
 const CommunityPage = (props) => {
-  console.log("loading CommunityPage");
 
-
-  // Map Incoming
-  const myCommunities = props.communities.map(community => {
-    return (
-    <React.Fragment key={community.pk}> 
-      <CommunityCard community={community}/>
-    </React.Fragment>
-  )})   
-
+  let myCommunities = <p>Loading...</p>;
+  
+  if (props.communities != undefined)
+  {
+    // Map Incoming
+    myCommunities = props.communities.map(community => {
+      return (
+      <React.Fragment key={community.pk}> 
+        <CommunityCard community={community}/>
+      </React.Fragment>
+    )})   
+  }
 
   return (
   <>
