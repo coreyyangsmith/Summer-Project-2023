@@ -26,6 +26,8 @@ def run():
                 sector=row[3],
                 created_at=timezone.now(),
                 updated_at=timezone.now(),
+                longitude=row[6],
+                latitude=row[7],
             )       
     print("'Community' loaded successfully.")            
     

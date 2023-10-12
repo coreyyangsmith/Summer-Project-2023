@@ -1,193 +1,193 @@
-ERL,ERLTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/erlton-calgary-alberta.jpg/,CENTRE,2012-09-04 06:00:00.000000-08:00,2012-09-04 06:00:00.000000-08:00
-COA,COACH HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/coach-hill-calgary-alberta.jpg/,WEST,2012-09-04 06:00:00.000000-08:01,2012-09-04 06:00:00.000000-08:01
-DIA,DIAMOND COVE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/diamond-cove-calgary-alberta.jpg/,SOUTH,2012-09-04 06:00:00.000000-08:02,2012-09-04 06:00:00.000000-08:02
-THO,THORNCLIFFE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/thorncliffe-calgary-alberta.jpg/,NORTH,2012-09-04 06:00:00.000000-08:03,2012-09-04 06:00:00.000000-08:03
-FHT,FOREST HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/forest-heights-calgary-alberta.jpg/,EAST,2012-09-04 06:00:00.000000-08:04,2012-09-04 06:00:00.000000-08:04
-HAY,HAYSBORO,https://royallepagebenchmark.ca/wp-content/uploads/2021/01/haysboro-calgary-alberta.jpg/,SOUTH,2012-09-04 06:00:00.000000-08:05,2012-09-04 06:00:00.000000-08:05
-CSC,CITYSCAPE,https://royallepagebenchmark.ca/wp-content/uploads/2020/10/cityscape-calgary-alberta.png/,NORTHEAST,2012-09-04 06:00:00.000000-08:06,2012-09-04 06:00:00.000000-08:06
-BLM,BELMONT,https://royallepagebenchmark.ca/wp-content/uploads/2022/08/belmont-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:07,2012-09-04 06:00:00.000000-08:07
-DOV,DOVER,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/dover-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:08,2012-09-04 06:00:00.000000-08:08
-MRT,MARTINDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/martindale-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:09,2012-09-04 06:00:00.000000-08:09
-WAL,WALDEN,royallepagebenchmark.ca/wp-content/uploads/2021/01/walden-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:10,2012-09-04 06:00:00.000000-08:10
-VAR,VARSITY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/varsity-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:11,2012-09-04 06:00:00.000000-08:11
-COL,COLLINGWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/collingwood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:12,2012-09-04 06:00:00.000000-08:12
-QLD,QUEENSLAND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/queensland-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:13,2012-09-04 06:00:00.000000-08:13
-WOO,WOODLANDS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/woodlands-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:14,2012-09-04 06:00:00.000000-08:14
-OAK,OAKRIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/oakridge-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:15,2012-09-04 06:00:00.000000-08:15
-SOW,SOUTHWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/southwood-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:16,2012-09-04 06:00:00.000000-08:16
-RDL,ROSEDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/rosedale-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:17,2012-09-04 06:00:00.000000-08:17
-APP,APPLEWOOD PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/applewood-park-calgary-alberta.png,EAST,2012-09-04 06:00:00.000000-08:18,2012-09-04 06:00:00.000000-08:18
-RID,RIDEAU PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/rideau-park-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:19,2012-09-04 06:00:00.000000-08:19
-ARB,ARBOUR LAKE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/arbour-lake-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:20,2012-09-04 06:00:00.000000-08:20
-BVD,BELVEDERE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/belvedere-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:21,2012-09-04 06:00:00.000000-08:21
-CPF,COPPERFIELD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/copperfield-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:22,2012-09-04 06:00:00.000000-08:22
-SIG,SIGNAL HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/signal-hill-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:23,2012-09-04 06:00:00.000000-08:23
-CAM,CAMBRIAN HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/cambrian-heights-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:24,2012-09-04 06:00:00.000000-08:24
-BRT,BRITANNIA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/britannia-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:25,2012-09-04 06:00:00.000000-08:25
-WBN,WOODBINE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/woodbine-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:26,2012-09-04 06:00:00.000000-08:26
-RUN,RUNDLE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/rundle-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:27,2012-09-04 06:00:00.000000-08:27
-ERI,ERIN WOODS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/erin-woods-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:28,2012-09-04 06:00:00.000000-08:28
-PIN,PINERIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/pineridge-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:29,2012-09-04 06:00:00.000000-08:29
-HIW,HIGHWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/highwood-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:30,2012-09-04 06:00:00.000000-08:30
-MAL,MAYLAND HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/mayland-heights-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:31,2012-09-04 06:00:00.000000-08:31
-MAC,MACEWAN GLEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/macewan-glen-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:32,2012-09-04 06:00:00.000000-08:32
-DRG,DEER RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/deer-ridge-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:33,2012-09-04 06:00:00.000000-08:33
-MOP,MOUNT PLEASANT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/mount-pleasant-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:34,2012-09-04 06:00:00.000000-08:34
-SOV,SOUTHVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/southview-clagary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:35,2012-09-04 06:00:00.000000-08:35
-EDG,EDGEMONT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/edgemont-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:36,2012-09-04 06:00:00.000000-08:36
-RED,RED CARPET,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/red-carpet-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:37,2012-09-04 06:00:00.000000-08:37
-SSD,SUNNYSIDE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/sunnyside-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:38,2012-09-04 06:00:00.000000-08:38
-CAP,CAPITOL HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/capitol-hill-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:39,2012-09-04 06:00:00.000000-08:39
-UMR,UPPER MOUNT ROYAL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/upper-mount-royal-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:40,2012-09-04 06:00:00.000000-08:40
-SAD,SADDLE RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/saddle-ridge-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:41,2012-09-04 06:00:00.000000-08:41
-BED,BEDDINGTON HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/beddington-heights-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:42,2012-09-04 06:00:00.000000-08:42
-PAT,PATTERSON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/patterson-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:43,2012-09-04 06:00:00.000000-08:43
-SOC,SOUTH CALGARY,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/south-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:44,2012-09-04 06:00:00.000000-08:44
-COR,CORAL SPRINGS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/coral-springs-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:45,2012-09-04 06:00:00.000000-08:45
-EAU,EAU CLAIRE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/eau-claire-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:46,2012-09-04 06:00:00.000000-08:46
-MCK,MCKENZIE LAKE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/mckenzie-lake-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:47,2012-09-04 06:00:00.000000-08:47
-MIS,MISSION,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/mission-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:48,2012-09-04 06:00:00.000000-08:48
-GBK,GLENBROOK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glenbrook-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:49,2012-09-04 06:00:00.000000-08:49
-TUX,TUXEDO PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/tuxedo-park-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:50,2012-09-04 06:00:00.000000-08:50
-DNE,DOWNTOWN EAST VILLAGE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/downtown-east-village-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:51,2012-09-04 06:00:00.000000-08:51
-LPK,LINCOLN PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/lincoln-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:52,2012-09-04 06:00:00.000000-08:52
-STR,STRATHCONA PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/strathcona-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:53,2012-09-04 06:00:00.000000-08:53
-CHR,CHRISTIE PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/christie-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:54,2012-09-04 06:00:00.000000-08:54
-SHG,SHAGANAPPI,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/shaganappi-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:55,2012-09-04 06:00:00.000000-08:55
-ING,INGLEWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/inglewood-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:56,2012-09-04 06:00:00.000000-08:56
-SOM,SOMERSET,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/somerset-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:57,2012-09-04 06:00:00.000000-08:57
-SAN,SANDSTONE VALLEY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/sandstone-valley-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:58,2012-09-04 06:00:00.000000-08:58
-SDC,SUNDANCE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/sundance-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:59,2012-09-04 06:00:00.000000-08:59
-ASP,ASPEN WOODS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/aspen-woods-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:60,2012-09-04 06:00:00.000000-08:60
-UOC,UNIVERSITY OF CALGARY,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/calgary-university-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:61,2012-09-04 06:00:00.000000-08:61
-WHL,WEST HILLHURST,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/west-hillhurst-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:62,2012-09-04 06:00:00.000000-08:62
-RCK,ROSSCARROCK,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/rosscarrock-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:63,2012-09-04 06:00:00.000000-08:63
-CAN,CANYON MEADOWS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/canyon-meadows-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:64,2012-09-04 06:00:00.000000-08:64
-FAI,FAIRVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/fairview-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:65,2012-09-04 06:00:00.000000-08:65
-BEL,BEL-AIRE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/bel-aire-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:66,2012-09-04 06:00:00.000000-08:66
-MOR,MONTEREY PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/montery-park-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:67,2012-09-04 06:00:00.000000-08:67
-DIS,DISCOVERY RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/discovery-ridge-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:68,2012-09-04 06:00:00.000000-08:68
-HPK,HIGHLAND PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/highland-park-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:69,2012-09-04 06:00:00.000000-08:69
-HUN,HUNTINGTON HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/huntington-hills-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:70,2012-09-04 06:00:00.000000-08:70
-GRV,GREENVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/greenview-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:71,2012-09-04 06:00:00.000000-08:71
-SGH,SAGE HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/sage-hill-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:72,2012-09-04 06:00:00.000000-08:72
-MID,MIDNAPORE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/midnapore-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:73,2012-09-04 06:00:00.000000-08:73
-STA,ST. ANDREWS HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/saint-andrews-heights-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:74,2012-09-04 06:00:00.000000-08:74
-EPK,ELBOW PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/elbow-park-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:75,2012-09-04 06:00:00.000000-08:75
-DRN,DEER RUN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/deer-run-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:76,2012-09-04 06:00:00.000000-08:76
-BYV,BAYVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/bayview-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:77,2012-09-04 06:00:00.000000-08:77
-WLD,WILDWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/wildwood-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:78,2012-09-04 06:00:00.000000-08:78
-MLR,MILLRISE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/millrise-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:79,2012-09-04 06:00:00.000000-08:79
-SET,SETON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/seton-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:80,2012-09-04 06:00:00.000000-08:80
-CRA,CRANSTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/cranston-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:81,2012-09-04 06:00:00.000000-08:81
-REN,RENFREW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/renfrew-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:82,2012-09-04 06:00:00.000000-08:82
-ACA,ACADIA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/acadia-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:83,2012-09-04 06:00:00.000000-08:83
-COU,COUNTRY HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/country-hills-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:84,2012-09-04 06:00:00.000000-08:84
-BDO,BONAVISTA DOWNS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/bonavista-downs-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:85,2012-09-04 06:00:00.000000-08:85
-WGT,WESTGATE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/westgate-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:86,2012-09-04 06:00:00.000000-08:86
-LEG,LEGACY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/legacy-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:87,2012-09-04 06:00:00.000000-08:87
-CAR,CARRINGTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/carrington-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:88,2012-09-04 06:00:00.000000-08:88
-KSH,KEYSTONE HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/northeast-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:89,2012-09-04 06:00:00.000000-08:89
-RSN,REDSTONE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/redstone-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:90,2012-09-04 06:00:00.000000-08:90
-WSP,WEST SPRINGS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/west-springs-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:91,2012-09-04 06:00:00.000000-08:91
-PUM,PUMP HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/pump-hill-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:92,2012-09-04 06:00:00.000000-08:92
-GDL,GLENDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glendale-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:93,2012-09-04 06:00:00.000000-08:93
-CRE,CRESCENT HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/crescent-heights-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:94,2012-09-04 06:00:00.000000-08:94
-LKB,LAKE BONAVISTA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/lake-bonavista-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:95,2012-09-04 06:00:00.000000-08:95
-DDG,DOUGLASDALE/GLEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glenbrook-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:96,2012-09-04 06:00:00.000000-08:96
-VAL,VALLEY RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/valley-ridge-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:97,2012-09-04 06:00:00.000000-08:97
-UND,UNIVERSITY DISTRICT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/university-district-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:98,2012-09-04 06:00:00.000000-08:98
-SCE,SCENIC ACRES,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/scenic-acres-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:99,2012-09-04 06:00:00.000000-08:99
-HAW,HAWKWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/hawkwood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:100,2012-09-04 06:00:00.000000-08:100
-SIL,SILVER SPRINGS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/silver-springs-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:101,2012-09-04 06:00:00.000000-08:101
-SKR,SKYVIEW RANCH,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/skyview-ranch-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:102,2012-09-04 06:00:00.000000-08:102
-CNS,CORNERSTONE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/cornerstone-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:103,2012-09-04 06:00:00.000000-08:103
-PCK,PINE CREEK,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/pine-creek-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:104,2012-09-04 06:00:00.000000-08:104
-MAH,MAHOGANY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/mahogany-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:105,2012-09-04 06:00:00.000000-08:105
-RAN,RANCHLANDS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/ranchlands-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:106,2012-09-04 06:00:00.000000-08:106
-LIV,LIVINGSTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/livingston-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:107,2012-09-04 06:00:00.000000-08:107
-HAM,HAMPTONS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/03/hamptons-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:108,2012-09-04 06:00:00.000000-08:108
-CIT,CITADEL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/citadel-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:109,2012-09-04 06:00:00.000000-08:109
-ROX,ROXBORO,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/roxboro-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:110,2012-09-04 06:00:00.000000-08:110
-SHN,SHAWNESSY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/shawnessy-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:111,2012-09-04 06:00:00.000000-08:111
-RIC,RICHMOND,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/richmond-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:112,2012-09-04 06:00:00.000000-08:112
-UNI,UNIVERSITY HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/university-heights-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:113,2012-09-04 06:00:00.000000-08:113
-FAL,FALCONRIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/falconridge-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:114,2012-09-04 06:00:00.000000-08:114
-CHK,CHINOOK PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/chinook-park-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:115,2012-09-04 06:00:00.000000-08:115
-WWO,WOLF WILLOW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/wolf-willow-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:116,2012-09-04 06:00:00.000000-08:116
-YKV,YORKVILLE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/yorkville-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:117,2012-09-04 06:00:00.000000-08:117
-FLN,FOREST LAWN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/forest-lawn-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:118,2012-09-04 06:00:00.000000-08:118
-WIL,WILLOW PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/willow-park-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:119,2012-09-04 06:00:00.000000-08:119
-ABB,ABBEYDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/abbeydale-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:120,2012-09-04 06:00:00.000000-08:120
-MON,MONTGOMERY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/montgomery-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:121,2012-09-04 06:00:00.000000-08:121
-HAR,HARVEST HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/harvest-hills-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:122,2012-09-04 06:00:00.000000-08:122
-OGD,OGDEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/ogden-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:123,2012-09-04 06:00:00.000000-08:123
-PEN,PENBROOKE MEADOWS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/penbrooke-meadows-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:124,2012-09-04 06:00:00.000000-08:124
-SHS,SHAWNEE SLOPES,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/shawnee-slopes-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:125,2012-09-04 06:00:00.000000-08:125
-BNF,BANFF TRAIL,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/banff-trail-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:126,2012-09-04 06:00:00.000000-08:126
-SPH,SPRINGBANK HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/springbank-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:127,2012-09-04 06:00:00.000000-08:127
-PKH,PARKHILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/parkhill-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:128,2012-09-04 06:00:00.000000-08:128
-NHV,NORTH HAVEN,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/north-haven-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:129,2012-09-04 06:00:00.000000-08:129
-LKV,LAKEVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/lakeview-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:130,2012-09-04 06:00:00.000000-08:130
-VIS,VISTA HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/vista-heights-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:131,2012-09-04 06:00:00.000000-08:131
-GLA,GLAMORGAN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glamorgan-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:132,2012-09-04 06:00:00.000000-08:132
-EYA,ELBOYA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/elboya-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:133,2012-09-04 06:00:00.000000-08:133
-CLI,CLIFF BUNGALOW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/cliff-bungalow-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:134,2012-09-04 06:00:00.000000-08:134
-RIV,RIVERBEND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/riverbend-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:135,2012-09-04 06:00:00.000000-08:135
-CHN,CHINATOWN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/chinatown-calgary-alberta.png.webp,CENTRE,2012-09-04 06:00:00.000000-08:136,2012-09-04 06:00:00.000000-08:136
-TEM,TEMPLE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/temple-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:137,2012-09-04 06:00:00.000000-08:137
-BRA,BRAESIDE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/braeside-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:138,2012-09-04 06:00:00.000000-08:138
-WND,WINDSOR PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/windsor-park-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:139,2012-09-04 06:00:00.000000-08:139
-BOW,BOWNESS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/bowness-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:140,2012-09-04 06:00:00.000000-08:140
-WHI,WHITEHORN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/whitehorn-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:141,2012-09-04 06:00:00.000000-08:141
-PKD,PARKDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/parkdale-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:142,2012-09-04 06:00:00.000000-08:142
-RMT,ROSEMONT,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/rosemont-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:143,2012-09-04 06:00:00.000000-08:143
-MPL,MAPLE RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/maple-ridge-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:144,2012-09-04 06:00:00.000000-08:144
-BRE,BRENTWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/brentwood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:145,2012-09-04 06:00:00.000000-08:145
-SCA,SCARBORO,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/scarboro-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:146,2012-09-04 06:00:00.000000-08:146
-POI,POINT MCKAY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/point-mckay-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:147,2012-09-04 06:00:00.000000-08:147
-RUT,RUTLAND PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/rutland-park-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:148,2012-09-04 06:00:00.000000-08:148
-RAM,RAMSAY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/ramsay-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:149,2012-09-04 06:00:00.000000-08:149
-MRL,MARLBOROUGH,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/marlborough-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:150,2012-09-04 06:00:00.000000-08:150
-MAN,MANCHESTER,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/manchester-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:151,2012-09-04 06:00:00.000000-08:151
-GAG,GARRISON GREEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/garrison-green-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:152,2012-09-04 06:00:00.000000-08:152
-SPR,SPRUCE CLIFF,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/spruce-cliff-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:153,2012-09-04 06:00:00.000000-08:153
-PKL,PARKLAND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/parkland-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:154,2012-09-04 06:00:00.000000-08:154
-CAS,CASTLERIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/castleridge-calgary-alberta.jpg.webp,NORTHEAST,2012-09-04 06:00:00.000000-08:155,2012-09-04 06:00:00.000000-08:155
-DAL,DALHOUSIE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/dalhousie-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:156,2012-09-04 06:00:00.000000-08:156
-PAL,PALLISER,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/palliser-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:157,2012-09-04 06:00:00.000000-08:157
-NGM,NORTH GLENMORE PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/north-glenmore-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:158,2012-09-04 06:00:00.000000-08:158
-ALT,ALTADORE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/altadore-calgary-alberta.jpg.webp,CENTRE,2012-09-04 06:00:00.000000-08:159,2012-09-04 06:00:00.000000-08:159
-CHW,CHARLESWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/charleswood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:160,2012-09-04 06:00:00.000000-08:160
-CED,CEDARBRAE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/cedarbrae-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:161,2012-09-04 06:00:00.000000-08:161
-SVO,SILVERADO,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/silverado-calgary-alberta.jpg.webp,SOUTH,2012-09-04 06:00:00.000000-08:162,2012-09-04 06:00:00.000000-08:162
-CRM,CRESTMONT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/crestmont-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:163,2012-09-04 06:00:00.000000-08:163
-KCA,KINCORA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/kincora-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:164,2012-09-04 06:00:00.000000-08:164
-DNW,DOWNTOWN WEST END,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/downtown-westend-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:165,2012-09-04 06:00:00.000000-08:165
-LMR,LOWER MOUNT ROYAL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/lower-mount-royal-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:166,2012-09-04 06:00:00.000000-08:166
-BNK,BANKVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/bankview-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:167,2012-09-04 06:00:00.000000-08:167
-BLN,BELTLINE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/beltline-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:168,2012-09-04 06:00:00.000000-08:168
-HIL,HILLHURST,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/hillhurst-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:169,2012-09-04 06:00:00.000000-08:169
-SNA,SUNALTA,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/sunalta-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:170,2012-09-04 06:00:00.000000-08:170
-NOL,NOLAN HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/nolan-hill-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:171,2012-09-04 06:00:00.000000-08:171
-COV,COVENTRY HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/coventry-hills-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:172,2012-09-04 06:00:00.000000-08:172
-MDH,MEDICINE HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/medicine-hill-caglgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:173,2012-09-04 06:00:00.000000-08:173
-ROY,ROYAL OAK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/royal-oak-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:174,2012-09-04 06:00:00.000000-08:174
-TAR,TARADALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/taradale-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:175,2012-09-04 06:00:00.000000-08:175
-CHV,COUNTRY HILLS VILLAGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/country-hills-village-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:176,2012-09-04 06:00:00.000000-08:176
-EVN,EVANSTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/evanston-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:177,2012-09-04 06:00:00.000000-08:177
-CGR,COUGAR RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/cougar-ridge-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:178,2012-09-04 06:00:00.000000-08:178
-ROC,ROCKY RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/rocky-ridge-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:179,2012-09-04 06:00:00.000000-08:179
-TUS,TUSCANY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/tuscany-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:180,2012-09-04 06:00:00.000000-08:180
-CHA,CHAPARRAL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/chaparral-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:181,2012-09-04 06:00:00.000000-08:181
-NEB,NEW BRIGHTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/new-brighton-calgary-alberta.png.webp,SOUTHEAST,2012-09-04 06:00:00.000000-08:182,2012-09-04 06:00:00.000000-08:182
-PAN,PANORAMA HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/panorama-hills-calgary-alberta.png.webp,NORTH,2012-09-04 06:00:00.000000-08:183,2012-09-04 06:00:00.000000-08:183
-SHW,SHERWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/sherwood-calgary-alberta.png.webp,NORTH,2012-09-04 06:00:00.000000-08:184,2012-09-04 06:00:00.000000-08:184
-BRI,BRIDLEWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/bridlewood-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:185,2012-09-04 06:00:00.000000-08:185
-EVE,EVERGREEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/evergreen-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:186,2012-09-04 06:00:00.000000-08:186
-AUB,AUBURN BAY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/auburn-bay-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:187,2012-09-04 06:00:00.000000-08:187
-MAF,MAYFAIR,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/mayfair-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:188,2012-09-04 06:00:00.000000-08:188
-EAG,EAGLE RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/eagle-ridge-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:189,2012-09-04 06:00:00.000000-08:189
-MEA,MEADOWLARK PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/meadowlark-park-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:190,2012-09-04 06:00:00.000000-08:190
-KEL,KELVIN GROVE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/kelvin-grove-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:191,2012-09-04 06:00:00.000000-08:191
-KIN,KINGSLAND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/kingsland-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:192,2012-09-04 06:00:00.000000-08:192
+ERL,ERLTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/erlton-calgary-alberta.jpg/,CENTRE,2012-09-04 06:00:00.000000-08:00,2012-09-04 06:00:00.000000-08:00,51.026333793586,-114.063146483044
+COA,COACH HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/coach-hill-calgary-alberta.jpg/,WEST,2012-09-04 06:00:00.000000-08:01,2012-09-04 06:00:00.000000-08:01,51.026333793586,-114.063146483044
+DIA,DIAMOND COVE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/diamond-cove-calgary-alberta.jpg/,SOUTH,2012-09-04 06:00:00.000000-08:02,2012-09-04 06:00:00.000000-08:02,51.026333793586,-114.063146483044
+THO,THORNCLIFFE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/thorncliffe-calgary-alberta.jpg/,NORTH,2012-09-04 06:00:00.000000-08:03,2012-09-04 06:00:00.000000-08:03,51.026333793586,-114.063146483044
+FHT,FOREST HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/forest-heights-calgary-alberta.jpg/,EAST,2012-09-04 06:00:00.000000-08:04,2012-09-04 06:00:00.000000-08:04,51.026333793586,-114.063146483044
+HAY,HAYSBORO,https://royallepagebenchmark.ca/wp-content/uploads/2021/01/haysboro-calgary-alberta.jpg/,SOUTH,2012-09-04 06:00:00.000000-08:05,2012-09-04 06:00:00.000000-08:05,51.026333793586,-114.063146483044
+CSC,CITYSCAPE,https://royallepagebenchmark.ca/wp-content/uploads/2020/10/cityscape-calgary-alberta.png/,NORTHEAST,2012-09-04 06:00:00.000000-08:06,2012-09-04 06:00:00.000000-08:06,51.026333793586,-114.063146483044
+BLM,BELMONT,https://royallepagebenchmark.ca/wp-content/uploads/2022/08/belmont-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:07,2012-09-04 06:00:00.000000-08:07,51.026333793586,-114.063146483044
+DOV,DOVER,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/dover-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:08,2012-09-04 06:00:00.000000-08:08,51.026333793586,-114.063146483044
+MRT,MARTINDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/martindale-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:09,2012-09-04 06:00:00.000000-08:09,51.026333793586,-114.063146483044
+WAL,WALDEN,royallepagebenchmark.ca/wp-content/uploads/2021/01/walden-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:10,2012-09-04 06:00:00.000000-08:10,51.026333793586,-114.063146483044
+VAR,VARSITY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/varsity-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:11,2012-09-04 06:00:00.000000-08:11,51.026333793586,-114.063146483044
+COL,COLLINGWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/collingwood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:12,2012-09-04 06:00:00.000000-08:12,51.026333793586,-114.063146483044
+QLD,QUEENSLAND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/queensland-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:13,2012-09-04 06:00:00.000000-08:13,51.026333793586,-114.063146483044
+WOO,WOODLANDS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/woodlands-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:14,2012-09-04 06:00:00.000000-08:14,51.026333793586,-114.063146483044
+OAK,OAKRIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/oakridge-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:15,2012-09-04 06:00:00.000000-08:15,51.026333793586,-114.063146483044
+SOW,SOUTHWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/southwood-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:16,2012-09-04 06:00:00.000000-08:16,51.026333793586,-114.063146483044
+RDL,ROSEDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/rosedale-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:17,2012-09-04 06:00:00.000000-08:17,51.026333793586,-114.063146483044
+APP,APPLEWOOD PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/applewood-park-calgary-alberta.png,EAST,2012-09-04 06:00:00.000000-08:18,2012-09-04 06:00:00.000000-08:18,51.026333793586,-114.063146483044
+RID,RIDEAU PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/rideau-park-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:19,2012-09-04 06:00:00.000000-08:19,51.026333793586,-114.063146483044
+ARB,ARBOUR LAKE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/arbour-lake-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:20,2012-09-04 06:00:00.000000-08:20,51.026333793586,-114.063146483044
+BVD,BELVEDERE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/belvedere-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:21,2012-09-04 06:00:00.000000-08:21,51.026333793586,-114.063146483044
+CPF,COPPERFIELD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/copperfield-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:22,2012-09-04 06:00:00.000000-08:22,51.026333793586,-114.063146483044
+SIG,SIGNAL HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/signal-hill-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:23,2012-09-04 06:00:00.000000-08:23,51.026333793586,-114.063146483044
+CAM,CAMBRIAN HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/cambrian-heights-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:24,2012-09-04 06:00:00.000000-08:24,51.026333793586,-114.063146483044
+BRT,BRITANNIA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/britannia-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:25,2012-09-04 06:00:00.000000-08:25,51.026333793586,-114.063146483044
+WBN,WOODBINE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/woodbine-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:26,2012-09-04 06:00:00.000000-08:26,51.026333793586,-114.063146483044
+RUN,RUNDLE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/rundle-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:27,2012-09-04 06:00:00.000000-08:27,51.026333793586,-114.063146483044
+ERI,ERIN WOODS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/erin-woods-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:28,2012-09-04 06:00:00.000000-08:28,51.026333793586,-114.063146483044
+PIN,PINERIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/pineridge-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:29,2012-09-04 06:00:00.000000-08:29,51.026333793586,-114.063146483044
+HIW,HIGHWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/highwood-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:30,2012-09-04 06:00:00.000000-08:30,51.026333793586,-114.063146483044
+MAL,MAYLAND HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/mayland-heights-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:31,2012-09-04 06:00:00.000000-08:31,51.026333793586,-114.063146483044
+MAC,MACEWAN GLEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/macewan-glen-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:32,2012-09-04 06:00:00.000000-08:32,51.026333793586,-114.063146483044
+DRG,DEER RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/deer-ridge-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:33,2012-09-04 06:00:00.000000-08:33,51.026333793586,-114.063146483044
+MOP,MOUNT PLEASANT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/mount-pleasant-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:34,2012-09-04 06:00:00.000000-08:34,51.026333793586,-114.063146483044
+SOV,SOUTHVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/southview-clagary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:35,2012-09-04 06:00:00.000000-08:35,51.026333793586,-114.063146483044
+EDG,EDGEMONT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/edgemont-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:36,2012-09-04 06:00:00.000000-08:36,51.026333793586,-114.063146483044
+RED,RED CARPET,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/red-carpet-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:37,2012-09-04 06:00:00.000000-08:37,51.026333793586,-114.063146483044
+SSD,SUNNYSIDE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/sunnyside-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:38,2012-09-04 06:00:00.000000-08:38,51.026333793586,-114.063146483044
+CAP,CAPITOL HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/capitol-hill-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:39,2012-09-04 06:00:00.000000-08:39,51.026333793586,-114.063146483044
+UMR,UPPER MOUNT ROYAL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/upper-mount-royal-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:40,2012-09-04 06:00:00.000000-08:40,51.026333793586,-114.063146483044
+SAD,SADDLE RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/saddle-ridge-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:41,2012-09-04 06:00:00.000000-08:41,51.026333793586,-114.063146483044
+BED,BEDDINGTON HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/beddington-heights-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:42,2012-09-04 06:00:00.000000-08:42,51.026333793586,-114.063146483044
+PAT,PATTERSON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/patterson-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:43,2012-09-04 06:00:00.000000-08:43,51.026333793586,-114.063146483044
+SOC,SOUTH CALGARY,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/south-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:44,2012-09-04 06:00:00.000000-08:44,51.026333793586,-114.063146483044
+COR,CORAL SPRINGS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/coral-springs-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:45,2012-09-04 06:00:00.000000-08:45,51.026333793586,-114.063146483044
+EAU,EAU CLAIRE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/eau-claire-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:46,2012-09-04 06:00:00.000000-08:46,51.026333793586,-114.063146483044
+MCK,MCKENZIE LAKE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/mckenzie-lake-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:47,2012-09-04 06:00:00.000000-08:47,51.026333793586,-114.063146483044
+MIS,MISSION,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/mission-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:48,2012-09-04 06:00:00.000000-08:48,51.026333793586,-114.063146483044
+GBK,GLENBROOK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glenbrook-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:49,2012-09-04 06:00:00.000000-08:49,51.026333793586,-114.063146483044
+TUX,TUXEDO PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/tuxedo-park-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:50,2012-09-04 06:00:00.000000-08:50,51.026333793586,-114.063146483044
+DNE,DOWNTOWN EAST VILLAGE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/downtown-east-village-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:51,2012-09-04 06:00:00.000000-08:51,51.026333793586,-114.063146483044
+LPK,LINCOLN PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/lincoln-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:52,2012-09-04 06:00:00.000000-08:52,51.026333793586,-114.063146483044
+STR,STRATHCONA PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/strathcona-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:53,2012-09-04 06:00:00.000000-08:53,51.026333793586,-114.063146483044
+CHR,CHRISTIE PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/christie-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:54,2012-09-04 06:00:00.000000-08:54,51.026333793586,-114.063146483044
+SHG,SHAGANAPPI,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/shaganappi-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:55,2012-09-04 06:00:00.000000-08:55,51.026333793586,-114.063146483044
+ING,INGLEWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/inglewood-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:56,2012-09-04 06:00:00.000000-08:56,51.026333793586,-114.063146483044
+SOM,SOMERSET,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/somerset-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:57,2012-09-04 06:00:00.000000-08:57,51.026333793586,-114.063146483044
+SAN,SANDSTONE VALLEY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/sandstone-valley-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:58,2012-09-04 06:00:00.000000-08:58,51.026333793586,-114.063146483044
+SDC,SUNDANCE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/sundance-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:59,2012-09-04 06:00:00.000000-08:59,51.026333793586,-114.063146483044
+ASP,ASPEN WOODS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/aspen-woods-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:60,2012-09-04 06:00:00.000000-08:60,51.026333793586,-114.063146483044
+UOC,UNIVERSITY OF CALGARY,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/calgary-university-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:61,2012-09-04 06:00:00.000000-08:61,51.026333793586,-114.063146483044
+WHL,WEST HILLHURST,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/west-hillhurst-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:62,2012-09-04 06:00:00.000000-08:62,51.026333793586,-114.063146483044
+RCK,ROSSCARROCK,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/rosscarrock-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:63,2012-09-04 06:00:00.000000-08:63,51.026333793586,-114.063146483044
+CAN,CANYON MEADOWS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/canyon-meadows-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:64,2012-09-04 06:00:00.000000-08:64,51.026333793586,-114.063146483044
+FAI,FAIRVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/fairview-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:65,2012-09-04 06:00:00.000000-08:65,51.026333793586,-114.063146483044
+BEL,BEL-AIRE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/bel-aire-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:66,2012-09-04 06:00:00.000000-08:66,51.026333793586,-114.063146483044
+MOR,MONTEREY PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/montery-park-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:67,2012-09-04 06:00:00.000000-08:67,51.026333793586,-114.063146483044
+DIS,DISCOVERY RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/discovery-ridge-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:68,2012-09-04 06:00:00.000000-08:68,51.026333793586,-114.063146483044
+HPK,HIGHLAND PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/highland-park-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:69,2012-09-04 06:00:00.000000-08:69,51.026333793586,-114.063146483044
+HUN,HUNTINGTON HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/huntington-hills-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:70,2012-09-04 06:00:00.000000-08:70,51.026333793586,-114.063146483044
+GRV,GREENVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/greenview-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:71,2012-09-04 06:00:00.000000-08:71,51.026333793586,-114.063146483044
+SGH,SAGE HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/sage-hill-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:72,2012-09-04 06:00:00.000000-08:72,51.026333793586,-114.063146483044
+MID,MIDNAPORE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/midnapore-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:73,2012-09-04 06:00:00.000000-08:73,51.026333793586,-114.063146483044
+STA,ST. ANDREWS HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/saint-andrews-heights-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:74,2012-09-04 06:00:00.000000-08:74,51.026333793586,-114.063146483044
+EPK,ELBOW PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/elbow-park-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:75,2012-09-04 06:00:00.000000-08:75,51.026333793586,-114.063146483044
+DRN,DEER RUN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/deer-run-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:76,2012-09-04 06:00:00.000000-08:76,51.026333793586,-114.063146483044
+BYV,BAYVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/bayview-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:77,2012-09-04 06:00:00.000000-08:77,51.026333793586,-114.063146483044
+WLD,WILDWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/wildwood-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:78,2012-09-04 06:00:00.000000-08:78,51.026333793586,-114.063146483044
+MLR,MILLRISE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/millrise-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:79,2012-09-04 06:00:00.000000-08:79,51.026333793586,-114.063146483044
+SET,SETON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/seton-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:80,2012-09-04 06:00:00.000000-08:80,51.026333793586,-114.063146483044
+CRA,CRANSTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/cranston-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:81,2012-09-04 06:00:00.000000-08:81,51.026333793586,-114.063146483044
+REN,RENFREW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/renfrew-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:82,2012-09-04 06:00:00.000000-08:82,51.026333793586,-114.063146483044
+ACA,ACADIA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/acadia-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:83,2012-09-04 06:00:00.000000-08:83,51.026333793586,-114.063146483044
+COU,COUNTRY HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/country-hills-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:84,2012-09-04 06:00:00.000000-08:84,51.026333793586,-114.063146483044
+BDO,BONAVISTA DOWNS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/bonavista-downs-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:85,2012-09-04 06:00:00.000000-08:85,51.026333793586,-114.063146483044
+WGT,WESTGATE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/westgate-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:86,2012-09-04 06:00:00.000000-08:86,51.026333793586,-114.063146483044
+LEG,LEGACY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/legacy-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:87,2012-09-04 06:00:00.000000-08:87,51.026333793586,-114.063146483044
+CAR,CARRINGTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/carrington-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:88,2012-09-04 06:00:00.000000-08:88,51.026333793586,-114.063146483044
+KSH,KEYSTONE HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/northeast-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:89,2012-09-04 06:00:00.000000-08:89,51.026333793586,-114.063146483044
+RSN,REDSTONE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/redstone-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:90,2012-09-04 06:00:00.000000-08:90,51.026333793586,-114.063146483044
+WSP,WEST SPRINGS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/west-springs-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:91,2012-09-04 06:00:00.000000-08:91,51.026333793586,-114.063146483044
+PUM,PUMP HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/pump-hill-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:92,2012-09-04 06:00:00.000000-08:92,51.026333793586,-114.063146483044
+GDL,GLENDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glendale-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:93,2012-09-04 06:00:00.000000-08:93,51.026333793586,-114.063146483044
+CRE,CRESCENT HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/crescent-heights-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:94,2012-09-04 06:00:00.000000-08:94,51.026333793586,-114.063146483044
+LKB,LAKE BONAVISTA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/lake-bonavista-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:95,2012-09-04 06:00:00.000000-08:95,51.026333793586,-114.063146483044
+DDG,DOUGLASDALE/GLEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glenbrook-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:96,2012-09-04 06:00:00.000000-08:96,51.026333793586,-114.063146483044
+VAL,VALLEY RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/valley-ridge-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:97,2012-09-04 06:00:00.000000-08:97,51.026333793586,-114.063146483044
+UND,UNIVERSITY DISTRICT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/university-district-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:98,2012-09-04 06:00:00.000000-08:98,51.026333793586,-114.063146483044
+SCE,SCENIC ACRES,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/scenic-acres-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:99,2012-09-04 06:00:00.000000-08:99,51.026333793586,-114.063146483044
+HAW,HAWKWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/hawkwood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:100,2012-09-04 06:00:00.000000-08:100,51.026333793586,-114.063146483044
+SIL,SILVER SPRINGS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/silver-springs-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:101,2012-09-04 06:00:00.000000-08:101,51.026333793586,-114.063146483044
+SKR,SKYVIEW RANCH,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/skyview-ranch-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:102,2012-09-04 06:00:00.000000-08:102,51.026333793586,-114.063146483044
+CNS,CORNERSTONE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/cornerstone-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:103,2012-09-04 06:00:00.000000-08:103,51.026333793586,-114.063146483044
+PCK,PINE CREEK,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/pine-creek-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:104,2012-09-04 06:00:00.000000-08:104,51.026333793586,-114.063146483044
+MAH,MAHOGANY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/mahogany-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:105,2012-09-04 06:00:00.000000-08:105,51.026333793586,-114.063146483044
+RAN,RANCHLANDS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/ranchlands-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:106,2012-09-04 06:00:00.000000-08:106,51.026333793586,-114.063146483044
+LIV,LIVINGSTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/livingston-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:107,2012-09-04 06:00:00.000000-08:107,51.026333793586,-114.063146483044
+HAM,HAMPTONS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/03/hamptons-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:108,2012-09-04 06:00:00.000000-08:108,51.026333793586,-114.063146483044
+CIT,CITADEL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/citadel-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:109,2012-09-04 06:00:00.000000-08:109,51.026333793586,-114.063146483044
+ROX,ROXBORO,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/roxboro-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:110,2012-09-04 06:00:00.000000-08:110,51.026333793586,-114.063146483044
+SHN,SHAWNESSY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/shawnessy-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:111,2012-09-04 06:00:00.000000-08:111,51.026333793586,-114.063146483044
+RIC,RICHMOND,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/richmond-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:112,2012-09-04 06:00:00.000000-08:112,51.026333793586,-114.063146483044
+UNI,UNIVERSITY HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/university-heights-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:113,2012-09-04 06:00:00.000000-08:113,51.026333793586,-114.063146483044
+FAL,FALCONRIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/falconridge-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:114,2012-09-04 06:00:00.000000-08:114,51.026333793586,-114.063146483044
+CHK,CHINOOK PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/chinook-park-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:115,2012-09-04 06:00:00.000000-08:115,51.026333793586,-114.063146483044
+WWO,WOLF WILLOW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/wolf-willow-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:116,2012-09-04 06:00:00.000000-08:116,51.026333793586,-114.063146483044
+YKV,YORKVILLE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/yorkville-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:117,2012-09-04 06:00:00.000000-08:117,51.026333793586,-114.063146483044
+FLN,FOREST LAWN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/forest-lawn-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:118,2012-09-04 06:00:00.000000-08:118,51.026333793586,-114.063146483044
+WIL,WILLOW PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/willow-park-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:119,2012-09-04 06:00:00.000000-08:119,51.026333793586,-114.063146483044
+ABB,ABBEYDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/abbeydale-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:120,2012-09-04 06:00:00.000000-08:120,51.026333793586,-114.063146483044
+MON,MONTGOMERY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/montgomery-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:121,2012-09-04 06:00:00.000000-08:121,51.026333793586,-114.063146483044
+HAR,HARVEST HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/harvest-hills-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:122,2012-09-04 06:00:00.000000-08:122,51.026333793586,-114.063146483044
+OGD,OGDEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/ogden-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:123,2012-09-04 06:00:00.000000-08:123,51.026333793586,-114.063146483044
+PEN,PENBROOKE MEADOWS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/penbrooke-meadows-calgary-alberta.jpg,EAST,2012-09-04 06:00:00.000000-08:124,2012-09-04 06:00:00.000000-08:124,51.026333793586,-114.063146483044
+SHS,SHAWNEE SLOPES,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/shawnee-slopes-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:125,2012-09-04 06:00:00.000000-08:125,51.026333793586,-114.063146483044
+BNF,BANFF TRAIL,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/banff-trail-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:126,2012-09-04 06:00:00.000000-08:126,51.026333793586,-114.063146483044
+SPH,SPRINGBANK HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/springbank-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:127,2012-09-04 06:00:00.000000-08:127,51.026333793586,-114.063146483044
+PKH,PARKHILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/parkhill-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:128,2012-09-04 06:00:00.000000-08:128,51.026333793586,-114.063146483044
+NHV,NORTH HAVEN,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/north-haven-calgary-alberta.jpg,NORTH,2012-09-04 06:00:00.000000-08:129,2012-09-04 06:00:00.000000-08:129,51.026333793586,-114.063146483044
+LKV,LAKEVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/lakeview-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:130,2012-09-04 06:00:00.000000-08:130,51.026333793586,-114.063146483044
+VIS,VISTA HEIGHTS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/vista-heights-calgary-alberta.jpg,NORTHEAST,2012-09-04 06:00:00.000000-08:131,2012-09-04 06:00:00.000000-08:131,51.026333793586,-114.063146483044
+GLA,GLAMORGAN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/glamorgan-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:132,2012-09-04 06:00:00.000000-08:132,51.026333793586,-114.063146483044
+EYA,ELBOYA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/elboya-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:133,2012-09-04 06:00:00.000000-08:133,51.026333793586,-114.063146483044
+CLI,CLIFF BUNGALOW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/cliff-bungalow-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:134,2012-09-04 06:00:00.000000-08:134,51.026333793586,-114.063146483044
+RIV,RIVERBEND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/riverbend-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:135,2012-09-04 06:00:00.000000-08:135,51.026333793586,-114.063146483044
+CHN,CHINATOWN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/chinatown-calgary-alberta.png.webp,CENTRE,2012-09-04 06:00:00.000000-08:136,2012-09-04 06:00:00.000000-08:136,51.026333793586,-114.063146483044
+TEM,TEMPLE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/temple-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:137,2012-09-04 06:00:00.000000-08:137,51.026333793586,-114.063146483044
+BRA,BRAESIDE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/braeside-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:138,2012-09-04 06:00:00.000000-08:138,51.026333793586,-114.063146483044
+WND,WINDSOR PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/windsor-park-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:139,2012-09-04 06:00:00.000000-08:139,51.026333793586,-114.063146483044
+BOW,BOWNESS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/bowness-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:140,2012-09-04 06:00:00.000000-08:140,51.026333793586,-114.063146483044
+WHI,WHITEHORN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/whitehorn-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:141,2012-09-04 06:00:00.000000-08:141,51.026333793586,-114.063146483044
+PKD,PARKDALE,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/parkdale-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:142,2012-09-04 06:00:00.000000-08:142,51.026333793586,-114.063146483044
+RMT,ROSEMONT,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/rosemont-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:143,2012-09-04 06:00:00.000000-08:143,51.026333793586,-114.063146483044
+MPL,MAPLE RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/maple-ridge-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:144,2012-09-04 06:00:00.000000-08:144,51.026333793586,-114.063146483044
+BRE,BRENTWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/brentwood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:145,2012-09-04 06:00:00.000000-08:145,51.026333793586,-114.063146483044
+SCA,SCARBORO,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/scarboro-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:146,2012-09-04 06:00:00.000000-08:146,51.026333793586,-114.063146483044
+POI,POINT MCKAY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/point-mckay-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:147,2012-09-04 06:00:00.000000-08:147,51.026333793586,-114.063146483044
+RUT,RUTLAND PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/rutland-park-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:148,2012-09-04 06:00:00.000000-08:148,51.026333793586,-114.063146483044
+RAM,RAMSAY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/ramsay-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:149,2012-09-04 06:00:00.000000-08:149,51.026333793586,-114.063146483044
+MRL,MARLBOROUGH,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/marlborough-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:150,2012-09-04 06:00:00.000000-08:150,51.026333793586,-114.063146483044
+MAN,MANCHESTER,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/manchester-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:151,2012-09-04 06:00:00.000000-08:151,51.026333793586,-114.063146483044
+GAG,GARRISON GREEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/garrison-green-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:152,2012-09-04 06:00:00.000000-08:152,51.026333793586,-114.063146483044
+SPR,SPRUCE CLIFF,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/spruce-cliff-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:153,2012-09-04 06:00:00.000000-08:153,51.026333793586,-114.063146483044
+PKL,PARKLAND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/parkland-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:154,2012-09-04 06:00:00.000000-08:154,51.026333793586,-114.063146483044
+CAS,CASTLERIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/07/castleridge-calgary-alberta.jpg.webp,NORTHEAST,2012-09-04 06:00:00.000000-08:155,2012-09-04 06:00:00.000000-08:155,51.026333793586,-114.063146483044
+DAL,DALHOUSIE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/dalhousie-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:156,2012-09-04 06:00:00.000000-08:156,51.026333793586,-114.063146483044
+PAL,PALLISER,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/palliser-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:157,2012-09-04 06:00:00.000000-08:157,51.026333793586,-114.063146483044
+NGM,NORTH GLENMORE PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/north-glenmore-park-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:158,2012-09-04 06:00:00.000000-08:158,51.026333793586,-114.063146483044
+ALT,ALTADORE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/altadore-calgary-alberta.jpg.webp,CENTRE,2012-09-04 06:00:00.000000-08:159,2012-09-04 06:00:00.000000-08:159,51.026333793586,-114.063146483044
+CHW,CHARLESWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/charleswood-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:160,2012-09-04 06:00:00.000000-08:160,51.026333793586,-114.063146483044
+CED,CEDARBRAE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/cedarbrae-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:161,2012-09-04 06:00:00.000000-08:161,51.026333793586,-114.063146483044
+SVO,SILVERADO,/https://royallepagebenchmark.ca/wp-content/uploads/2020/10/silverado-calgary-alberta.jpg.webp,SOUTH,2012-09-04 06:00:00.000000-08:162,2012-09-04 06:00:00.000000-08:162,51.026333793586,-114.063146483044
+CRM,CRESTMONT,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/crestmont-calgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:163,2012-09-04 06:00:00.000000-08:163,51.026333793586,-114.063146483044
+KCA,KINCORA,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/kincora-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:164,2012-09-04 06:00:00.000000-08:164,51.026333793586,-114.063146483044
+DNW,DOWNTOWN WEST END,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/downtown-westend-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:165,2012-09-04 06:00:00.000000-08:165,51.026333793586,-114.063146483044
+LMR,LOWER MOUNT ROYAL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/lower-mount-royal-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:166,2012-09-04 06:00:00.000000-08:166,51.026333793586,-114.063146483044
+BNK,BANKVIEW,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/bankview-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:167,2012-09-04 06:00:00.000000-08:167,51.026333793586,-114.063146483044
+BLN,BELTLINE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/beltline-calgary-alberta.png,CENTRE,2012-09-04 06:00:00.000000-08:168,2012-09-04 06:00:00.000000-08:168,51.026333793586,-114.063146483044
+HIL,HILLHURST,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/hillhurst-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:169,2012-09-04 06:00:00.000000-08:169,51.026333793586,-114.063146483044
+SNA,SUNALTA,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/sunalta-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:170,2012-09-04 06:00:00.000000-08:170,51.026333793586,-114.063146483044
+NOL,NOLAN HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/nolan-hill-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:171,2012-09-04 06:00:00.000000-08:171,51.026333793586,-114.063146483044
+COV,COVENTRY HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/coventry-hills-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:172,2012-09-04 06:00:00.000000-08:172,51.026333793586,-114.063146483044
+MDH,MEDICINE HILL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/medicine-hill-caglgary-alberta.jpg,WEST,2012-09-04 06:00:00.000000-08:173,2012-09-04 06:00:00.000000-08:173,51.026333793586,-114.063146483044
+ROY,ROYAL OAK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/royal-oak-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:174,2012-09-04 06:00:00.000000-08:174,51.026333793586,-114.063146483044
+TAR,TARADALE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/taradale-calgary-alberta.png,NORTHEAST,2012-09-04 06:00:00.000000-08:175,2012-09-04 06:00:00.000000-08:175,51.026333793586,-114.063146483044
+CHV,COUNTRY HILLS VILLAGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/country-hills-village-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:176,2012-09-04 06:00:00.000000-08:176,51.026333793586,-114.063146483044
+EVN,EVANSTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/evanston-calgary-alberta.png,NORTH,2012-09-04 06:00:00.000000-08:177,2012-09-04 06:00:00.000000-08:177,51.026333793586,-114.063146483044
+CGR,COUGAR RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/cougar-ridge-calgary-alberta.png,WEST,2012-09-04 06:00:00.000000-08:178,2012-09-04 06:00:00.000000-08:178,51.026333793586,-114.063146483044
+ROC,ROCKY RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/rocky-ridge-calgary-alberta.png,NORTHWEST,2012-09-04 06:00:00.000000-08:179,2012-09-04 06:00:00.000000-08:179,51.026333793586,-114.063146483044
+TUS,TUSCANY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/tuscany-calgary-alberta.jpg,NORTHWEST,2012-09-04 06:00:00.000000-08:180,2012-09-04 06:00:00.000000-08:180,51.026333793586,-114.063146483044
+CHA,CHAPARRAL,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/chaparral-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:181,2012-09-04 06:00:00.000000-08:181,51.026333793586,-114.063146483044
+NEB,NEW BRIGHTON,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/new-brighton-calgary-alberta.png.webp,SOUTHEAST,2012-09-04 06:00:00.000000-08:182,2012-09-04 06:00:00.000000-08:182,51.026333793586,-114.063146483044
+PAN,PANORAMA HILLS,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/panorama-hills-calgary-alberta.png.webp,NORTH,2012-09-04 06:00:00.000000-08:183,2012-09-04 06:00:00.000000-08:183,51.026333793586,-114.063146483044
+SHW,SHERWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/sherwood-calgary-alberta.png.webp,NORTH,2012-09-04 06:00:00.000000-08:184,2012-09-04 06:00:00.000000-08:184,51.026333793586,-114.063146483044
+BRI,BRIDLEWOOD,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/bridlewood-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:185,2012-09-04 06:00:00.000000-08:185,51.026333793586,-114.063146483044
+EVE,EVERGREEN,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/evergreen-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:186,2012-09-04 06:00:00.000000-08:186,51.026333793586,-114.063146483044
+AUB,AUBURN BAY,/https://royallepagebenchmark.ca/wp-content/uploads/2021/11/auburn-bay-calgary-alberta.png,SOUTHEAST,2012-09-04 06:00:00.000000-08:187,2012-09-04 06:00:00.000000-08:187,51.026333793586,-114.063146483044
+MAF,MAYFAIR,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/mayfair-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:188,2012-09-04 06:00:00.000000-08:188,51.026333793586,-114.063146483044
+EAG,EAGLE RIDGE,/https://royallepagebenchmark.ca/wp-content/uploads/2022/08/eagle-ridge-calgary-alberta.jpg,SOUTH,2012-09-04 06:00:00.000000-08:189,2012-09-04 06:00:00.000000-08:189,51.026333793586,-114.063146483044
+MEA,MEADOWLARK PARK,/https://royallepagebenchmark.ca/wp-content/uploads/2021/01/meadowlark-park-calgary-alberta.jpg,CENTRE,2012-09-04 06:00:00.000000-08:190,2012-09-04 06:00:00.000000-08:190,51.026333793586,-114.063146483044
+KEL,KELVIN GROVE,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/kelvin-grove-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:191,2012-09-04 06:00:00.000000-08:191,51.026333793586,-114.063146483044
+KIN,KINGSLAND,/https://royallepagebenchmark.ca/wp-content/uploads/2021/10/kingsland-calgary-alberta.png,SOUTH,2012-09-04 06:00:00.000000-08:192,2012-09-04 06:00:00.000000-08:192,51.026333793586,-114.063146483044

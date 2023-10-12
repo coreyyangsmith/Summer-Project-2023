@@ -15,6 +15,9 @@ class Community(models.Model):
 
     profiles = models.ManyToManyField('Profile', through='ProfileCommunity', blank=False)
 
+    longitude = models.CharField(max_length=100)
+    latitude = models.CharField(max_length=100)
+
     def __str__(self):
         return self.code + "-" + self.name
     

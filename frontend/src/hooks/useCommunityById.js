@@ -1,12 +1,12 @@
 //-------------------------------------------------------//
-//  File Name: useCategoriesByCommunity.js
-//  Description: Data Fetching Hook to obtain all "Categories" models from the local database
+//  File Name: useCommunityById.js
+//  Description: Data Fetching Hook to a single "Community" model from the local database, given an ID
 //
 //  Requirements:
 //      - /api/posts (axios)
 //
 //  Returns:
-//      - List of Community Objects
+//      - Single Community Objects
 //
 // Created By: Corey Yang-Smith
 // Date: October 12th, 2023
@@ -26,16 +26,16 @@ import { getRequest } from "../api/posts"
 //  MAIN FUNCTION
 //-------------------------------------------------------//
 
-export const useCategoriesByCommunity = (id) => {
-    const [categories, setCategories] = useState([]);
+export const useCommunityById = (id) => {
+    const [community, setCommunity] = useState([]);
 
-    const fetchCategoriesByCommunity = async() => {
+    const fetchCommunity = async() => {
         try {
-            const response = await getRequest("categories/", '');   
-            const categoriesByCommunity = response.data.filter((category) => {
-                return category.community === id
-            })
-            setCategories(categoriesByCommunity);
+            const response = await getRequest("communities/", ''); 
+            const myCommunity = response.data.filter((community) => {
+                return community.id === id;
+            }) 
+            setCommunity(myCommunity);         
         } catch (err) {
             if (err.response) {
                 // Not in 200 response range
@@ -50,8 +50,8 @@ export const useCategoriesByCommunity = (id) => {
       }   
 
     useEffect(() => {
-        fetchCategoriesByCommunity();
+        fetchCommunity();
     }, []);
 
-    return { categories, setCategories };
+    return { community, setCommunity };
 };

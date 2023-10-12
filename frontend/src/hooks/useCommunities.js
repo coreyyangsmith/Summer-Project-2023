@@ -32,6 +32,7 @@ export const useCommunities = () => {
     const fetchCommunities = async() => {
         try {
             const response = await getRequest("communities/", '');       
+            console.log(response.data);
             setCommunities(response.data);         
         } catch (err) {
             if (err.response) {
